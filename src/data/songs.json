@@ -1,0 +1,902 @@
+{
+  "song_001": {
+    "title": "Pappel und Weizen Harmonie",
+    "audioUrl": "agroforst-songs-100/001_Pappel_Weizen.mp3",
+    "mood": "Harmonisch",
+    "tree": "pappel",
+    "plant": "weizen",
+    "info": "Pappeln schießen 4m pro Jahr himmelwärts und bilden 15m hohe Schutzwälle, während Weizen gemütlich bei 80cm bleibt. Die Pappel bohrt ihre Wurzeln 3-5m tief, der Weizen arbeitet in den oberen 60cm - jeder hat sein Revier. Der lebende Windschutz drosselt die Verdunstung um 30% und bringt dem Weizen 15% mehr Ertrag. Diese Arbeitsteilung funktioniert perfekt: Die Pappel blockt Wind und Wetterextreme, während der Weizen Jahr für Jahr verlässlich seine goldenen Körner produziert.",
+    "infoUrl": "agroforst-info-100/001_Pappel_Weizen_info.mp3"
+  },
+  "song_002": {
+    "title": "Pappel und Dinkel Symphonie",
+    "audioUrl": "agroforst-songs-100/002_Pappel_Dinkel.mp3",
+    "mood": "Transzendent",
+    "tree": "pappel",
+    "plant": "dinkel",
+    "info": "Seit den 1990ern erobern Pappel-Agroforste Brandenburg - die schnellwachsenden Bäume liefern alle 5-7 Jahre Energieholz, während darunter jährlich Dinkel gedeiht. Der uralte Dinkel, schon vor 5000 Jahren von Kelten kultiviert, erweist sich als idealer Partner: Seine Spelzen schützen das Korn vor Feuchtigkeit aus dem Pappelschatten. Die Pappel verbraucht zwar 300-500 Liter Wasser täglich, aber ihre 40cm breiten Blätter sammeln Tau und Nebel für den Dinkel darunter. Diese moderne Bio-Allianz vereint Energiewende mit traditionellem Getreideanbau - ein System, das bereits auf 2000 Hektar in Deutschland praktiziert wird.",
+    "infoUrl": "agroforst-info-100/002_Pappel_Dinkel_info.mp3"
+  },
+  "song_003": {
+    "title": "Pappel und Gerste Duett",
+    "audioUrl": "agroforst-songs-100/003_Pappel_Gerste.mp3",
+    "mood": "Groove",
+    "tree": "pappel",
+    "plant": "gerste",
+    "info": "Pappel-Klone wie 'Max 3' und 'Hybride 275' erreichen nach nur 20 Jahren bis zu 25m Höhe und 40cm Stammdurchmesser - Champions der deutschen Forstwirtschaft. Die kompakte Sommergerste darunter reift in Rekordzeit: Nach nur 90 Tagen im Juli ist sie erntereif, wenn die Pappel erst richtig loslegt. Mit ihrem flachen Wurzelfilz in den oberen 30cm und einem Wasserbedarf von nur 400mm zapft die Gerste andere Ressourcen an als die tiefwurzelnde Pappel. Diese zeitversetzte Partnerschaft funktioniert so gut, dass Brandenburg bereits 500 Hektar dieser Kombination bewirtschaftet - ein Vorzeigemodell für klimaangepasste Landnutzung.",
+    "infoUrl": "agroforst-info-100/003_Pappel_Gerste_info.mp3"
+  },
+  "song_004": {
+    "title": "Pappel und Ackerbohne Tanz",
+    "audioUrl": "agroforst-songs-100/004_Pappel_Ackerbohne.mp3",
+    "mood": "Groove",
+    "tree": "pappel",
+    "plant": "ackerbohne",
+    "info": "Pappeln verdunsten an heißen Sommertagen bis zu 800 Liter Wasser - regelrechte Pumpen, die das Mikroklima kühlen und die hitzeempfindliche Ackerbohne schützen. Die Bohne revanchiert sich mit ihren Knöllchenbakterien: Rhizobium leguminosarum bindet jährlich 150-250kg Luftstickstoff pro Hektar. Moderne DNA-Analysen zeigen, dass Pappelwurzeln die Abundanz von N-Zyklus-Genen im Boden verdoppeln - ein unsichtbares Netzwerk der Nährstoffversorgung entsteht. Diese Win-Win-Situation funktioniert optimal bei 12m Reihenabstand: genug Licht für die Bohne, genug Stickstoff für die Pappel.",
+    "infoUrl": "agroforst-info-100/004_Pappel_Ackerbohne_info.mp3"
+  },
+  "song_005": {
+    "title": "Pappel und Lupine Melodie",
+    "audioUrl": "agroforst-songs-100/005_Pappel_Lupine.mp3",
+    "mood": "Distanziert",
+    "tree": "pappel",
+    "plant": "lupine",
+    "info": "Die gelbe Lupine kam im 19. Jahrhundert nach Norddeutschland und verwandelte tote Sandböden in fruchtbare Äcker - heute arbeitet sie mit modernen Pappel-Plantagen zusammen. Überraschenderweise kann auch die Pappel selbst Stickstoff fixieren: Endophytische Bakterien in ihrem Gewebe binden bis zu 65% des Baum-Stickstoffs aus der Luft. Die Lupine mobilisiert mit speziellen Wurzelausscheidungen gebundenen Phosphor aus dem Sand - ein Trick, den sie in Australien perfektionierte. Auf Brandenburgs Sandböden teilen sich beide die mageren Ressourcen: funktioniert, aber beide könnten mit anderen Partnern erfolgreicher sein.",
+    "infoUrl": "agroforst-info-100/005_Pappel_Lupine_info.mp3"
+  },
+  "song_006": {
+    "title": "Pappel und Kleegras Serenade",
+    "audioUrl": "agroforst-songs-100/006_Pappel_Kleegras.mp3",
+    "mood": "Harmonisch",
+    "tree": "pappel",
+    "plant": "kleegras",
+    "info": "Pappeln leben 30-50 Jahre und können dabei bis zu 1000m³ Holz pro Hektar produzieren, während das Kleegras darunter jährlich 6-12 Tonnen hochwertiges Futter liefert. Das Geheimnis liegt in der Kronenarchitektur: Pappeln haben eine lockere, lichtdurchlässige Krone, die dem Kleegras perfekte 50% Beschattung bietet. Der Rotklee im Mix fixiert mit seinen Knöllchenbakterien 100-150kg Stickstoff pro Hektar und Jahr - ein natürlicher Dünger für die hungrigen Pappelwurzeln. Diese Silvopasture-Systeme sind so erfolgreich, dass 88% der praktizierenden Landwirte langfristig dabeibleiben - die höchste Zufriedenheitsrate aller Agroforst-Systeme.",
+    "infoUrl": "agroforst-info-100/006_Pappel_Kleegras_info.mp3"
+  },
+  "song_007": {
+    "title": "Pappel und Mais Konzert",
+    "audioUrl": "agroforst-songs-100/007_Pappel_Mais.mp3",
+    "mood": "Harmonisch",
+    "tree": "pappel",
+    "plant": "mais",
+    "info": "Mais ist der Turbo unter den Kulturpflanzen: Mit seiner C4-Photosynthese kann er bei 35°C noch 50% mehr CO₂ fixieren als andere Getreide und wächst bis zu 5cm pro Tag. Die bis zu 3m hohen Pappeln daneben schaffen ein Mikroklima, das die Verdunstung um 15% reduziert und dem wasserhungrigen Mais hilft. Beide sind Biomasse-Giganten: Während Mais in einer Saison 45 Tonnen Frischmasse pro Hektar schafft, sammelt die Pappel über 5 Jahre 75 Tonnen Holz. Biogas-Anlagen lieben diese Kombination - das Holz liefert Kohlenstoff, der Mais Stickstoff für die optimale Gärung.",
+    "infoUrl": "agroforst-info-100/007_Pappel_Mais_info.mp3"
+  },
+  "song_008": {
+    "title": "Pappel und Sonnenblume Dialog",
+    "audioUrl": "agroforst-songs-100/008_Pappel_Sonnenblume.mp3",
+    "mood": "Konflikt",
+    "tree": "pappel",
+    "plant": "sonnenblume",
+    "info": "Die Sonnenblume dreht ihren bis zu 40cm breiten Blütenkopf täglich von Ost nach West der Sonne nach - ein Verhalten namens Heliotropismus, das bis zu 10% mehr Sonneneinstrahlung einfängt. Pappeln hingegen werfen mit ihren herzförmigen, zitternden Blättern ständig wechselnde Schatten, was die lichtgierige Sonnenblume stresst. Beide sind zudem allelopathische Kämpfer: Die Sonnenblume scheidet über ihre Wurzeln Terpene aus, die andere Pflanzen hemmen, während Pappel-Blätter phenolische Verbindungen freisetzen. Bei weiten Abständen von 15-20m können beide koexistieren - die Sonnenblume nutzt dann die Pappel als Windschutz gegen Umknicken bei Sturm.",
+    "infoUrl": "agroforst-info-100/008_Pappel_Sonnenblume_info.mp3"
+  },
+  "song_009": {
+    "title": "Pappel und Kuerbis Romanze",
+    "audioUrl": "agroforst-songs-100/009_Pappel_Kuerbis.mp3",
+    "mood": "Kooperativ",
+    "tree": "pappel",
+    "plant": "kürbis",
+    "info": "Kürbisse sind wahre Flächenfresser: Eine Pflanze kann mit ihren bis zu 10m langen Ranken eine Fläche von 25m² erobern und dabei 200-500kg schwere Früchte produzieren. Die herzförmigen Pappelblätter darüber filtern das Licht auf 45-55% - gerade noch tolerabel für Kürbisse, aber ihre Photosynthese läuft nur auf Sparflamme. Der Kürbis rächt sich mit einem cleveren Trick: Seine riesigen Blätter (bis 30cm Durchmesser) beschatten den Boden so effektiv, dass kein Unkraut mehr wächst. Diese grüne Bodendecke hält die Feuchtigkeit für beide Partner - ein System, das funktioniert, aber suboptimal ist.",
+    "infoUrl": "agroforst-info-100/009_Pappel_Kuerbis_info.mp3"
+  },
+  "song_010": {
+    "title": "Pappel und Kartoffel Ballade",
+    "audioUrl": "agroforst-songs-100/010_Pappel_Kartoffel.mp3",
+    "mood": "Groove",
+    "tree": "pappel",
+    "plant": "kartoffel",
+    "info": "Kartoffelpflanzen sind wahre Multitalente: Oberirdisch produzieren sie bis zu 1000 kleine weiße Blüten pro Quadratmeter, unterirdisch bilden sie an stolonen-Trieben 8-15 Knollen mit bis zu 20% Stärkegehalt. In Australiens Windgebieten steigern Pappel-Windschutzgürtel die Kartoffel-Erträge um 6,7% - die reduzierten Windgeschwindigkeiten schützen die empfindlichen Blätter vor Austrocknung. Das Geheimnis liegt im Mikroklima: Windschutz senkt die Verdunstung um 30%, während 50% Pappelschatten die Photosynthese nur um 19-44% reduziert. Bei optimaler Geometrie von 8x2,5m Pappelabstand bleibt sogar die Mechanisierung mit GPS-gesteuerten Erntemaschinen möglich.",
+    "infoUrl": "agroforst-info-100/010_Pappel_Kartoffel_info.mp3"
+  },
+  "song_011": {
+    "title": "Robinie und Weizen Waltz",
+    "audioUrl": "agroforst-songs-100/011_Robinie_Weizen.mp3",
+    "mood": "Groove",
+    "tree": "robinie",
+    "plant": "weizen",
+    "info": "Robinien bohren sich 5m tief und sammeln Stickstoff-Knöllchen wie Perlen, Ackerbohnen bleiben bei 1m und bauen ihre eigene Knöllchen-Fabrik. Beide beherbergen Rhizobium-Bakterien, die 150-300kg Luftstickstoff pro Jahr einfangen und in Pflanzendünger umwandeln. Die Robinie arbeitet 20 Jahre lang, die Ackerbohne liefert jede Saison frischen Nachschub. Zwei Stickstoff-Kraftwerke auf verschiedenen Stockwerken - ein perfektes Team, das ärmste Böden in fruchtbares Land verwandelt.",
+    "infoUrl": "agroforst-info-100/011_Robinie_Weizen_info.mp3"
+  },
+  "song_012": {
+    "title": "Robinie und Dinkel Hymne",
+    "audioUrl": "agroforst-songs-100/012_Robinie_Dinkel.mp3",
+    "mood": "Kooperativ",
+    "tree": "robinie",
+    "plant": "dinkel",
+    "info": "Dinkel ist der schattentolerante Cousin des Weizens und liebt Robinie's halbschattige Verhältnisse. Seine 1,2m tiefen Wurzeln trinken aus anderen Bodenschichten als die Robinie und zapfen nie dieselbe Quelle an. Dinkel wächst 150 Tage lang und kann Robinie's kontinuierliche Stickstoff-Nachlieferung optimal nutzen. Die Kombination schafft ein Bodenökosystem mit 5m Durchwurzelungstiefe - Robinie lockert den Untergrund, Dinkel stabilisiert die Oberfläche. Durch Blattfall entsteht ein natürlicher Kompostkreislauf, der jährlich 50-80kg organischen Stickstoff pro Hektar liefert.",
+    "infoUrl": "agroforst-info-100/012_Robinie_Dinkel_info.mp3"
+  },
+  "song_013": {
+    "title": "Robinie und Gerste Fanfare",
+    "audioUrl": "agroforst-songs-100/013_Robinie_Gerste.mp3",
+    "mood": "Harmonisch",
+    "tree": "robinie",
+    "plant": "gerste",
+    "info": "Gerste ist der Sprinter unter den Getreidearten - 110 Tage von Saat zu Ernte. Robinie startet ihre N-Fixierung genau dann, wenn Gerste hungrig wird: März bis Mai pumpen die Wurzelknöllchen täglich frischen Stickstoff in den Boden. Gerste saugt diese N-Power auf und verwandelt sie in Körner mit 12-14% Protein. Nach der Ernte hat Robinie freie Bahn - keine Lichtkonkurrenz, keine Wurzelkämpfe. Die Phosphor-Mobilisierung durch 5m tiefe Robinienwurzeln reichert den Oberboden an und macht Gerste-Körner zu Kraftpaketen. Ein System aus kurzen intensiven Sprints und langen ausdauernden Läufen.",
+    "infoUrl": "agroforst-info-100/013_Robinie_Gerste_info.mp3"
+  },
+  "song_014": {
+    "title": "Robinie und Ackerbohne Pakt",
+    "audioUrl": "agroforst-songs-100/014_Robinie_Ackerbohne.mp3",
+    "mood": "Harmonisch",
+    "tree": "robinie",
+    "plant": "ackerbohne",
+    "info": "Robinien bohren sich 5m tief und sammeln Stickstoff-Knöllchen wie Perlen, Ackerbohnen bleiben bei 1m und bauen ihre eigene Knöllchen-Fabrik. Beide beherbergen Rhizobium-Bakterien, die 150-300kg Luftstickstoff pro Jahr einfangen und in Pflanzendünger umwandeln. Die Robinie arbeitet 20 Jahre lang, die Ackerbohne liefert jede Saison frischen Nachschub. Zwei Stickstoff-Kraftwerke auf verschiedenen Stockwerken - ein perfektes Team, das ärmste Böden in fruchtbares Land verwandelt.",
+    "infoUrl": "agroforst-info-100/014_Robinie_Ackerbohne_info.mp3"
+  },
+  "song_015": {
+    "title": "Robinie und Lupine Verbindung",
+    "audioUrl": "agroforst-songs-100/015_Robinie_Lupine.mp3",
+    "mood": "Harmonisch",
+    "tree": "robinie",
+    "plant": "lupine",
+    "info": "Die Robinie ist ein Baum-Rekordhalter: Sie kann bis zu 80 Jahre alt werden und dabei kontinuierlich 100-300kg Stickstoff pro Hektar aus der Luft binden - mehr als jeder andere europäische Laubbaum. Die Lupine darunter arbeitet als bodennahe Stickstoff-Fabrik und schafft in nur einer Saison weitere 200kg N/ha durch ihre speziellen Knöllchenbakterien. Das Geniale: Beide nutzen unterschiedliche Rhizobium-Stämme, konkurrieren also nicht um dieselben Bodenbakterien. Diese Doppel-Leguminose verwandelt sogar sandige Ödböden in fruchtbare Erde - ein System, das seit den 1950ern in Ostdeutschland zur Rekultivierung von Braunkohle-Tagebauflächen eingesetzt wird.",
+    "infoUrl": "agroforst-info-100/015_Robinie_Lupine_info.mp3"
+  },
+  "song_016": {
+    "title": "Robinie und Kleegras Ensemble",
+    "audioUrl": "agroforst-songs-100/016_Robinie_Kleegras.mp3",
+    "mood": "Kooperativ",
+    "tree": "robinie",
+    "plant": "kleegras",
+    "info": "Robinien sind wahre Boden-Alchemisten: Sie verwandeln normalen Waldboden in stickstoffreiches Gold - die N-Konzentration steigt um bis zu 320% und bleibt selbst 14 Jahre nach der Baumfällung erhöht. Das Kleegras darunter surft auf dieser N-Welle: Rotklee toleriert den 50%igen Robinie-Schatten erstaunlich gut, während die Gräser das gefilterte Licht effizient nutzen. Die Robinie passt sogar ihre Blatt-Physiologie an: Schatten-Blätter haben weniger Chlorophyll a/b-Verhältnis, aber arbeiten trotzdem produktiv. Diese Silvopasture-Kombination aus den USA ist so erfolgreich, dass sie weltweit als Standardmodell für nachhaltige Weidewirtschaft gilt.",
+    "infoUrl": "agroforst-info-100/016_Robinie_Kleegras_info.mp3"
+  },
+  "song_017": {
+    "title": "Robinie und Mais Rhythm",
+    "audioUrl": "agroforst-songs-100/017_Robinie_Mais.mp3",
+    "mood": "Distanziert",
+    "tree": "robinie",
+    "plant": "mais",
+    "info": "Robinien wachsen rasant bis zu 2m pro Jahr und entwickeln nach 10-15 Jahren dichte Kronen, die 60-80% des Lichts abfangen - problematisch für den lichtgierigen Mais. Der Mais revanchiert sich mit einem cleveren Photosynthese-Trick: Sein C4-System kann auch bei reduzierter Lichtintensität noch 70% der normalen CO₂-Fixierung leisten. Die unterirdische Chemie stimmt: Robinie's Rhizobium-Bakterien pumpen jährlich 200kg Stickstoff in den Boden, was dem stickstoffhungrigen Mais (180kg N/ha Bedarf) entgegenkommt. Diese Agroforst-Kombination funktioniert am besten mit weiten Baumabständen von 15-20m - dann bekommen beide genügend Sonne ab.",
+    "infoUrl": "agroforst-info-100/017_Robinie_Mais_info.mp3"
+  },
+  "song_018": {
+    "title": "Robinie und Sonnenblume Tango",
+    "audioUrl": "agroforst-songs-100/018_Robinie_Sonnenblume.mp3",
+    "mood": "Konflikt",
+    "tree": "robinie",
+    "plant": "sonnenblume",
+    "info": "Robinien gehören zu den stärksten allelopathischen Bäumen Europas: Ihre Blätter produzieren spezielle Hemmstoffe, die konkurrierende Pflanzen unterdrücken - ein Grund für ihren Invasionserfolg. Die Sonnenblume schlägt zurück mit eigener Allelopathie: Ihre Wurzeln scheiden Terpen-Verbindungen aus, die andere Pflanzen hemmen. Beide brauchen >90% Sonnenlicht - ein Kampf ums Licht, den meist die 15m hohe Robinie gewinnt. Der einzige Kompromiss: Bei 20m Abstand funktioniert die Robinie als Windschutz für die 3m hohe Sonnenblume, deren schwerer Blütenkopf (bis 30cm Durchmesser) sonst umknickt. Eine Koexistenz zweier Kämpfer-Naturen mit respektvollem Abstand.",
+    "infoUrl": "agroforst-info-100/018_Robinie_Sonnenblume_info.mp3"
+  },
+  "song_019": {
+    "title": "Robinie und Kuerbis Lied",
+    "audioUrl": "agroforst-songs-100/019_Robinie_Kuerbis.mp3",
+    "mood": "Transzendent",
+    "tree": "robinie",
+    "plant": "kürbis",
+    "info": "Robinien sind biochemische Langzeit-Investoren: Ihre Wurzelknöllchen sammeln über Jahre hinweg 23-300kg Stickstoff pro Hektar und geben ihn verzögert an den Boden ab - ein facilitation effect, der Nachbarpflanzen um 18% besser wachsen lässt. Der Kürbis darunter ist ein dankbarer Abnehmer: Als Starkzehrer braucht er 150-200kg Stickstoff pro Hektar und nutzt jeden Krümel des Robinie-Düngers. Das Problem: Robinien-Kronen werfen dichten Schatten, der die Kürbis-Photosynthese um 30-40% reduziert. Die Lösung liegt im Timing: Junge Robinien (unter 10 Jahre) haben noch lichte Kronen und bieten die perfekte Balance aus Stickstoff-Service und Sonnenlicht für den expandierenden Kürbis.",
+    "infoUrl": "agroforst-info-100/019_Robinie_Kuerbis_info.mp3"
+  },
+  "song_020": {
+    "title": "Robinie und Kartoffel Marsch",
+    "audioUrl": "agroforst-songs-100/020_Robinie_Kartoffel.mp3",
+    "mood": "Kooperativ",
+    "tree": "robinie",
+    "plant": "kartoffel",
+    "info": "Robinien sind Sprinter im Baumreich: Mit 60-90cm Jahreszuwachs erreichen sie schnell 15m Höhe und entwickeln dabei oberflächliche, aggressive Wurzelsysteme in den oberen 60cm. Kartoffeln arbeiten in derselben Bodenschicht - ein Konfliktpotential, das durch Robinie's moderate N-Fixierung (50-150kg/ha) entschärft wird. Das Geniale liegt im Windschutz: Robinie-Reihen reduzieren Windgeschwindigkeiten um 70% und schützen die empfindlichen Kartoffelblätter vor Austrocknung. Der Stickstoff kommt verzögert: Nicht über direkte Wurzel-Exsudation, sondern durch die jährlichen 2-4 Tonnen Laubfall pro Hektar, die langsam zu wertvollem Kartoffel-Dünger verrotten. Ein System für Geduld: funktioniert perfekt, wenn beide genug Abstand und Sonnenlicht bekommen.",
+    "infoUrl": "agroforst-info-100/020_Robinie_Kartoffel_info.mp3"
+  },
+  "song_021": {
+    "title": "Walnuss und Weizen Meditation",
+    "audioUrl": "agroforst-songs-100/021_Walnuss_Weizen.mp3",
+    "mood": "Distanziert",
+    "tree": "walnuss",
+    "plant": "weizen",
+    "info": "Walnussbäume sind biochemische Festungen: Sie produzieren Juglon, ein natürliches Herbizid, das aus Blättern, Wurzeln und Nussschalen austritt und konkurrierende Pflanzen eliminiert. Weizen gehört zu den wenigen Kulturen, die dieser chemischen Kriegsführung standhalten - seine moderate Juglon-Toleranz macht ihn zum bevorzugten Partner in Walnuss-Agroforsten. Der Schlüssel liegt im Timing: Weizen wächst von April bis Juli, nutzt also das intensive Frühjahrs-Licht, bevor die Walnuss-Kronen voll entwickelt sind. Mycorrhiza-Pilze verbinden heimlich die Wurzelsysteme beider Partner und tauschen Phosphat gegen Kohlenhydrate - ein unterirdisches Handelsnetzwerk, das beiden hilft. Bei 15-20m Baumabstand bleibt der Weizen produktiv, die Walnuss entwickelt sich normal.",
+    "infoUrl": "agroforst-info-100/021_Walnuss_Weizen_info.mp3"
+  },
+  "song_022": {
+    "title": "Walnuss und Dinkel Suite",
+    "audioUrl": "agroforst-songs-100/022_Walnuss_Dinkel.mp3",
+    "mood": "Transzendent",
+    "tree": "walnuss",
+    "plant": "dinkel",
+    "info": "Dinkel ist ein Überlebenskünstler aus 5000 Jahren Kultivierung: Während moderne Weizensorten durch Züchtung empfindlich gegen Juglon wurden, behielt der Dinkel seine ursprüngliche Widerstandskraft gegen das Walnuss-Gift. Seine charakteristischen Spelzen wirken wie eine natürliche Rüstung - sie umhüllen das Korn so fest, dass Juglon nicht eindringen kann. Mit 120-150cm Wuchshöhe ragt Dinkel über normale Getreide hinaus und nutzt jeden Lichtstrahl unter der Walnuss-Krone optimal. Seine tief reichenden Wurzeln (bis 180cm) erschließen andere Wasserschichten als die Walnuss-Hauptwurzeln. Diese Agroforst-Kombination vereint 5000 Jahre Getreide-Evolution mit 2000 Jahren Nussbaumkultur - ein bewährtes Team mit Zukunft.",
+    "infoUrl": "agroforst-info-100/022_Walnuss_Dinkel_info.mp3"
+  },
+  "song_023": {
+    "title": "Walnuss und Gerste Nocturne",
+    "audioUrl": "agroforst-songs-100/023_Walnuss_Gerste.mp3",
+    "mood": "Groove",
+    "tree": "walnuss",
+    "plant": "gerste",
+    "info": "Gerste ist ein Meister des perfekten Timings: In nur 90-120 Tagen rast sie von der Keimung zur Ernte und nutzt dabei das intensive Frühjahrs-Licht, bevor die Walnuss ihre volle Juglon-Produktion hochfährt. Das Gift erreicht seinen Höhepunkt erst im Juni-Juli, wenn die Gerste bereits goldgelb und erntereif dasteht. Bodenmikroben spielen dabei eine Schutzrolle: Rhizosphären-Bakterien bauen Juglon ab und verwandeln das Pflanzengift in harmlose Verbindungen. Die Gerste revanchiert sich mit geringem Wasser- und Stickstoffbedarf - sie konkurriert kaum mit der tiefwurzelnden Walnuss um Ressourcen. Ein System für Eilige: Die Gerste ist fertig, bevor die Walnuss richtig problematisch wird.",
+    "infoUrl": "agroforst-info-100/023_Walnuss_Gerste_info.mp3"
+  },
+  "song_024": {
+    "title": "Walnuss und Ackerbohne Reflektion",
+    "audioUrl": "agroforst-songs-100/024_Walnuss_Ackerbohne.mp3",
+    "mood": "Distanziert",
+    "tree": "walnuss",
+    "plant": "ackerbohne",
+    "info": "Ackerbohnen sind Stickstoff-Fabriken auf Beinen: Mit ihren bis zu 180cm langen Stängeln und charakteristischen quadratischen Querschnitten ragen sie stolz empor, während ihre Wurzelknöllchen fleißig Luftstickstoff einfangen. Doch Walnuss-Juglon ist ihr Kryptonit: Das Pflanzengift dringt über die bis zu 120cm tiefen Pfahlwurzeln ein und lähmt die zelluläre Atmung. Die Rhizobium-Bakterien in den Wurzelknöllchen werden gestört, die N-Fixierung bricht um 40-60% ein. Tragischerweise trifft es die Ackerbohne besonders hart - andere Leguminosen wie Klee zeigen mehr Resistenz. Die Lösung liegt im Respektabstand: Erst bei 15-20m Entfernung zur Walnuss kann die Ackerbohne ihre volle Stickstoff-Leistung entfalten. Ein System für Vorsichtige: Abstand wahren, dann funktioniert's.",
+    "infoUrl": "agroforst-info-100/024_Walnuss_Ackerbohne_info.mp3"
+  },
+  "song_025": {
+    "title": "Walnuss und Lupine Resonanz",
+    "audioUrl": "agroforst-songs-100/025_Walnuss_Lupine.mp3",
+    "mood": "Distanziert",
+    "tree": "walnuss",
+    "plant": "lupine",
+    "info": "Lupinen sind Pioniere der unwirtlichsten Böden: Sie gedeihen auf Sandwüsten, wo andere Pflanzen verdursten, und verwandeln mit ihren Rhizobium-Partnern toten Sand in stickstoffreiche Erde. Doch ausgerechnet die robusten Überlebenskünstler haben eine Achillesferse: Juglon, das Walnuss-Gift, das sich 15-20 Meter weit ausbreitet und ihre N-Fixierung lahmlegt. Paradoxerweise sind die sandigen Böden, die Lupinen lieben, auch die Böden, wo Juglon am langsamsten abgebaut wird - zu wenig organische Substanz für die entgiftenden Mikroben. Anders als juglon-tolerante N-Fixierer wie die Ölweide kapitulieren Lupinen vor der biochemischen Kriegsführung der Walnuss. Ein Traumpaar, das sich nie treffen darf - Respektabstand von 20+ Metern ist Überlebenspflicht.",
+    "infoUrl": "agroforst-info-100/025_Walnuss_Lupine_info.mp3"
+  },
+  "song_026": {
+    "title": "Walnuss und Kleegras Idylle",
+    "audioUrl": "agroforst-songs-100/026_Walnuss_Kleegras.mp3",
+    "mood": "Kooperativ",
+    "tree": "walnuss",
+    "plant": "kleegras",
+    "info": "Weißklee und Deutsches Weidelgras sind die Klassiker der Walnuss-Silvopasture: Seit den 1980ern säen Landwirte diese robusten Partner unter Walnussbäume und ernten doppelt - Nüsse von oben, Futter von unten. Der Weißklee trotzt dem Juglon mit seiner natürlichen Zähigkeit, das Weidelgras profitiert sogar von zermalmten Walnussschalen als Bodenverbesserer. Doch die Partnerschaft wandelt sich: Nach 5-7 Jahren übernehmen schattentolerante Einheimische wie Straußgras und Honiggras das Kommando - sie sind die wahren Überlebenskünstler unter der immer dichter werdenden Walnuss-Krone. Diese evolutive Pflanzengesellschaft zeigt: Erfolgreiche Silvopasture ist ein lebendiges System, das sich ständig an verändernde Bedingungen anpasst. Management heißt hier: Mit der Natur gehen, nicht gegen sie.",
+    "infoUrl": "agroforst-info-100/026_Walnuss_Kleegras_info.mp3"
+  },
+  "song_027": {
+    "title": "Walnuss und Mais Dissonanz",
+    "audioUrl": "agroforst-songs-100/027_Walnuss_Mais.mp3",
+    "mood": "Konflikt",
+    "tree": "walnuss",
+    "plant": "mais",
+    "info": "Mais ist der Formel-1-Rennwagen unter den Getreidearten: Mit seiner C4-Photosynthese rast er bei 35°C und Vollsonne anderen Pflanzen davon und produziert in einer Saison bis zu 15 Tonnen Biomass pro Hektar. Doch Walnuss-Juglon ist sein absolutes Gift: Bereits 10 Mikromol des Pflanzentoxins lähmen die lebenswichtigen H+-ATPase-Pumpen in den Maiswurzeln - der Energie-Motor fällt aus. Die Wurzellänge schrumpft um 60-80%, die Wasseraufnahme bricht zusammen, die Peroxidase-Aktivität erlischt. Walnuss-Laubfall wirkt wie Giftmüll: Es setzt kontinuierlich Juglon frei und verwandelt fruchtbaren Ackerboden in eine Mais-Todeszone. Diese Kombination ist ein Lehrbuchbeispiel für Allelopathie - die chemische Kriegsführung zwischen Pflanzen, bei der es nur Verlierer gibt.",
+    "infoUrl": "agroforst-info-100/027_Walnuss_Mais_info.mp3"
+  },
+  "song_028": {
+    "title": "Walnuss und Sonnenblume Kampf",
+    "audioUrl": "agroforst-songs-100/028_Walnuss_Sonnenblume.mp3",
+    "mood": "Krieg",
+    "tree": "walnuss",
+    "plant": "sonnenblume",
+    "info": "Kürbisse sind die Überraschungssieger der Juglon-Toleranz: Während Tomaten und Paprika unter Walnussbäumen eingehen, breiten Kürbisranken ihre bis zu 30cm großen Blätter gelassen aus und nutzen den gefilterten Schatten sogar als Vorteil. Die Cucurbitaceae-Familie entwickelte über Millionen Jahre eine natürliche Resistenz gegen Pflanzentoxine - Juglon prallt an ihnen ab wie Wasser an Entenfedern. Ein Kürbis kann mit seinen sich windenden Ranken 25m² Bodenfläche erobern und verwandelt den Walnuss-Untergrund in einen grünen Teppich. Die riesigen Blätter sammeln Morgentau und Nebel, schaffen ein feuchtes Mikroklima, das beiden Partnern hilft. Diese Agroforst-Kombination zeigt: Manchmal sind es die unerwarteten Partner, die am besten harmonieren - der giftige Baum und der resistente Bodendecker.",
+    "infoUrl": "agroforst-info-100/028_Walnuss_Sonnenblume_info.mp3"
+  },
+  "song_029": {
+    "title": "Walnuss und Kuerbis Zuversicht",
+    "audioUrl": "agroforst-songs-100/029_Walnuss_Kuerbis.mp3",
+    "mood": "Kooperativ",
+    "tree": "walnuss",
+    "plant": "kürbis",
+    "info": "Kürbisse sind die Überraschungssieger der Juglon-Toleranz: Während Tomaten und Paprika unter Walnussbäumen eingehen, breiten Kürbisranken ihre bis zu 30cm großen Blätter gelassen aus und nutzen den gefilterten Schatten sogar als Vorteil. Die Cucurbitaceae-Familie entwickelte über Millionen Jahre eine natürliche Resistenz gegen Pflanzentoxine - Juglon prallt an ihnen ab wie Wasser an Entenfedern. Ein Kürbis kann mit seinen sich windenden Ranken 25m² Bodenfläche erobern und verwandelt den Walnuss-Untergrund in einen grünen Teppich. Die riesigen Blätter sammeln Morgentau und Nebel, schaffen ein feuchtes Mikroklima, das beiden Partnern hilft. Diese Agroforst-Kombination zeigt: Manchmal sind es die unerwarteten Partner, die am besten harmonieren - der giftige Baum und der resistente Bodendecker.",
+    "infoUrl": "agroforst-info-100/029_Walnuss_Kuerbis_info.mp3"
+  },
+  "song_030": {
+    "title": "Walnuss und Kartoffel Echo",
+    "audioUrl": "agroforst-songs-100/030_Walnuss_Kartoffel.mp3",
+    "mood": "Konflikt",
+    "tree": "walnuss",
+    "plant": "kartoffel",
+    "info": "Kartoffeln sind Walnuss-Verlierer der Evolution: Als Solanaceae entwickelten sie nie eine Resistenz gegen Juglon, das alchemistische Gift aus Walnuss-Wurzeln. Bereits 1mM Juglon-Konzentration im Boden reicht aus, um Kartoffel-Mitochondrien lahmzulegen - die Zell-Kraftwerke können keine ATP mehr produzieren, der Energiestoffwechell kollabiert. Innerhalb von 24 Stunden zeigen Kartoffelblätter Vergilbung und Nekrosen, die Knollen bleiben klein und verkrüppelt. Die einzige Lösung: respektvolle 20 Meter Abstand - so weit reichen die Juglon-produzierenden Walnusswurzeln. In dieser Sicherheitszone können beide Partner friedlich koexistieren: Die Kartoffel nutzt morgendliche Sonne, die Walnuss spendet nachmittags Schatten gegen Sonnenbrand.",
+    "infoUrl": "agroforst-info-100/030_Walnuss_Kartoffel_info.mp3"
+  },
+  "song_031": {
+    "title": "Esskastanie und Weizen Pastorale",
+    "audioUrl": "agroforst-songs-100/031_Esskastanie_Weizen.mp3",
+    "mood": "Distanziert",
+    "tree": "esskastanie",
+    "plant": "weizen",
+    "info": "Die Esskastanie ist eine Diva des Lichts: Ihre bis zu 25 Meter breite Krone verschluckt 80% des Sonnenlichts und lässt darunter nur gedämpftes Dämmerlicht zu. Weizen, als Vollsonne-Liebhaber, weicht in die 20 Meter breiten Zwischengassen aus und nutzt dort optimale Lichtbedingungen. Das traditionelle Coppice-System schafft alle 15-20 Jahre dramatische Wendepunkte: Wenn die Kastanien auf Stock gesetzt werden, flutet plötzlich Sonne den gesamten Bestand und der Weizen erobert vorübergehend auch die ehemaligen Schattenzonen. Die tiefen Kastanien-Pfahlwurzeln zapfen Grundwasser in 3-4 Meter Tiefe an, während der Weizen die oberen 30cm für sich allein hat. Ein System der geteilten Welten: oben Schatten und Licht, unten verschiedene Stockwerke der Wurzelwelt.",
+    "infoUrl": "agroforst-info-100/031_Esskastanie_Weizen_info.mp3"
+  },
+  "song_032": {
+    "title": "Esskastanie und Dinkel Prelude",
+    "audioUrl": "agroforst-songs-100/032_Esskastanie_Dinkel.mp3",
+    "mood": "Harmonisch",
+    "tree": "esskastanie",
+    "plant": "dinkel",
+    "info": "Dinkel ist der Panzerreiter unter den Getreiden: Seine dicken Spelzhüllen umschließen jedes Korn wie ein mittelalterlicher Harnisch und machen es praktisch unverwundbar gegen Pilze und Schädlinge. Diese evolutionäre Rüstung half dem Dinkel, über 1000 Jahre unter europäischen Kastanien zu überleben, während moderne Weizensorten längst kapituliert hätten. Mit 150cm Wuchshöhe reckt er sich über die Schattenzone hinaus und fängt jede Sonnenstrahle ein, die durch das Kastanien-Dach dringt. Seine genetische Anspruchslosigkeit macht ihn zum perfekten Partner für nährstoffarme Agroforst-Böden: Während Hybridweizen nach Kunstdünger schreit, kommt der Dinkel mit dem zurecht, was die Kastanien-Laubschicht ihm bietet. Ein uraltes Duo, das zusammen die Zeiten überdauert hat.",
+    "infoUrl": "agroforst-info-100/032_Esskastanie_Dinkel_info.mp3"
+  },
+  "song_033": {
+    "title": "Esskastanie und Gerste Intermezzo",
+    "audioUrl": "agroforst-songs-100/033_Esskastanie_Gerste.mp3",
+    "mood": "Transzendent",
+    "tree": "esskastanie",
+    "plant": "gerste",
+    "info": "Gerste ist ein Meister der Lichteffizienz: Während andere Getreide unter Halbschatten schwächeln, aktiviert sie spezielle Photosynthese-Programme und produziert unter 50% Lichtreduktion sogar mehr Körner als in der Vollsonne. Diese genetische Superkraft verdankt sie einer niedrigen Dunkelatmung und einer rekordhohen Quantenausbeute - sie holt aus jedem Photon das Maximum heraus. In nur 90-120 Tagen rast die Gerste von der Keimung zur goldgelben Ernte und nutzt dabei das optimale Frühjahrs-Lichtfenster, bevor die Kastanien ihre dichte Blätterkrone entfalten. Ihre extreme Salztoleranz - die höchste aller Getreidekulturen - macht sie unverwüstlich gegen schwankende Bodenverhältnisse im Agroforst-System. Ein genetischer Überlebenskünstler, der aus wenig Licht viel Korn macht.",
+    "infoUrl": "agroforst-info-100/033_Esskastanie_Gerste_info.mp3"
+  },
+  "song_034": {
+    "title": "Esskastanie und Ackerbohne Capriccio",
+    "audioUrl": "agroforst-songs-100/034_Esskastanie_Ackerbohne.mp3",
+    "mood": "Groove",
+    "tree": "esskastanie",
+    "plant": "ackerbohne",
+    "info": "Ackerbohnen sind die heimlichen Helden des Stickstoff-Recyclings: In ihren Wurzelknöllchen arbeiten Millionen von Rhizobium-Bakterien als molekulare Alchemisten und verwandeln trägen Luftstickstoff in kostbare Pflanzennahrung - bis zu 300 Kilogramm pro Hektar und Jahr. Diese biologische Dünger-Fabrik läuft auch unter dem Halbschatten der Esskastanien auf Hochtouren, denn die Ackerbohne passt ihre Photosynthese intelligent an gedämpftes Licht an. Ihre bis 150cm tiefen Pfahlwurzeln bohren sich in Bodenschichten vor, die den flachen Kastanien-Wurzeln verschlossen bleiben, und erschließen dort Wasser und Mineralien. Wenn die Ackerbohnen-Blätter im Herbst fallen, hinterlassen sie einen stickstoffreichen Teppich, der die Kastanien für das nächste Jahr mit Premium-Nahrung versorgt. Ein System, das sich selbst düngt.",
+    "infoUrl": "agroforst-info-100/034_Esskastanie_Ackerbohne_info.mp3"
+  },
+  "song_035": {
+    "title": "Esskastanie und Lupine Etude",
+    "audioUrl": "agroforst-songs-100/035_Esskastanie_Lupine.mp3",
+    "mood": "Kooperativ",
+    "tree": "esskastanie",
+    "plant": "lupine",
+    "info": "Lupinen sind die Sonnenbänker des Agroforst-Systems: Sie brauchen volle Lichtintensität für ihre spektakulären Blütentrauben und die rosa Wurzelknöllchen, in denen Rhizobium-Bakterien auf Hochtouren Luftstickstoff fixieren. Geschickt positioniert in den 20-Meter-Zwischengassen der Kastanien-Reihen oder an sonnigen Bestandsrändern, fungieren sie als biologische Stickstoff-Tankstellen. Ihre bis zu 2 Meter tiefen Pfahlwurzeln durchbrechen Bodenverdichtungen wie geologische Bohrer und erschließen Wasservorräte, die den flacheren Kastanien-Wurzeln verborgen bleiben. Wenn Lupinen-Alkaloide den Boden vor Schädlingen schützen, profitiert das gesamte System von diesem natürlichen Pflanzenschutz. Ein ausgeklügeltes Design: Sonne für die Lupinen, Stickstoff für die Kastanien, Struktur für den Boden.",
+    "infoUrl": "agroforst-info-100/035_Esskastanie_Lupine_info.mp3"
+  },
+  "song_036": {
+    "title": "Esskastanie und Kleegras Rondo",
+    "audioUrl": "agroforst-songs-100/036_Esskastanie_Kleegras.mp3",
+    "mood": "Kooperativ",
+    "tree": "esskastanie",
+    "plant": "kleegras",
+    "info": "Kleegras ist der Diplomamat des Agroforst-Systems: Diese perfekt abgestimmte Allianz aus Weißklee und Deutschem Weidelgras verhandelt geschickt zwischen Licht und Schatten. Während 30% weniger Sonnenlicht andere Kulturen zum Aufgeben zwingt, steigert die Kleegras-Mischung sogar ihre Effizienz - die Partner ergänzen sich so perfekt, dass sie gemeinsam produktiver sind als einzeln. Die Rhizobium-Knöllchen des Weißklees pumpen auch bei gedämpftem Licht Stickstoff in den Boden, während das Gras mit seinen feinen Wurzeln ein dichtes Erosions-Schutzgewebe knüpft. In Silvopasture-Systemen zeigt sich die wahre Brillanz: Rinder, die auf Kleegras unter Kastanien weiden, nehmen täglich mehr zu als ihre Artgenossen auf der Vollsonne-Weide - dank besserer Futterqualität und weniger Hitzestress.",
+    "infoUrl": "agroforst-info-100/036_Esskastanie_Kleegras_info.mp3"
+  },
+  "song_037": {
+    "title": "Esskastanie und Mais Fiesta",
+    "audioUrl": "agroforst-songs-100/037_Esskastanie_Mais.mp3",
+    "mood": "Kooperativ",
+    "tree": "esskastanie",
+    "plant": "mais",
+    "info": "Mais ist ein Photosynthese-Virtuose mit einem evolutionären Trumpf: Seine C4-Maschinerie kann CO₂ bei intensivem Licht doppelt so effizient binden wie gewöhnliche C3-Pflanzen. Diese genetische Superkraft macht ihn normalerweise zu einem Vollsonne-Liebhaber, aber clevere Züchtung schuf Hybrid-Sorten wie Nasa-29, die auch mit 76% Lichtintensität unter Kastanien noch 6,77 Tonnen pro Hektar produzieren. Das Geheimnis liegt in der optimierten Lichtnutzungseffizienz: Während normale Mais-Sorten unter Schatten kapitulieren, halten diese Züchtungen ihre C4-Turbinen auch bei gedämpftem Licht am Laufen. Die bis zu 3 Meter hohen Mais-Halme schaffen dabei eine perfekte Etagierung mit den Kastanien - ein Stockwerk für die Körner, eines für die Nüsse.",
+    "infoUrl": "agroforst-info-100/037_Esskastanie_Mais_info.mp3"
+  },
+  "song_038": {
+    "title": "Esskastanie und Sonnenblume Samba",
+    "audioUrl": "agroforst-songs-100/038_Esskastanie_Sonnenblume.mp3",
+    "mood": "Harmonisch",
+    "tree": "esskastanie",
+    "plant": "sonnenblume",
+    "info": "Sonnenblumen sind die Perfektionisten des Sonnenlichts: Sie drehen ihre bis zu 30cm großen Blütenköpfe wie Satellitenschüsseln dem Tagesgestirn hinterher und brauchen mindestens 6 Stunden direktes Licht für optimale C3-Photosynthese. In Kastanien-Agroforst-Systemen erobern sie geschickt die 20-Meter-Korridore zwischen den Baumreihen - dort bekommen sie ihre geliebte Vollsonne, profitieren aber vom seitlichen Windschutz der Kastanien. Diese Raumaufteilung ist genial: Die bis zu 3 Meter hohen Sonnenblumenstängel fangen jeden Sonnenstrahl ab, während ihre Wurzeln die nährstoffreichen Randzonen der Kastanien-Laubschicht anzapfen können. Das Ergebnis ist ein Doppelernte-System mit gestaffelten Erntezeiten: Sonnenblumenkerne im August, Kastanien im Oktober - das Maximum aus Sonne und Boden.",
+    "infoUrl": "agroforst-info-100/038_Esskastanie_Sonnenblume_info.mp3"
+  },
+  "song_039": {
+    "title": "Esskastanie und Kuerbis Serenata",
+    "audioUrl": "agroforst-songs-100/039_Esskastanie_Kuerbis.mp3",
+    "mood": "Harmonisch",
+    "tree": "esskastanie",
+    "plant": "kürbis",
+    "info": "Kürbisse sind die Flächenerobererer des Agroforst-Systems: Mit ihren sich windenden Ranken erobern sie systematisch jeden Quadratmeter unter den Kastanien-Kronen und verwandeln kahle Erde in einen üppigen grünen Teppich. Ihre bis zu 30cm großen Herzblätter funktionieren wie Solarpanele, die auch das gefilterte Licht unter der Baumkrone noch effizient in Wachstum umsetzen. Dabei entwickeln sie eine clevere Strategie: In lichteren Bereichen bleiben sie kompakt, unter dichteren Kronenteilen strecken sie ihre Stängel und richten die Blätter senkrecht auf - eine natürliche Schattenoptimierung. Eine einzige Kürbispflanze kann 25 Quadratmeter Boden bedecken und dabei gleichzeitig als lebender Mulch die Feuchtigkeit speichern, die beide Partner zum Gedeihen brauchen. Das perfekte Bodenschutz-Team.",
+    "infoUrl": "agroforst-info-100/039_Esskastanie_Kuerbis_info.mp3"
+  },
+  "song_040": {
+    "title": "Esskastanie und Kartoffel Barcarole",
+    "audioUrl": "agroforst-songs-100/040_Esskastanie_Kartoffel.mp3",
+    "mood": "Distanziert",
+    "tree": "esskastanie",
+    "plant": "kartoffel",
+    "info": "Kartoffeln sind Sonnenkinder mit einem Problem: Sie brauchen intensive Photosynthese für die Stärkeproduktion in ihren Knollen, aber Kastanien-Schatten drosselt ihre Lichtmaschine drastisch. In ausgereiften Agroforst-Systemen mit dichter Kastanien-Krone sinken Kartoffel-Erträge um bis zu 70% - die Knollen bleiben klein und stärkarm. Das Timing ist entscheidend: In den ersten 5-7 Jahren nach Kastanien-Pflanzung, wenn die Bäume noch schlank sind und wenig Schatten werfen, können Kartoffeln noch gute Erträge liefern. Später erobern sie die 20-Meter-Zwischengassen zwischen den Baumreihen und nutzen dort die volle Sonnenkraft, während sie vom Kastanien-Windschutz und Mikroklima profitieren. Ein System mit Verfallsdatum - perfekt für die Übergangszeit, bis schattentolerante Dauerkulturen das Kommando übernehmen.",
+    "infoUrl": "agroforst-info-100/040_Esskastanie_Kartoffel_info.mp3"
+  },
+  "song_041": {
+    "title": "Obstbaeume und Weizen Pastorale",
+    "audioUrl": "agroforst-songs-100/041_Obstbaeume_Weizen.mp3",
+    "mood": "Distanziert",
+    "tree": "obstbäume",
+    "plant": "weizen",
+    "info": "Weizen unter Obstbäumen ist ein Kompromiss zwischen Ertrag und Effizienz: Während die Weizenähren unter Apfelbaum-Schatten um 30-50% kürzer werden und weniger Körner bilden, steigt die Gesamtproduktivität pro Flächeneinheit durch die Kombination aus Getreide und Obst. Der Schlüssel liegt im Abstand: Weniger als einen Meter vom Baumstamm entfernt kämpft der Weizen ums Überleben, aber ab drei Metern Entfernung kann er noch respektable Erträge liefern. Schattentolerante Weizensorten nutzen die 30-40% verfügbare Lichtintensität effizienter und kompensieren teilweise den Ertragsverlust. Das System funktioniert wie ein Orchester: Die Obstbäume spielen die Hauptmelodie, der Weizen die Begleitmusik - zusammen entsteht eine harmonischere und produktivere Landnutzung als im Alleingang.",
+    "infoUrl": "agroforst-info-100/041_Obstbaeume_Weizen_info.mp3"
+  },
+  "song_042": {
+    "title": "Obstbaeume und Dinkel Quartett",
+    "audioUrl": "agroforst-songs-100/042_Obstbaeume_Dinkel.mp3",
+    "mood": "Transzendent",
+    "tree": "obstbäume",
+    "plant": "dinkel",
+    "info": "Dinkel ist der Gentleman unter den Getreiden in Obstanlagen: Mit seinen charakteristischen Spelzhüllen umhüllt er jedes Korn wie ein Diplomat im Frack und macht es unverwundbar gegen Obstgarten-Widrigkeiten wie Wind, Hagel und Schädlinge. Diese evolutionäre Eleganz half dem Dinkel, über 800 Jahre in europäischen Apfel- und Birnengärten zu gedeihen, während empfindlichere Weizensorten längst aufgegeben hätten. Seine genetische Bescheidenheit - er kommt mit wenigen Nährstoffen aus - macht ihn zum idealen Unterpächter in extensiven Obstanlagen. Mit 150cm Wuchshöhe reckt er seine Ähren über den Obstbaum-Unterwuchs hinaus und nutzt jeden verfügbaren Lichtstrahl, den die Baumkronen durchlassen. Ein Urgetreide mit Manieren: robust genug für harte Zeiten, vornehm genug für edle Obstgärten.",
+    "infoUrl": "agroforst-info-100/042_Obstbaeume_Dinkel_info.mp3"
+  },
+  "song_043": {
+    "title": "Obstbaeume und Gerste Gavotte",
+    "audioUrl": "agroforst-songs-100/043_Obstbaeume_Gerste.mp3",
+    "mood": "Groove",
+    "tree": "obstbäume",
+    "plant": "gerste",
+    "info": "Gerste ist der Effizienz-Champion der Obstgärten: Als einziges Getreide aktiviert sie bei 50% Lichtreduktion spezielle Photosynthese-Programme und produziert sogar mehr Körner als unter Vollsonne - ein genetisches Wunder der Lichtnutzung. In nur 90-120 Tagen rast sie von der Märzsaat zur Juli-Ernte und nutzt dabei das goldene Frühjahrs-Lichtfenster, bevor die Obstbäume ihre volle Blätterpracht entfalten. Ihre rekordhohe Quantenausbeute holt aus jedem Sonnenstrahl das Maximum heraus, während ihre extreme Salztoleranz sie unverwüstlich gegen schwankende Bewässerungsqualität macht. Wenn im Juli die Gerste-Mähdrescher durch die Obstgarten-Gassen rollen, haben die Apfel- und Birnbäume noch Monate bis zur Ernte - perfektes Timing für eine konfliktfreie Doppelnutzung. Ein Getreide-Genie, das aus wenig Zeit und Licht maximalen Ertrag zaubert.",
+    "infoUrl": "agroforst-info-100/043_Obstbaeume_Gerste_info.mp3"
+  },
+  "song_044": {
+    "title": "Obstbaeume und Ackerbohne Ballade",
+    "audioUrl": "agroforst-songs-100/044_Obstbaeume_Ackerbohne.mp3",
+    "mood": "Kooperativ",
+    "tree": "obstbäume",
+    "plant": "ackerbohne",
+    "info": "Ackerbohnen sind die biochemischen Goldgräber der Obstgärten: In ihren rosa Wurzelknöllchen arbeiten Millionen von Rhizobium-Bakterien rund um die Uhr und verwandeln kostenlosen Luftstickstoff in hochwertigen Pflanzendünger - bis zu 300 Kilogramm pro Hektar und Jahr. Dieser biologische Reichtum fließt direkt in die Obstbäume, deren flache Saugwurzeln die stickstoffreichen Ackerbohnen-Wurzelausscheidungen gierig aufsaugen. Dabei herrscht perfekte Arbeitsteilung: Die bis 150cm tiefen Ackerbohnen-Pfahlwurzeln erschließen Wasservorräte aus Bodenschichten, die den Obstbäumen verschlossen bleiben. Wenn die cremweißen Ackerbohnenblüten im April ihre Pollenschätze freigeben, sind sie oft die erste reichhaltige Bienennahrung der Saison - Wochen vor der Obstbaumblüte. Ein System, das sich selbst finanziert: Die Ackerbohne investiert Stickstoff, der Obstbaum zahlt mit Schatten und Windschutz.",
+    "infoUrl": "agroforst-info-100/044_Obstbaeume_Ackerbohne_info.mp3"
+  },
+  "song_045": {
+    "title": "Obstbaeume und Lupine Konzert",
+    "audioUrl": "agroforst-songs-100/045_Obstbaeume_Lupine.mp3",
+    "mood": "Kooperativ",
+    "tree": "obstbäume",
+    "plant": "lupine",
+    "info": "Lupinen sind die Architekten der Obstgarten-Unterwelt: Mit ihren bis zu 2 Meter tiefen Pfahlwurzeln durchstoßen sie harte Verdichtungen in den Fahrgassen wie biologische Presslufthämmer und schaffen Drainage-Kanäle für Luft und Wasser. Während sie den Untergrund sanieren, arbeiten in ihren rosa Wurzelknöllchen Rhizobium-Bakterien als molekulare Stickstoff-Fabriken und produzieren erstklassigen biologischen Dünger für die Obstbäume. Die spektakulären Blütentrauben - von leuchtend blau über rosa bis schneeweiß - verwandeln die nüchternen Obstgarten-Fahrgassen in ein Blütenmeer und locken Scharen von Bestäubern an. Ihre Alkaloide funktionieren wie ein natürliches Sicherheitssystem und halten schädliche Insekten fern, während sie nützliche Bienen anziehen. Ein System der intelligenten Raumnutzung: Die Obstbäume besetzen die Höhe, die Lupinen erobern die sonnigen Zwischenräume.",
+    "infoUrl": "agroforst-info-100/045_Obstbaeume_Lupine_info.mp3"
+  },
+  "song_046": {
+    "title": "Obstbaeume und Kleegras Idylle",
+    "audioUrl": "agroforst-songs-100/046_Obstbaeume_Kleegras.mp3",
+    "mood": "Harmonisch",
+    "tree": "obstbäume",
+    "plant": "kleegras",
+    "info": "Mais ist ein Sonnenjunkie mit einem Problem: Seine evolutionäre C4-Turbine läuft nur bei Vollgas-Belichtung auf Hochtouren, aber Obstbaum-Schatten drosselt die Leistung um bis zu 60%. Die genetischen Hochleistungs-Hybriden wie Nasa-29 kämpfen tapfer gegen das Lichtdefizit an, aber selbst sie können die physikalischen Gesetze der Photosynthese nicht überwinden. In Obstgarten-Fahrgassen mit 70% Lichtintensität produziert Mais noch respektable 4-5 Tonnen pro Hektar, doch unter den Baumkronen schrumpfen die Kolben zu mickrigen Zwergversionen. Die bis zu 3 Meter hohen Mais-Halme konkurrieren dabei nicht nur um Licht, sondern auch um jeden Tropfen Wasser und jeden Nährstoff mit den hungrigen Obstbäumen. Ein System am Limit - funktional, aber nicht optimal.",
+    "infoUrl": "agroforst-info-100/046_Obstbaeume_Kleegras_info.mp3"
+  },
+  "song_047": {
+    "title": "Obstbaeume und Mais Contradanza",
+    "audioUrl": "agroforst-songs-100/047_Obstbaeume_Mais.mp3",
+    "mood": "Distanziert",
+    "tree": "obstbäume",
+    "plant": "mais",
+    "info": "Zurückhaltende Beziehung zwischen Obstbaum-Schatten und lichtbedürftigem Mais.",
+    "infoUrl": "agroforst-info-100/047_Obstbaeume_Mais_info.mp3"
+  },
+  "song_048": {
+    "title": "Obstbaeume und Sonnenblume Polka",
+    "audioUrl": "agroforst-songs-100/048_Obstbaeume_Sonnenblume.mp3",
+    "mood": "Kooperativ",
+    "tree": "obstbäume",
+    "plant": "sonnenblume",
+    "info": "Sonnenblumen sind die Licht-Perfektionisten der Obstgärten: Ihre bis zu 30cm großen gelben Blütenköpfe drehen sich wie astronomische Instrumente der Sonne nach und saugen jeden verfügbaren Lichtstrahl aus den sonnigen Fahrgassen zwischen den Obstbaumreihen. Diese heliotropische Präzision macht sie zu Meistern der Raumnutzung - während andere Kulturen im Obstbaum-Schatten versagen, erobern Sonnenblumen geschickt die Vollsonne-Zonen und verwandeln ungenutzte Zwischenflächen in goldene Ertragsfelder. Ihre bis zu 3 Meter hohen Stängel profitieren dabei vom seitlichen Windschutz der Obstbäume, ohne deren Schatten abzubekommen. Das Timing ist perfekt: Während die Sonnenblumen im August ihre öligen Kerne reifen lassen, sammeln die Obstbäume noch Energie für ihre Herbsternte. Ein System der intelligenten Raumaufteilung: Die Bäume beherrschen die Höhe, die Sonnenblumen regieren die sonnigen Zwischenwelten.",
+    "infoUrl": "agroforst-info-100/048_Obstbaeume_Sonnenblume_info.mp3"
+  },
+  "song_049": {
+    "title": "Obstbaeume und Kuerbis Romanze",
+    "audioUrl": "agroforst-songs-100/049_Obstbaeume_Kuerbis.mp3",
+    "mood": "Kooperativ",
+    "tree": "obstbäume",
+    "plant": "kürbis",
+    "info": "Kürbisse sind die Bodenarchitekten der Obstgärten: Mit ihren sich windenden Ranken erobern sie systematisch jeden verfügbaren Quadratmeter zwischen den Obstbaum-Stämmen und verwandeln kahle Erde in ein üppiges grünes Polster. Ihre bis zu 30cm großen herzförmigen Blätter funktionieren wie natürliche Solarkollektoren und nutzen auch das gefilterte Obstgarten-Licht mit beeindruckender Effizienz. Unter lichteren Kronen bleiben sie kompakt, unter dichteren Bereichen strecken sie ihre Stängel intelligent in die Länge - eine pflanzliche Anpassungsstrategie der Extraklasse. Eine einzige Kürbispflanze kann 25 Quadratmeter Boden bedecken und dabei ein feuchtes Mikroklima schaffen, das sowohl den Obstbäumen als auch ihr selbst zugutekommt. Das System funktioniert wie eine natürliche Klimaanlage: Die Obstbäume spenden Schatten, der Kürbis reguliert die Bodenfeuchtigkeit.",
+    "infoUrl": "agroforst-info-100/049_Obstbaeume_Kuerbis_info.mp3"
+  },
+  "song_050": {
+    "title": "Obstbaeume und Kartoffel Symphonie",
+    "audioUrl": "agroforst-songs-100/050_Obstbaeume_Kartoffel.mp3",
+    "mood": "Harmonisch",
+    "tree": "obstbäume",
+    "plant": "kartoffel",
+    "info": "Eiche und Weizen entwickeln eine herausfordernde Nachbarschaft, die vor allem durch Lichtkonkurrenz geprägt ist. Der langsamwüchsige Eichenbaum mit seinen tiefen Pfahlwurzeln kann wertvolle Mineralstoffe aus unteren Bodenschichten mobilisieren und über seinen herbstlichen Laubfall dem oberflächlich wurzelnden Weizen zur Verfügung stellen. Während der Weizen unter dem zunehmenden Baumschatten 15-30% Ertragseinbußen erleidet, verbessert sich paradoxerweise die Kornqualität durch höhere Proteingehalte unter moderater Beschattung. Diese Kombination funktioniert am besten bei weiten Baumabständen und regelmäßigem Kronenschnitt, um die Lichtkonkurrenz zu begrenzen.",
+    "infoUrl": "agroforst-info-100/050_Obstbaeume_Kartoffel_info.mp3"
+  },
+  "song_051": {
+    "title": "Eiche und Weizen Meditation",
+    "audioUrl": "agroforst-songs-100/051_Eiche_Weizen.mp3",
+    "mood": "Distanziert",
+    "tree": "eiche",
+    "plant": "weizen",
+    "info": "Geduldige, aber schwache Verbindung zwischen majestätischer Eiche und schnelllebigem Weizen.",
+    "infoUrl": "agroforst-info-100/051_Eiche_Weizen_info.mp3"
+  },
+  "song_052": {
+    "title": "Eiche und Dinkel Etüde",
+    "audioUrl": "agroforst-songs-100/052_Eiche_Dinkel.mp3",
+    "mood": "Harmonisch",
+    "tree": "eiche",
+    "plant": "dinkel",
+    "info": "Dinkel erweist sich als idealer Partner für die Eiche in extensiven Agroforst-Systemen, da diese alte Getreidesorte seit über 8000 Jahren für ihre Robustheit und Anpassungsfähigkeit geschätzt wird. Mit seinen bis zu 1,5 Meter tiefen Wurzeln erschließt der Dinkel Nährstoff- und Wasserschichten, die oberflächlich wurzelnder Weizen nicht erreicht, wodurch die Konkurrenz mit den Eichenwurzeln deutlich reduziert wird. Die charakteristischen Spelzhüllen schützen die Körner nicht nur vor Witterungseinflüssen, sondern auch vor dem veränderten Mikroklima unter den Eichenkronen, wo höhere Luftfeuchtigkeit Pilzkrankheiten bei modernen Weizensorten begünstigen würde. Diese Kombination repräsentiert eine historisch bewährte Landnutzungsform, die heute in der ökologischen Landwirtschaft ihre Renaissance erlebt.",
+    "infoUrl": "agroforst-info-100/052_Eiche_Dinkel_info.mp3"
+  },
+  "song_053": {
+    "title": "Eiche und Gerste Choral",
+    "audioUrl": "agroforst-songs-100/053_Eiche_Gerste.mp3",
+    "mood": "Transzendent",
+    "tree": "eiche",
+    "plant": "gerste",
+    "info": "Die Gerste navigiert als frühreifende Kulturpflanze geschickt durch die Herausforderungen des Eichen-Schattens, indem sie ihre Vegetationsperiode größtenteils vor dem vollständigen Laubaustrieb der Eiche abschließt. Diese zeitliche Strategie ermöglicht es der Gerste, in den lichtreichen Frühjahrsmonaten März bis Juni den Großteil ihres Wachstums zu vollenden, bevor die Eichenkrone ihre volle Beschattungswirkung entfaltet. Während die Erträge dennoch um 20-35% sinken können, profitiert die Gerste von der verbesserten Bodenstruktur und dem erhöhten organischen Kohlenstoffgehalt unter den Eichen. Für Brauereien kann die leicht veränderte Stärke-Protein-Zusammensetzung schattengestresster Gerste allerdings qualitative Herausforderungen bei der Malzproduktion bedeuten.",
+    "infoUrl": "agroforst-info-100/053_Eiche_Gerste_info.mp3"
+  },
+  "song_054": {
+    "title": "Eiche und Ackerbohne Kantate",
+    "audioUrl": "agroforst-songs-100/054_Eiche_Ackerbohne.mp3",
+    "mood": "Groove",
+    "tree": "eiche",
+    "plant": "ackerbohne",
+    "info": "Die Ackerbohne entwickelt mit der Eiche eine der erfolgreichsten Partnerschaften im europäischen Agroforst, da sie als Leguminose durch ihre Symbiose mit Rhizobium-Bakterien jährlich 40-80 kg Stickstoff pro Hektar aus der Atmosphäre bindet und damit beiden Pflanzen zugutekommt. Ihre bis zu 1,2 Meter tiefen Pfahlwurzeln erschließen nicht nur Nährstoff- und Wasserschichten unterhalb der Eichenwurzeln, sondern lockern auch verdichtete Bodenschichten und verbessern die Bodenstruktur nachhaltig. Die charakteristischen weißen Blüten mit den schwarzen Saftmalen locken Hummeln und andere Bestäuber an, während das schützende Eichendach optimale Feuchtigkeitsbedingungen für die N-fixierenden Wurzelknöllchen schafft. Diese Kombination repräsentiert ein klassisches Beispiel für mutualistisches Zusammenleben, bei dem beide Partner voneinander profitieren und gemeinsam die Bodenfruchtbarkeit steigern.",
+    "infoUrl": "agroforst-info-100/054_Eiche_Ackerbohne_info.mp3"
+  },
+  "song_055": {
+    "title": "Eiche und Lupine Fuge",
+    "audioUrl": "agroforst-songs-100/055_Eiche_Lupine.mp3",
+    "mood": "Transzendent",
+    "tree": "eiche",
+    "plant": "lupine",
+    "info": "Lupinen revolutionieren als \"Bodenchemikerinnen\" das Nährstoffmanagement unter Eichen durch ihre hochspezialisierten Cluster-Wurzeln, die wie kleine biochemische Fabriken funktionieren. Diese einzigartigen Proteoid-Wurzeln scheiden gezielt Citrat- und Malatsäuren aus, welche den pH-Wert in der Rhizosphäre senken und dadurch Phosphor aus unlöslichen Aluminium- und Eisenverbindungen herauslösen - ein Prozess, der anderen Pflanzen unmöglich ist. Während die Lupinen gleichzeitig durch ihre Rhizobium-Symbiose 50-120 kg Stickstoff pro Hektar aus der Luft binden, profitiert die Eiche von beiden freigesetzten Nährstoffen und kann auf nährstoffarmen, sauren Böden gedeihen, wo konventionelle Düngemittel versagen würden. Diese Partnerschaft demonstriert, wie sich zwei Pflanzenarten die Arbeit teilen: Die Lupine als Nährstoff-Bergbauingenieurin und die Eiche als strukturgebender Klimaregulator.",
+    "infoUrl": "agroforst-info-100/055_Eiche_Lupine_info.mp3"
+  },
+  "song_056": {
+    "title": "Eiche und Kleegras Suite",
+    "audioUrl": "agroforst-songs-100/056_Eiche_Kleegras.mp3",
+    "mood": "Kooperativ",
+    "tree": "eiche",
+    "plant": "kleegras",
+    "info": "Kleegras unter Eichen repräsentiert eine der erfolgreichsten Dreierallianzen der europäischen Landwirtschaft, bei der Weißklee als schattentolerante Leguminose seine N-fixierenden Fähigkeiten auch unter der 40-50% reduzierten Lichtintensität des Eichenschattens voll entfalten kann. Das Deutschen Weidelgras (Lolium perenne) profitiert dabei nicht nur von dem durch Klee bereitgestellten Stickstoff, sondern nutzt geschickt die verschiedenen Mikrohabitate unter der Eichenkrone - von sonnigen Lichtflecken bis hin zu dauerhaft beschatteten Zonen. Diese Mischung erreicht eine relative Landnutzungseffizienz von 1,2-1,4 im Vergleich zu Reinsaaten, da die Partner durch zeitlich und räumlich differenzierte Nährstoffaufnahme Ressourcenkonkurrenz minimieren. Die permanente Bodenbedeckung verhindert zudem Nitratauswaschung und macht diese Kombination zu einem Paradebeispiel nachhaltiger Intensivierung in der Silvopastur.",
+    "infoUrl": "agroforst-info-100/056_Eiche_Kleegras_info.mp3"
+  },
+  "song_057": {
+    "title": "Eiche und Mais Dissonanz",
+    "audioUrl": "agroforst-songs-100/057_Eiche_Mais.mp3",
+    "mood": "Konflikt",
+    "tree": "eiche",
+    "plant": "mais",
+    "info": "Die Kombination von Eiche und Mais stellt eine der problematischsten Partnerschaften im europäischen Agroforst dar, da die physiologischen Anforderungen beider Pflanzen fundamental konfliktieren. Mais besitzt als C4-Pflanze einen hochspezialisierten Photosynthese-Apparat, der bei Temperaturen über 25°C und Vollsonne gegenüber C3-Pflanzen deutliche Vorteile bietet - diese Effizienz bricht jedoch unter dem Schatten der dichten Eichenkrone vollständig zusammen. Während C3-Pflanzen wie Weizen unter moderatem Schatten nur 15-30% Ertragsverluste erleiden, kann Mais Einbußen von 40-70% erleiden, da sein spezialisiertes Enzymsystem (PEP-Carboxylase) bei reduzierter Lichtintensität nicht mehr effizient arbeitet. Diese Kombination verdeutlicht, warum europäische Agroforst-Systeme mit Mais eher auf lichtkronige Baumarten wie Pappel oder Weide setzen, statt auf die majestätischen, aber lichtundurchlässigen Eichen.",
+    "infoUrl": "agroforst-info-100/057_Eiche_Mais_info.mp3"
+  },
+  "song_058": {
+    "title": "Eiche und Sonnenblume Stille",
+    "audioUrl": "agroforst-songs-100/058_Eiche_Sonnenblume.mp3",
+    "mood": "Konflikt",
+    "tree": "eiche",
+    "plant": "sonnenblume",
+    "info": "Sonnenblume und Eiche verkörpern einen klassischen Konflikt zwischen Lichtbedarf und Beschattung, der ihre gemeinsame Kultivierung zu einer agronomischen Herausforderung macht. Die Sonnenblume, deren Name bereits ihre phototropischen Eigenschaften andeutet, ist evolutionär darauf spezialisiert, der Sonne zu folgen und maximale Lichtausbeute zu erzielen - eine Strategie, die unter der dichten Krone einer ausgewachsenen Eiche vollständig konterkariert wird. Experimentelle Studien zeigen, dass bereits moderate Beschattung die Blattflächen-Entwicklung hemmt, die Photosynthat-Verteilung stört und zu dramatischen Ölsaat-Ertragsverlusten von 50-80% führen kann. Die Ironie dieser Kombination liegt darin, dass beide Pflanzen in der Vollsonne durchaus komplementäre ökologische Nischen besetzen könnten - die Sonnenblume als einjährige Ölpflanze und die Eiche als langfristige Strukturgeberin - doch die räumliche Nähe macht sie zu unfreiwilligen Konkurrenten um die wichtigste Ressource des Lebens: das Licht.",
+    "infoUrl": "agroforst-info-100/058_Eiche_Sonnenblume_info.mp3"
+  },
+  "song_059": {
+    "title": "Eiche und Kuerbis Andante",
+    "audioUrl": "agroforst-songs-100/059_Eiche_Kuerbis.mp3",
+    "mood": "Kooperativ",
+    "tree": "eiche",
+    "plant": "kürbis",
+    "info": "Kürbis und Eiche bilden eine praktische Partnerschaft, die besonders für die biologische Unkrautkontrolle geschätzt wird - die großflächigen, herzförmigen Kürbisblätter mit einer Spannweite von bis zu 30 cm bilden binnen weniger Wochen einen dichten, lebenden Mulch unter der Eichenkrone. Diese natürliche Bodenbedeckung unterdrückt nicht nur unerwünschte Wildkräuter zu 90%, sondern hält auch die Bodenfeuchtigkeit konstant, was bei den wasserhungrigen Kürbispflanzen zu einem reduzierten Bewässerungsbedarf führt. Der moderate Schatten der Eiche kann zwar die Kürbiserträge um 20-30% reduzieren, doch die eingesparten Kosten für Herbizide und mechanische Bodenbearbeitung sowie die mögliche Nutzung der ölreichen Kürbiskerne gleichen diesen Nachteil oft aus. In Österreich und der Ukraine hat sich diese Kombination bereits in der kleinbäuerlichen Landwirtschaft bewährt, wo Kürbissamen als hochwertige Ölsaat vermarktet werden.",
+    "infoUrl": "agroforst-info-100/059_Eiche_Kuerbis_info.mp3"
+  },
+  "song_060": {
+    "title": "Eiche und Kartoffel Largo",
+    "audioUrl": "agroforst-songs-100/060_Eiche_Kartoffel.mp3",
+    "mood": "Distanziert",
+    "tree": "eiche",
+    "plant": "kartoffel",
+    "info": "Kartoffel und Eiche entwickeln eine zeitlich gestaffelte Partnerschaft, die vor allem von der phänologischen Verschiebung lebt - während die frühen Kartoffelsorten bereits im März gepflanzt werden und bis Ende Mai den größten Teil ihres vegetativen Wachstums abschließen, entfaltet die Eiche erst ab April ihre volle Belaubung. Diese 6-8 Wochen Vorsprung ermöglicht es den Kartoffelpflanzen, in der lichtreichen Frühjahrsphase ihre kritische Knollenanlage zu vollziehen, bevor der Baumschatten die Photosyntheseleistung um 30-40% reduziert. Dennoch bleiben Ertragsverluste von 25-40% bestehen, da die Knollenfüllungsphase im Sommer unter reduzierter Lichtintensität stattfindet - ein Kompromiss, der durch die langfristigen Bodenverbesserungen des Eichen-Laubstreus und den Erosionsschutz des Baumes teilweise ausgeglichen wird. In der europäischen Kleinlandwirtschaft hat sich diese Kombination vor allem dort bewährt, wo Erosionsschutz wichtiger ist als maximale Kartoffelerträge.",
+    "infoUrl": "agroforst-info-100/060_Eiche_Kartoffel_info.mp3"
+  },
+  "song_061": {
+    "title": "Roteiche und Weizen Präludium",
+    "audioUrl": "agroforst-songs-100/061_Roteiche_Weizen.mp3",
+    "mood": "Harmonisch",
+    "tree": "roteiche",
+    "plant": "weizen",
+    "info": "Die Roteiche aus Nordamerika erweist sich als interessantere Partnerin für Weizen als ihre europäischen Verwandten, da sie in den ersten 10-15 Jahren deutlich schneller wächst und dabei eine relativ offene Kronenstruktur entwickelt. Diese Eigenschaft erlaubt dem Weizen zunächst gute Wachstumsbedingungen mit nur moderaten Ertragsverlusten von 12-18%, während kanadische Agroforst-Studien die erfolgreiche Biomasse-Akkumulation beider Partner in der Etablierungsphase dokumentieren. Die charakteristisch gefiederten Blätter der Roteiche mit ihrer späteren Laubentwicklung im Frühjahr geben dem Weizen zusätzliche Wochen optimaler Lichtbedingungen, bevor die Beschattung die Stomatakonduktanz und Photosynthese-Effizienz reduziert. Der entscheidende Vorteil liegt jedoch in der Managierbarkeit: Die schnellwüchsige Roteiche erlaubt durch gezielte Kronenformung und Astung eine Anpassung der Lichtdurchlässigkeit, wodurch sich ein langfristig stabiles Intercropping-System entwickeln lässt, das mit dem Alter beider Partner mitwächst.",
+    "infoUrl": "agroforst-info-100/061_Roteiche_Weizen_info.mp3"
+  },
+  "song_062": {
+    "title": "Roteiche und Dinkel Variationen",
+    "audioUrl": "agroforst-songs-100/062_Roteiche_Dinkel.mp3",
+    "mood": "Transzendent",
+    "tree": "roteiche",
+    "plant": "dinkel",
+    "info": "Diese transatlantische Partnerschaft zwischen nordamerikanischer Roteiche und europäischem Dinkel vereint die Stärken zweier Kontinente: Die aus Deutschland stammenden Roteichen-Provenizenzen kombinieren das schnelle Jugendwachstum ihrer amerikanischen Herkunft mit verbesserter Frost- und Klimaresistenz, während der jahrtausendealte Dinkel seine bewährte Anpassungsfähigkeit an wechselnde Umweltbedingungen einbringt. Beide entwickeln ausgeprägte Tiefwurzelsysteme - die Roteiche bis über 2 Meter, der Dinkel bis 1,5 Meter - wodurch sie Ressourcenkonkurrenz elegant vermeiden und stattdessen unterschiedliche Bodenschichten erschließen. Die hohe phänotypische Plastizität der Roteiche erlaubt es ihr, ihre Wachstumsform und Kronenstruktur an die lokalen Gegebenheiten anzupassen, was dem schattentoleranten Dinkel optimale Lichtbedingungen schafft. Diese Kombination repräsentiert moderne Agroforst-Innovation: die gezielte Zusammenführung genetischer Ressourcen aus verschiedenen Kontinenten zur Optimierung nachhaltiger Landnutzungssysteme.",
+    "infoUrl": "agroforst-info-100/062_Roteiche_Dinkel_info.mp3"
+  },
+  "song_063": {
+    "title": "Roteiche und Gerste Polonaise",
+    "audioUrl": "agroforst-songs-100/063_Roteiche_Gerste.mp3",
+    "mood": "Groove",
+    "tree": "roteiche",
+    "plant": "gerste",
+    "info": "Gerste und Roteiche bilden ein Muster-Beispiel für zeitlich perfekt abgestimmte Intercropping-Systeme, bei dem die frühreifende Gerste ihre gesamte Vegetationsperiode von März bis Juni absolviert, bevor die Roteiche ihre volle Belaubung entwickelt hat. Diese Timing-Strategie erlaubt der Gerste nicht nur, Lichtkonkurrenz zu vermeiden, sondern sogar von den bis zu 50% reduzierten Lichtverhältnissen zu profitieren - ein Phänomen, das Forscher auf die verbesserte Photosynthese-Effizienz und reduzierte Wasserverdunstung unter Teilschatten zurückführen. Die physiologische Akklimatisierung der Gerste zeigt sich in niedrigerer Dunkelatmung und optimierter Lichtnutzung, wodurch die Kornfüllung unter dem sich entwickelnden Blätterdach der Roteiche sogar verbessert werden kann. Kanadische Agroforst-Studien dokumentieren, dass solche Roteichen-Systeme über 31 Jahre hinweg die höchsten Kohlenstoff-Speicherraten aller untersuchten Baumarten erreichen, während die Gerste durch ihre frühe Ernte Spätsaison-Krankheiten umgeht und optimale Kornqualität sicherstellt.",
+    "infoUrl": "agroforst-info-100/063_Roteiche_Gerste_info.mp3"
+  },
+  "song_064": {
+    "title": "Roteiche und Ackerbohne Menuett",
+    "audioUrl": "agroforst-songs-100/064_Roteiche_Ackerbohne.mp3",
+    "mood": "Harmonisch",
+    "tree": "roteiche",
+    "plant": "ackerbohne",
+    "info": "Die Kombination von Roteiche und Ackerbohne repräsentiert ein typisches Agroforst-Dilemma: Während Intercropping-Studien mit Weizen-Ackerbohnen-Systemen beeindruckende Landnutzungseffizienzen von 1,5-1,9 und Ertragssteigerungen von bis zu 39% dokumentieren, ist die Ackerbohne mit ihrer nur moderaten Schattentoleranz nicht optimal für reife Baumbestände geeignet. Die Stärke dieser Kombination liegt in der Etablierungsphase junger Roteichen-Plantagen, wo ausreichend Licht für die kritische Rhizobium-Symbiose zur Verfügung steht und die fixierten Stickstoffmengen das Baumwachstum erheblich fördern können. Als Kühlsaison-Leguminose kann die Ackerbohne von März bis Juni wachsen und dabei die lichtreiche Periode vor dem Roteichen-Laubaustrieb optimal nutzen, wodurch sie ihre N-Fixierung vollständig entfaltet. Das Problem entsteht mit zunehmendem Baumalter: Unter dichter Krone sinkt nicht nur der Ackerbohnen-Ertrag, sondern auch die für das Ökosystem so wertvolle Stickstoff-Fixierung - ein klassisches Beispiel dafür, wie sich Agroforst-Systeme über die Zeit wandeln und angepasstes Management erfordern.",
+    "infoUrl": "agroforst-info-100/064_Roteiche_Ackerbohne_info.mp3"
+  },
+  "song_065": {
+    "title": "Roteiche und Lupine Caprice",
+    "audioUrl": "agroforst-songs-100/065_Roteiche_Lupine.mp3",
+    "mood": "Transzendent",
+    "tree": "roteiche",
+    "plant": "lupine",
+    "info": "Roteiche und Lupine bilden eine hochspezialisierte Partnerschaft für saure, nährstoffarme Standorte, die andere Agroforst-Kombinationen meiden würden - während die Roteiche durch ihre Toleranz gegenüber niedrigen pH-Werten und Aluminiumtoxizität glänzt, revolutioniert die Lupine mit ihren einzigartigen Cluster-Wurzeln das Nährstoffmanagement im sauren Milieu. Diese dichten Wurzelknäuel scheiden gezielt organische Säuren wie Citrat und Malat aus, die nicht nur gebundenen Phosphor aus Aluminium- und Eisenverbindungen lösen, sondern auch optimale Bedingungen für die Stickstoff-fixierenden Rhizobium-Bakterien schaffen. Kanadische Langzeitstudien dokumentieren, dass Roteichen in Intercropping-Systemen die höchsten Kohlenstoff-Speicherraten aller untersuchten Baumarten erreichen - ein Effekt, der durch die kontinuierliche Nährstoffanreicherung der Lupinen verstärkt werden könnte. Diese biochemische Allianz demonstriert, wie sich zwei Säure-Spezialisten die Bodenchemie zu eigen machen: Die Lupine als Nährstoff-Chemikerin und die Roteiche als effizienter Kohlenstoff-Akkumulator, zusammen erschließen sie Standorte, die für konventionelle Landwirtschaft ungeeignet wären.",
+    "infoUrl": "agroforst-info-100/065_Roteiche_Lupine_info.mp3"
+  },
+  "song_066": {
+    "title": "Roteiche und Kleegras Pastorale",
+    "audioUrl": "agroforst-songs-100/066_Roteiche_Kleegras.mp3",
+    "mood": "Kooperativ",
+    "tree": "roteiche",
+    "plant": "kleegras",
+    "info": "Roteiche und Kleegras repräsentieren das Herzstück der nordamerikanischen Silvopastur, ein System, das die natürlichen Prärie-Wälder des Kontinents nachahmt und dabei moderne Erkenntnisse über Provenienz-Auswahl und Standort-Anpassung integriert. Die intermediäre Schattentoleranz der Roteiche harmoniert perfekt mit hochschattenverträglichem Weißklee und moderatem Rotklee, während Gräser wie das robuste Knaulgras (Dactylis glomerata) die Lücken zwischen den Leguminosen füllen und eine geschlossene Futtergrundlage schaffen. Entscheidend für den Erfolg ist die Wasserverfügbarkeit - kanadische Studien zeigen, dass sowohl Baumregeneration als auch Kleewachstum stark von der Bodenfeuchtigkeit abhängen, während Nährstoffzugaben oft zweitrangig sind. Die hohe phänotypische Plastizität der Roteiche, die sich in anpassbaren Gefäßstrukturen für unterschiedliche Wassertransport-Anforderungen manifestiert, macht sie zum idealen Strukturbaum für klimatisch variable Standorte, wo das Kleegras-System als grüner Puffer zwischen den extremen Wetterjahren fungiert.",
+    "infoUrl": "agroforst-info-100/066_Roteiche_Kleegras_info.mp3"
+  },
+  "song_067": {
+    "title": "Roteiche und Mais Allegro",
+    "audioUrl": "agroforst-songs-100/067_Roteiche_Mais.mp3",
+    "mood": "Kooperativ",
+    "tree": "roteiche",
+    "plant": "mais",
+    "info": "Die Roteiche erweist sich als überraschend maistauglicher Agroforst-Partner, da ihre moderaten Jugendwachstumsraten und offene Kronenstruktur der lichtfordernden C4-Photosynthese des Mais deutlich weniger im Weg stehen als bei den dichten Kronen schnellwachsender Pappeln. Kanadische Intercropping-Studien aus Québec dokumentieren, dass Mais-Erträge zwar nahe den Roteichen-Reihen sinken, doch diese Verluste sind geringer als bei anderen Baumsystemen - ein entscheidender Vorteil, der der langsameren Kronenentwicklung und den größeren Lichtlücken zu verdanken ist. Die C4-Maschinerie des Mais, die bei Temperaturen über 25°C und Vollsonne ihre maximale Effizienz entfaltet, kann unter dem lichten Blätterdach junger Roteichen immer noch 60-70% ihrer Leistung erbringen. Langfristig wandelt sich dieses System: Während die Mais-Produktivität mit zunehmender Beschattung sinkt, entwickelt sich ein Kohlenstoff-speicherndes Ökosystem, das über 31 Jahre hinweg die höchsten Boden-Kohlenstoff-Werte aller untersuchten Baum-Intercropping-Systeme erreicht - ein Beispiel dafür, wie sich ökonomische und ökologische Ziele über verschiedene Zeitskalen ergänzen können.",
+    "infoUrl": "agroforst-info-100/067_Roteiche_Mais_info.mp3"
+  },
+  "song_068": {
+    "title": "Roteiche und Sonnenblume Fanfare",
+    "audioUrl": "agroforst-songs-100/068_Roteiche_Sonnenblume.mp3",
+    "mood": "Kooperativ",
+    "tree": "roteiche",
+    "plant": "sonnenblume",
+    "info": "Die Kombination von Roteiche und Sonnenblume stellt eine interessante, wenn auch noch wenig erforschte Grenze des nordamerikanischen Agroforsts dar - während etablierte TBI-Systeme in Ontario und Québec traditionell auf schattentolerante Kulturen wie Sojabohne setzen, könnte die lichteren Kronenarchitektur der Roteiche neue Möglichkeiten für lichtfordernde Ölsaaten eröffnen. Im Gegensatz zu den dichten, beschattenden Kronen europäischer Eichen entwickelt die Roteiche besonders in den ersten 15-20 Jahren eine offenere Struktur mit größeren Lichtlücken, die der heliotropen Sonnenblume deutlich bessere Wachstumsbedingungen bieten könnte. Die einjährige Vegetationsperiode der Sonnenblume von April bis September nutzt geschickt die lichtreiche Phase vor und nach dem vollen Roteichen-Laubaustrieb, wodurch sie möglicherweise 70-80% ihrer Vollsonne-Produktivität erreichen könnte. Diese theoretische Kombination repräsentiert das Potenzial für innovative Agroforst-Systeme, die sowohl die langfristige Kohlenstoff-Speicherung der bewährten Roteichen-TBI-Systeme als auch die kurzfristige Ölsaaten-Produktion kombinieren - ein Ansatz, der empirische Feldversuche zur Validierung verdient hätte.",
+    "infoUrl": "agroforst-info-100/068_Roteiche_Sonnenblume_info.mp3"
+  },
+  "song_069": {
+    "title": "Roteiche und Kuerbis Interlude",
+    "audioUrl": "agroforst-songs-100/069_Roteiche_Kuerbis.mp3",
+    "mood": "Harmonisch",
+    "tree": "roteiche",
+    "plant": "kürbis",
+    "info": "Die Partnerschaft zwischen Roteiche und Kürbis exemplifiziert das Potenzial nordamerikanischer Agroforst-Systeme für multifunktionale Landnutzung, wobei die großflächigen Kürbisblätter als lebender Mulch eine nahezu perfekte Unkrautkontrolle von 90% erreichen und gleichzeitig die Bodenfeuchtigkeit unter dem schützenden Roteichen-Kronendach konservieren. Diese Kombination nutzt geschickt die moderate Schattentoleranz der Cucurbitaceae, die unter der gemäßigten Beschattung der Roteiche nicht nur gedeihen, sondern sogar von dem verbesserten Mikroklima profitieren - reduzierte Temperaturextreme und gleichmäßigere Bodenfeuchtigkeit führen zu gesünderem Pflanzenwachstum und höherer Stressresistenz. Der Schlüssel zum Erfolg liegt im aktiven Kronenmanagement der Roteiche durch selektive Auslichtung, wodurch ausreichend Sonnenlicht für die Kürbisphotosynthese durchdringt, während die Bodenbedeckung ihre Unkraut-unterdrückende Wirkung voll entfalten kann. Diese Praxis, die bereits in verschiedenen nordamerikanischen Betrieben etabliert ist, demonstriert, wie traditionelle Bodenbewirtschaftung und moderne Baumzucht synergetisch kombiniert werden können, um sowohl kurzfristige Kürbiserträge als auch langfristige Kohlenstoff-Speicherung zu optimieren.",
+    "infoUrl": "agroforst-info-100/069_Roteiche_Kuerbis_info.mp3"
+  },
+  "song_070": {
+    "title": "Roteiche und Kartoffel Rhapsodie",
+    "audioUrl": "agroforst-songs-100/070_Roteiche_Kartoffel.mp3",
+    "mood": "Distanziert",
+    "tree": "roteiche",
+    "plant": "kartoffel",
+    "info": "Die Kombination von Roteiche und Kartoffel repräsentiert ein klassisches Dilemma der nordamerikanischen Agroforst-Entwicklung: Während die hohe phänotypische Plastizität und Anpassungsfähigkeit der Roteiche sie zu einem idealen Strukturbaum für Kohlenstoff-Speicherung und Klimaresilienz macht, ist die extreme Schattenempfindlichkeit der Kartoffel physiologisch unvereinbar mit diesem langfristigen Ziel. In der kritischen Phase der Tuberbildung, wenn die Kartoffelpflanzen 80-90% ihrer Vollsonne-Photosyntheseleistung benötigen, kann selbst die lichte Krone einer jungen Roteiche die Knollenentwicklung um 40-60% reduzieren - ein ökonomisch nicht vertretbarer Verlust. Diese Inkompatibilität erklärt, warum keine nordamerikanischen Agroforst-Studien erfolgreiche Roteiche-Kartoffel-Systeme dokumentieren, obwohl beide Arten in gemäßigten Klimazonen heimisch sind. Die einzige praktikable Phase für diese Kombination liegt in den ersten 3-5 Jahren nach der Baumpflanzung, wenn die offene Jugendkrone der Roteiche noch ausreichend Licht durchlässt - doch diese temporäre Lösung rechtfertigt nicht die Investition in ein System, das sich mit dem Baumwachstum selbst eliminiert und zeigt die Grenzen zwischen kurzfristiger Nahrungsmittelproduktion und langfristiger Ökosystem-Entwicklung auf.",
+    "infoUrl": "agroforst-info-100/070_Roteiche_Kartoffel_info.mp3"
+  },
+  "song_071": {
+    "title": "Elsbeere und Weizen Elegie",
+    "audioUrl": "agroforst-songs-100/071_Elsbeere_Weizen.mp3",
+    "mood": "Konflikt",
+    "tree": "elsbeere",
+    "plant": "weizen",
+    "info": "Die Elsbeere zählt zu Europas seltensten Baumarten und stellt eine der problematischsten Agroforst-Kombinationen mit Weizen dar. Ihre extrem langsame Wuchsgeschwindigkeit macht sie über Jahrzehnte zu einem schwachen Konkurrenten, der dennoch durch zunehmende Beschattung die Weizenerträge um 30-50% reduziert. Die fehlende Forschung zu dieser Kombination spiegelt die praktischen Schwierigkeiten wider: Elsbeeren sind schwer zu etablieren und benötigen spezielle Standortbedingungen. Trotz ihres hohen ökologischen Wertes für seltene Fauna macht sie die mangelnde Wirtschaftlichkeit für produktive Agroforst-Systeme ungeeignet.",
+    "infoUrl": "agroforst-info-100/071_Elsbeere_Weizen_info.mp3"
+  },
+  "song_072": {
+    "title": "Elsbeere und Dinkel Serenata",
+    "audioUrl": "agroforst-songs-100/072_Elsbeere_Dinkel.mp3",
+    "mood": "Transzendent",
+    "tree": "elsbeere",
+    "plant": "dinkel",
+    "info": "Elsbeere und Dinkel vereinen als seltenes Duo die Herausforderungen des Artenschutzes mit den Hoffnungen klimaresilienter Landwirtschaft. Beide Arten benötigen hohe Lichtmengen und sind daher nur in lichten Waldbeständen oder Alley-Cropping-Systemen mit weiten Baumabständen kompatibel. Die extreme Managementintensität der Elsbeere-Etablierung - von Verbissschutz bis Lichtlücken-Management - macht diese Kombination wirtschaftlich schwierig, aber ökologisch wertvoll. Ihre gemeinsame Dürretoleranz positioniert sie als Investition in eine klimagewandelte Zukunft, in der seltene genetische Ressourcen überlebenswichtig werden könnten.",
+    "infoUrl": "agroforst-info-100/072_Elsbeere_Dinkel_info.mp3"
+  },
+  "song_073": {
+    "title": "Elsbeere und Gerste Minuett",
+    "audioUrl": "agroforst-songs-100/073_Elsbeere_Gerste.mp3",
+    "mood": "Distanziert",
+    "tree": "elsbeere",
+    "plant": "gerste",
+    "info": "Elsbeere und Gerste stehen als lichtbedürftige Arten in direkter Konkurrenz um die Sonnenenergie - ein klassisches Schatten-Dilemma im Agroforst. Die seltene Elsbeere benötigt als Pionierbaumart offene Standorte, während Gerste ihre C3-Photosynthese nur bei ausreichend Licht effizient betreibt. Ihre oberflächennahen Wurzelsysteme verstärken die Ressourcenkonkurrenz um Wasser und Nährstoffe in den oberen 30 cm des Bodens. Nur durch weite Baumabstände von mindestens 20 Metern und regelmäßigen Kronenschnitt lässt sich diese schwierige Partnerschaft stabilisieren.",
+    "infoUrl": "agroforst-info-100/073_Elsbeere_Gerste_info.mp3"
+  },
+  "song_074": {
+    "title": "Elsbeere und Ackerbohne Aria",
+    "audioUrl": "agroforst-songs-100/074_Elsbeere_Ackerbohne.mp3",
+    "mood": "Harmonisch",
+    "tree": "elsbeere",
+    "plant": "ackerbohne",
+    "info": "Ackerbohne und Elsbeere bilden ein klassisches Geber-Nehmer-Paar der Agroforst-Symbiose, bei dem die stickstoff-fixierende Leguminose dem seltenen Baum gezielt Nährstoffe liefert. Die Rhizobium-Bakterien in den Bohnenwurzeln wandeln Luftstickstoff in pflanzenverfügbare Form um und verbessern so die Nährstoffversorgung der nicht-fixierenden Elsbeere aus der Rosaceae-Familie. Beide Arten zeigen moderate Schattentoleranz, wodurch eine ausgewogene Lichtnutzung bei optimaler Baumdichte möglich wird. Diese bewährte Leguminosen-Baum-Partnerschaft kombiniert nachhaltige Bodenverbesserung mit dem Erhalt seltener genetischer Ressourcen.",
+    "infoUrl": "agroforst-info-100/074_Elsbeere_Ackerbohne_info.mp3"
+  },
+  "song_075": {
+    "title": "Elsbeere und Lupine Invention",
+    "audioUrl": "agroforst-songs-100/075_Elsbeere_Lupine.mp3",
+    "mood": "Kooperativ",
+    "tree": "elsbeere",
+    "plant": "lupine",
+    "info": "Lupine und Elsbeere bilden eine Hochleistungs-Nährstoffpartnerschaft, bei der die Leguminose sowohl Stickstoff fixiert als auch durch ihre einzigartigen Cluster-Wurzeln Phosphor aus unlöslichen Bodenreserven mobilisiert. Diese spezialisierten Proteoid-Wurzeln scheiden organische Säuren aus, die festgebundenen Phosphor lösen und beiden Partnern verfügbar machen - ein natürlicher Bergbaubetrieb im Boden. Beide Arten konkurrieren allerdings um optimale Lichtbedingungen, da sowohl die schattenintolerante Lupine als auch die lichtbedürftige Elsbeere Vollsonne bevorzugen. Nur durch weite Baumabstände von 15-20 Metern lässt sich diese nährstoffreiche, aber lichtintensive Allianz erfolgreich etablieren.",
+    "infoUrl": "agroforst-info-100/075_Elsbeere_Lupine_info.mp3"
+  },
+  "song_076": {
+    "title": "Elsbeere und Kleegras Pastoral",
+    "audioUrl": "agroforst-songs-100/076_Elsbeere_Kleegras.mp3",
+    "mood": "Harmonisch",
+    "tree": "elsbeere",
+    "plant": "kleegras",
+    "info": "Kleegras und Elsbeere verkörpern das klassische Silvopasture-Prinzip, bei dem stickstoff-fixierende Kleearten wie Rotklee eine dauerhafte Nährstoffgrundlage für den seltenen Waldbaum schaffen. Die Klee-Gras-Mischung zeigt unter dem lichten Schatten der Elsbeere bessere Dürreresilienz als Gras-Monokulturen und kann ihre Stickstoff-Fixierungskapazität nach moderatem Trockenstress vollständig wiederherstellen. Bestimmte Klee-Genotypen entwickeln unter Baumschatten verstärkte Knöllchenbildung und optimieren so die symbiotische Stickstoff-Bereitstellung für das gesamte System. Diese bewährte Kombination schafft ein dauerhaft grünes Fundament, das sowohl den Erhalt der seltenen Elsbeere als auch nachhaltigen Futteranbau ermöglicht.",
+    "infoUrl": "agroforst-info-100/076_Elsbeere_Kleegras_info.mp3"
+  },
+  "song_077": {
+    "title": "Elsbeere und Mais Lamento",
+    "audioUrl": "agroforst-songs-100/077_Elsbeere_Mais.mp3",
+    "mood": "Konflikt",
+    "tree": "elsbeere",
+    "plant": "mais",
+    "info": "Elsbeere und Mais verkörpern eine der schwierigsten Agroforst-Kombinationen, da beide als extreme Lichtkonkurrenten um dieselbe Ressource kämpfen. Der C4-photosynthetische Mais verliert unter dem Schatten der lichtbedürftigen Elsbeere dramatisch an Ertrag - bereits 50% Beschattung halbiert die Kolbenproduktion. Seine genetisch begrenzte Schattentoleranz und das typische \"Schattenvermeidungssyndrom\" mit verzweifeltem Verlängerungswachstum können die fundamentale physiologische Inkompatibilität nicht kompensieren. Diese Konstellation funktioniert nur in extrem weiten Pflanzabständen, die den Agroforst-Gedanken ad absurdum führen.",
+    "infoUrl": "agroforst-info-100/077_Elsbeere_Mais_info.mp3"
+  },
+  "song_078": {
+    "title": "Elsbeere und Sonnenblume Threnody",
+    "audioUrl": "agroforst-songs-100/078_Elsbeere_Sonnenblume.mp3",
+    "mood": "Distanziert",
+    "tree": "elsbeere",
+    "plant": "sonnenblume",
+    "info": "Sonnenblume und Elsbeere stehen als klassische Lichtkonkurrenten in einem ungleichen Duell, bei dem die einjährige Sonnenblume den größeren Schaden erleidet. Bereits moderate Beschattung durch die lichtbedürftige Elsbeere verschlechtert drastisch die Photosynthese-Allokation der Sonnenblume und reduziert ihre Samenproduktion auf ein wirtschaftlich unrentables Niveau. Die allelopathischen Wurzelexsudate der Sonnenblume mit phenolischen Säuren können zwar Unkraut unterdrücken, aber diese natürliche Herbizidwirkung kompensiert nicht die fundamentale Lichtkonkurrenz. Diese Kombination funktioniert nur bei extrem weiten Baumabständen, wodurch der Agroforst-Charakter verloren geht.",
+    "infoUrl": "agroforst-info-100/078_Elsbeere_Sonnenblume_info.mp3"
+  },
+  "song_079": {
+    "title": "Elsbeere und Kuerbis Scherzo",
+    "audioUrl": "agroforst-songs-100/079_Elsbeere_Kuerbis.mp3",
+    "mood": "Groove",
+    "tree": "elsbeere",
+    "plant": "kürbis",
+    "info": "Kürbis und Elsbeere bilden eine funktionale Bodendecke-Partnerschaft, bei der die kriechenden Ranken einen natürlichen grünen Teppich unter dem seltenen Baum ausbreiten. Die großflächigen Kürbisblätter unterdrücken effektiv Unkraut und konservieren durch Verdunstungsschutz die Bodenfeuchtigkeit - ein natürliches Mulchsystem mit essbarem Bonus. Obwohl Kürbis grundsätzlich vollsonnige Standorte bevorzugt, können kräftige Sorten den lichten Schatten junger Elsbeeren tolerieren, solange ausreichend Streulicht verfügbar ist. Diese Kombination funktioniert am besten in der Etablierungsphase der Bäume, bevor die Kronenschließung zu dicht wird.",
+    "infoUrl": "agroforst-info-100/079_Elsbeere_Kuerbis_info.mp3"
+  },
+  "song_080": {
+    "title": "Elsbeere und Kartoffel Stilleben",
+    "audioUrl": "agroforst-songs-100/080_Elsbeere_Kartoffel.mp3",
+    "mood": "Distanziert",
+    "tree": "elsbeere",
+    "plant": "kartoffel",
+    "info": "Kartoffel und Elsbeere stehen in einem problematischen Licht-Wettlauf, bei dem die unterirdischen Schätze der Kartoffel den Kürzeren ziehen. Die Knollenbildung der Kartoffel reagiert hochsensibel auf jede Beschattung durch die lichtbedürftige Elsbeere - bereits moderate Lichtreduktion verzögert die Tuberisierung und verkleinert die Ernteerträge drastisch. Ihre oberflächennahen Wurzelsysteme verstärken die Ressourcenkonkurrenz um Wasser und Nährstoffe in den oberen Bodenschichten. Diese neutrale Kombination funktioniert nur bei extremer Baumstreuung, die den wirtschaftlichen Nutzen beider Kulturen stark einschränkt.",
+    "infoUrl": "agroforst-info-100/080_Elsbeere_Kartoffel_info.mp3"
+  },
+  "song_081": {
+    "title": "Weide und Weizen Brise",
+    "audioUrl": "agroforst-songs-100/081_Weide_Weizen.mp3",
+    "mood": "Distanziert",
+    "tree": "weide",
+    "plant": "weizen",
+    "info": "Weide und Weizen repräsentieren die klassische Herausforderung des Agroforsts zwischen direkten Ertragsverlusten und langfristigen Ökosystemvorteilen. Während die schattenintolerante C3-Getreidesorte unter der dichten Weidenkrone signifikante Photosynthese-Einbußen erleidet, verbessert der Baum kontinuierlich Bodenkohlenstoff, Wasserspeicherung und Mikroklima. Diese indirekten Bodenfruchtbarkeitsgewinne können über Jahre hinweg die direkten Beschattungsverluste teilweise kompensieren, besonders bei weitem Baumabstand. Die Kombination funktioniert am besten als extensives Silvopasture-System mit gelegentlicher Getreide-Integration statt als intensive Acker-Baum-Mischkultur.",
+    "infoUrl": "agroforst-info-100/081_Weide_Weizen_info.mp3"
+  },
+  "song_082": {
+    "title": "Weide und Dinkel Wellenlied",
+    "audioUrl": "agroforst-songs-100/082_Weide_Dinkel.mp3",
+    "mood": "Transzendent",
+    "tree": "weide",
+    "plant": "dinkel",
+    "info": "Dinkel und Weide verkörpern eine zeitlose Allianz zwischen uralter Getreide-Weisheit und natürlichem Baumschutz, die der Intensivlandwirtschaft trotzt. Das robuste Urgetreide zeigt seit der Bronzezeit bewährte Anpassungsfähigkeit an schwierige Standorte und kann daher die moderate Beschattung durch Weidenkronen besser kompensieren als moderne Hochleistungssorten. Die langfristige Bodenfruchtbarkeitsverbesserung durch Weide kombiniert sich perfekt mit Dinkels Fähigkeit, unter extensiven Bedingungen höhere Protein- und Nährstoffgehalte zu entwickeln. Diese Partnerschaft repräsentiert nachhaltigen Agroforst, der genetische Vielfalt erhält und produktive Ökosystemleistungen erbringt.",
+    "infoUrl": "agroforst-info-100/082_Weide_Dinkel_info.mp3"
+  },
+  "song_083": {
+    "title": "Weide und Gerste Stromschnellen",
+    "audioUrl": "agroforst-songs-100/083_Weide_Gerste.mp3",
+    "mood": "Groove",
+    "tree": "weide",
+    "plant": "gerste",
+    "info": "Gerste und Weide bilden eine klimaresiliente Partnerschaft, die Wassermangel besser übersteht als andere Getreide-Baum-Kombinationen. Die außergewöhnliche Dürretoleranz der Gerste durch osmolytische Anpassungen und tiefreichende Wurzeln harmoniert perfekt mit der wasserspeichernden Wirkung der Weidenkrone und dem verbesserten Bodenwasserhaushalt. Obwohl Gerste grundsätzlich schattenintolerant ist und 30-50% Ertragsverluste bei Halbschatten erleidet, kompensiert ihre überlegene Stressresilienz diese Nachteile teilweise. Diese Kombination eignet sich besonders für klimawandel-angepasste Agroforst-Systeme in Trockenregionen, wo Wassermangel wichtiger ist als optimale Lichtbedingungen.",
+    "infoUrl": "agroforst-info-100/083_Weide_Gerste_info.mp3"
+  },
+  "song_084": {
+    "title": "Weide und Ackerbohne Bach",
+    "audioUrl": "agroforst-songs-100/084_Weide_Ackerbohne.mp3",
+    "mood": "Harmonisch",
+    "tree": "weide",
+    "plant": "ackerbohne",
+    "info": "Ackerbohne und Weide verkörpern die ideale Silvopasture-Symbiose zwischen natürlicher Stickstoff-Produktion und Baum-Schutzwirkung. Die Leguminose wandelt bis zu 81,7% ihres Stickstoffbedarfs direkt aus der Atmosphäre um und bereichert kontinuierlich den Boden für die langfristige Weide-Ernährung. Ihre moderate Schattentoleranz macht sie zu einer der wenigen Kulturpflanzen, die unter lichter Weidenkrone noch produktiv bleiben und dabei ihre Rhizobium-Symbiose aufrechterhalten. Diese Partnerschaft reduziert die Abhängigkeit von synthetischen Düngern und schafft ein selbst-ernährendes Agroforst-System mit nachhaltiger Stickstoff-Ökonomie.",
+    "infoUrl": "agroforst-info-100/084_Weide_Ackerbohne_info.mp3"
+  },
+  "song_085": {
+    "title": "Weide und Lupine Fluss",
+    "audioUrl": "agroforst-songs-100/085_Weide_Lupine.mp3",
+    "mood": "Kooperativ",
+    "tree": "weide",
+    "plant": "lupine",
+    "info": "Lupine und Weide bilden eine hocheffiziente Nährstoff-Allianz, die sowohl Stickstoff aus der Luft bindet als auch Phosphor aus dem Boden mobilisiert. Die spezialisierten Cluster-Wurzeln der Lupine scheiden Zitrat und Malat aus, lösen schwerlösliche Phosphate und machen sie der partnerlosen Weide verfügbar. Gleichzeitig bereichert die Rhizobium-Symbiose der Lupine kontinuierlich den Bodenstickstoff, während die schattentolerante Weide langfristig Bodenkohlenstoff aufbaut. Diese Partnerschaft funktioniert am besten bei lichtem Weidenbestand, der der sonnenliebenden Lupine ausreichend Photosynthese-Raum lässt.",
+    "infoUrl": "agroforst-info-100/085_Weide_Lupine_info.mp3"
+  },
+  "song_086": {
+    "title": "Weide und Kleegras Mäander",
+    "audioUrl": "agroforst-songs-100/086_Weide_Kleegras.mp3",
+    "mood": "Harmonisch",
+    "tree": "weide",
+    "plant": "kleegras",
+    "info": "Weide und Kleegras verkörpern das perfekte Silvopasture-Trio aus Schattenspender, Stickstoff-Produzent und Futtergrundlage für nachhaltiges Weidemanagement. Die N-fixierenden Kleearten bereichern kontinuierlich den Boden und unterstützen sowohl das Graswachstum als auch die langfristige Nährstoffversorgung der Weide. Das günstige Mikroklima unter der Baumkrone reduziert Hitzestress bei Weidetieren und führt zu besseren Gewichtszunahmen im Vergleich zu reinen Grünlandsystemen. Diese bewährte Kombination schafft ein grünes Wohnzimmer mit natürlicher Klimaanlage, das Futterproduktion, Tiergesundheit und Biodiversität optimal vereint.",
+    "infoUrl": "agroforst-info-100/086_Weide_Kleegras_info.mp3"
+  },
+  "song_087": {
+    "title": "Weide und Mais Quelle",
+    "audioUrl": "agroforst-songs-100/087_Weide_Mais.mp3",
+    "mood": "Distanziert",
+    "tree": "weide",
+    "plant": "mais",
+    "info": "Weide und Mais stehen für den klassischen Konflikt zwischen kurzfristigen Ertragsverlusten und langfristigen Standortverbesserungen im Agroforst. Der C4-photosynthetische Mais kollabiert unter der dichten Weidenkrone - bereits moderate Beschattung halbiert seine Kolbenproduktion und löst verzweifeltes Verlängerungswachstum aus. Während die Weide über Jahre hinweg Bodenkohlenstoff aufbaut und Wasserretention verbessert, können diese indirekten Vorteile die fundamentale physiologische Inkompatibilität nicht kompensieren. Diese neutrale Kombination funktioniert nur bei extremen Baumabständen von über 25 Metern, wodurch der Agroforst-Charakter verloren geht.",
+    "infoUrl": "agroforst-info-100/087_Weide_Mais_info.mp3"
+  },
+  "song_088": {
+    "title": "Weide und Sonnenblume Delta",
+    "audioUrl": "agroforst-songs-100/088_Weide_Sonnenblume.mp3",
+    "mood": "Kooperativ",
+    "tree": "weide",
+    "plant": "sonnenblume",
+    "info": "Weide und Sonnenblume demonstrieren erfolgreiches Lichtmanagement durch flexible Baumpflege im dynamischen Agroforst-System. Die schnellwachsende Weide kann durch gezielten Kronenschnitt ausreichend Licht für die sonnenhungrigen Blütenriesen schaffen, ohne die langfristigen Standortvorteile zu verlieren. Die allelopathischen Wurzelexsudate der Sonnenblume unterdrücken natürlich Unkräuter und reduzieren den Pflegeaufwand, während ihre prächtigen Blüten wichtige Bestäuber anziehen. Diese goldene Partnerschaft unter grünem Schirm vereint Ölsaatenproduktion mit nachhaltiger Bodenverbesserung und aktivem Biodiversitätsschutz.",
+    "infoUrl": "agroforst-info-100/088_Weide_Sonnenblume_info.mp3"
+  },
+  "song_089": {
+    "title": "Weide und Kuerbis Teich",
+    "audioUrl": "agroforst-songs-100/089_Weide_Kuerbis.mp3",
+    "mood": "Groove",
+    "tree": "weide",
+    "plant": "kürbis",
+    "info": "Kürbis und Weide schaffen ein natürliches Mulchsystem, bei dem kriechende Ranken einen lebenden Teppich unter dem schützenden Blätterdach ausbreiten. Die großflächigen Kürbisblätter unterdrücken effektiv Unkraut und konservieren Bodenfeuchtigkeit, während sie gleichzeitig den lichten Schatten junger Weidentriebe für ihr eigenes Wachstum nutzen. Obwohl Kürbis grundsätzlich sonnige Standorte bevorzugt, profitiert er vom Windschutz und der verbesserten Bodenqualität der schnellwachsenden Weide. Diese Partnerschaft funktioniert am besten in der Etablierungsphase, bevor die Weidenkrone zu dicht wird und das Licht zu stark begrenzt.",
+    "infoUrl": "agroforst-info-100/089_Weide_Kuerbis_info.mp3"
+  },
+  "song_090": {
+    "title": "Weide und Kartoffel Oase",
+    "audioUrl": "agroforst-songs-100/090_Weide_Kartoffel.mp3",
+    "mood": "Harmonisch",
+    "tree": "weide",
+    "plant": "kartoffel",
+    "info": "Weide und Kartoffel bilden eine überraschend erfolgreiche Allianz, bei der intelligentes Kronenschnitt-Management die schattensensiblen Knollen optimal versorgt. Der Windschutz durch Weidenreihen reduziert signifikant die gefürchtete Krautfäule und mechanische Schäden, während gleichzeitig die Bodenwasserspeicherung für die knollenbildende Nachtschattengewächs verbessert wird. Die langfristige Bodenkohlenstoff-Anreicherung durch Weide schafft die lockere, humusreiche Struktur, die Kartoffeln für optimale Entwicklung benötigen. Diese Partnerschaft unter grünem Schutzschild kombiniert nachhaltigen Erosionsschutz mit verbesserter Knollenqualität und reduziertem Krankheitsdruck.",
+    "infoUrl": "agroforst-info-100/090_Weide_Kartoffel_info.mp3"
+  },
+  "song_091": {
+    "title": "Paulownia und Weizen Turbowind",
+    "audioUrl": "agroforst-songs-100/091_Paulownia_Weizen.mp3",
+    "mood": "Krieg",
+    "tree": "paulownia",
+    "plant": "weizen",
+    "info": "Paulownia und Weizen repräsentieren eine der verheerendsten Agroforst-Kombinationen, bei der der schnellwachsende Baum-Gigant systematisch die Getreidekultur auslöscht. Die rasante Kronenentwicklung der Paulownia schafft binnen weniger Jahre einen so dichten Schatten, dass die lichtabhängige C3-Photosynthese des Weizens praktisch zum Erliegen kommt. Zusätzlich hemmen potentielle allelopathische Verbindungen aus Wurzel- und Blattexsudaten die Keimung und das Wachstum der Getreidepflanzen. Diese Kombination führt zu totaler Ernteverlusten und demonstriert, warum aggressive Baumarten wie Paulownia niemals mit schattenintoleranten Kulturen kombiniert werden sollten.",
+    "infoUrl": "agroforst-info-100/091_Paulownia_Weizen_info.mp3"
+  },
+  "song_092": {
+    "title": "Paulownia und Dinkel Schatten",
+    "audioUrl": "agroforst-songs-100/092_Paulownia_Dinkel.mp3",
+    "mood": "Konflikt",
+    "tree": "paulownia",
+    "plant": "dinkel",
+    "info": "Dinkel und Paulownia zeigen den verzweifelten Kampf uralter Getreide-Weisheit gegen moderne Baum-Giganten im missglückten Agroforst-Experiment. Obwohl das robuste Urgetreide seit der Bronzezeit schwierige Standorte meistert, kapituliert es vor der aggressiven Schatten-Dominanz der rasant wachsenden Paulownia. Die genetische Stresstoleranz des Dinkels kann zwar den kompletten Totalausfall verhindern, aber wirtschaftlich rentable Erträge bleiben unter der dichten Baumkrone unmöglich. Diese Kombination beweist, dass selbst die widerstandsfähigsten Getreidesorten gegen extreme Beschattung und allelopathische Unterdrückung machtlos sind.",
+    "infoUrl": "agroforst-info-100/092_Paulownia_Dinkel_info.mp3"
+  },
+  "song_093": {
+    "title": "Paulownia und Gerste Finsternis",
+    "audioUrl": "agroforst-songs-100/093_Paulownia_Gerste.mp3",
+    "mood": "Konflikt",
+    "tree": "paulownia",
+    "plant": "gerste",
+    "info": "Gerste und Paulownia zeigen den ungleichen Kampf zwischen Wasserspar-Meister und Schatten-Gigant im problematischen Agroforst-System. Die außergewöhnliche Dürretoleranz der Gerste durch osmolytische Anpassungen hilft ihr, der intensiven Wasserkonkurrenz der schnellwachsenden Paulownia teilweise zu widerstehen. Dennoch kollabiert ihre C3-Photosynthese unter dem dichten Baumdach, und allelopathische Hemmstoffe blockieren zusätzlich ihr Wachstumspotential. Nur die kurze Vegetationsperiode der Gerste ermöglicht minimale Erträge, bevor die Paulownia-Krone vollständig schließt und jede Getreideproduktion unmöglich macht.",
+    "infoUrl": "agroforst-info-100/093_Paulownia_Gerste_info.mp3"
+  },
+  "song_094": {
+    "title": "Paulownia und Ackerbohne Wettstreit",
+    "audioUrl": "agroforst-songs-100/094_Paulownia_Ackerbohne.mp3",
+    "mood": "Harmonisch",
+    "tree": "paulownia",
+    "plant": "ackerbohne",
+    "info": "Ackerbohne und Paulownia zeigen die erste halbwegs funktionale Kombination im Paulownia-Agroforst, bei der Leguminosen-Vorteile die Schatten-Nachteile teilweise kompensieren. Die moderate Schattentoleranz der Ackerbohne ermöglicht ihr das Überleben unter der relativ offenen Paulownia-Krone, während ihre Rhizobium-Symbiose den Boden mit Stickstoff anreichert. Obwohl allelopathische Hemmstoffe der Paulownia weiterhin das Bohnenwachstum beeinträchtigen, ist die Wirkung gegen Leguminosen schwächer als gegen Getreide. Diese grenzwertig negative Kombination zeigt, dass selbst schnellwachsende Baumarten mit stickstoff-fixierenden Partnern kooperieren können.",
+    "infoUrl": "agroforst-info-100/094_Paulownia_Ackerbohne_info.mp3"
+  },
+  "song_095": {
+    "title": "Paulownia und Lupine Speed",
+    "audioUrl": "agroforst-songs-100/095_Paulownia_Lupine.mp3",
+    "mood": "Kooperativ",
+    "tree": "paulownia",
+    "plant": "lupine",
+    "info": "Lupine und Paulownia schaffen die erste erfolgreiche Paulownia-Allianz durch geschickte Nährstoff-Alchemie und komplementäre Wachstumsstrategien. Die spezialisierten Cluster-Wurzeln der Lupine mobilisieren nicht nur schwerlösliche Phosphate für beide Partner, sondern fixieren zusätzlich atmosphärischen Stickstoff über Rhizobium-Symbiose. Diese doppelte Bodenverbesserung unterstützt das aggressive Wachstum der Paulownia, während die moderate Schattentoleranz der Lupine ihr Überleben unter der relativ offenen Baumkrone ermöglicht. Diese positive Partnerschaft beweist, dass selbst dominante Schnellwachser wie Paulownia mit den richtigen Leguminosen-Partnern produktive Agroforst-Systeme bilden können.",
+    "infoUrl": "agroforst-info-100/095_Paulownia_Lupine_info.mp3"
+  },
+  "song_096": {
+    "title": "Paulownia und Kleegras Dimmer",
+    "audioUrl": "agroforst-songs-100/096_Paulownia_Kleegras.mp3",
+    "mood": "Groove",
+    "tree": "paulownia",
+    "plant": "kleegras",
+    "info": "Kleegras und Paulownia stehen in neutraler Balance zwischen Leguminosen-Vorteilen und Baum-Dominanz im anspruchsvollen Silvopasture-System. Die N-fixierenden Kleearten unterstützen das aggressive Wachstum der Paulownia durch kontinuierliche Bodenstickstoff-Anreicherung, während sie gleichzeitig um ausreichend Licht für ihre eigene Photosynthese kämpfen. Nur durch präzises Kronenschnitt-Management lässt sich die Balance zwischen maximaler Baumproduktivität und minimaler Futtergrundlage aufrechterhalten. Diese neutrale Partnerschaft zeigt die Grenzen intensiver Agroforst-Systeme, bei denen schnellwachsende Bäume und Grünlandproduktion um jeden Quadratmeter konkurrieren.",
+    "infoUrl": "agroforst-info-100/096_Paulownia_Kleegras_info.mp3"
+  },
+  "song_097": {
+    "title": "Paulownia und Mais Giganten",
+    "audioUrl": "agroforst-songs-100/097_Paulownia_Mais.mp3",
+    "mood": "Harmonisch",
+    "tree": "paulownia",
+    "plant": "mais",
+    "info": "Mais und Paulownia überraschen mit einer der erfolgreichsten Kombinationen durch geschicktes Timing und C4-Effizienz-Vorteile. Die überlegene C4-Photosynthese des Mais funktioniert unter moderater Paulownia-Beschattung deutlich besser als die C3-Systeme anderer Getreidearten, während der Windschutz durch Baumreihen Wasserstress und mechanische Schäden erheblich reduziert. Das schnelle Wachstum der Paulownia ermöglicht flexibles Kronenschnitt-Management zur optimalen Lichtregulierung während der kurzen Mais-Vegetationsperiode. Diese positive Allianz zeigt, wie physiologische Pflanzen-Eigenschaften und intelligente Baumpflege selbst problematische Baumarten zu produktiven Agroforst-Partnern machen können.",
+    "infoUrl": "agroforst-info-100/097_Paulownia_Mais_info.mp3"
+  },
+  "song_098": {
+    "title": "Paulownia und Sonnenblume Solar",
+    "audioUrl": "agroforst-songs-100/098_Paulownia_Sonnenblume.mp3",
+    "mood": "Transzendent",
+    "tree": "paulownia",
+    "plant": "sonnenblume",
+    "info": "Sonnenblume und Paulownia bilden eine überraschend harmonische Allianz zwischen zwei Riesen-Gewächsen mit komplementären Bedürfnissen. Der entscheidende Windschutz durch Paulownia-Reihen verhindert das gefürchtete Umknicken der bis zu 3 Meter hohen Sonnenblumen-Stängel und reduziert gleichzeitig ihre Wasserverdunstung erheblich. Die allelopathischen Wurzelexsudate der Sonnenblume unterdrücken natürlich Unkräuter zwischen den Baumreihen und reduzieren so den Pflegeaufwand im gesamten System. Diese goldene Partnerschaft unter grünem Schutzschild zeigt, wie mechanischer Schutz und natürliche Unkrautbekämpfung selbst lichtbedürftige Kulturen mit schnellwachsenden Bäumen vereinbaren können.",
+    "infoUrl": "agroforst-info-100/098_Paulownia_Sonnenblume_info.mp3"
+  },
+  "song_099": {
+    "title": "Paulownia und Kuerbis Dschungel",
+    "audioUrl": "agroforst-songs-100/099_Paulownia_Kuerbis.mp3",
+    "mood": "Kooperativ",
+    "tree": "paulownia",
+    "plant": "kürbis",
+    "info": "Kürbis und Paulownia schaffen die erfolgreichste Paulownia-Kombination durch dreidimensionale Raumnutzung und perfekte Mikroklima-Synergie. Die kräftigen Kürbis-Ranken nutzen die schnell wachsenden Paulownia-Stämme als natürliche Kletterhilfe und erschließen so zusätzliche Anbaufläche in der Vertikalen. Gleichzeitig bilden die großflächigen Kürbis-Blätter eine vollständige Bodendecke, die Unkräuter eliminiert und Bodenfeuchtigkeit für beide Partner konserviert. Diese grüne Erfolgsgeschichte beweist, wie intelligente Raumnutzung und Mikroklima-Management selbst aggressive Baumarten zu idealen Agroforst-Partnern transformieren können.",
+    "infoUrl": "agroforst-info-100/099_Paulownia_Kuerbis_info.mp3"
+  },
+  "song_100": {
+    "title": "Paulownia und Kartoffel Überschattung",
+    "audioUrl": "agroforst-songs-100/100_Paulownia_Kartoffel.mp3",
+    "mood": "Distanziert",
+    "tree": "paulownia",
+    "plant": "kartoffel",
+    "info": "Kartoffel und Paulownia beenden die 100 Kombinationen mit einem klassischen Agroforst-Dilemma zwischen Mikroklima-Vorteilen und Licht-Limitierung. Obwohl der Windschutz durch Paulownia die gefürchtete Krautfäule reduziert und das Mikroklima für die Knollenentwicklung verbessert, kann dies die fundamentale Schattenintoleranz der lichtabhängigen Tuberisierung nicht kompensieren. Die oberflächennahe Wurzelkonkurrenz verstärkt die Problematik, während allelopathische Hemmstoffe zusätzlich die Kartoffel-Vitalität beeinträchtigen. Diese grenzwertig negative Abschluss-Kombination zeigt die Grenzen des Paulownia-Agroforsts bei traditionellen Ackerkulturen auf.",
+    "infoUrl": "agroforst-info-100/100_Paulownia_Kartoffel_info.mp3"
+  }
+}

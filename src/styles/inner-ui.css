@@ -1,0 +1,482 @@
+/**
+ * ====================================================================
+ * INNER UI CSS - ALL UI COMPONENTS WITHIN THE CIRCLE
+ * ====================================================================
+ *
+ * Enthält alle UI-Elemente die im runden Display angezeigt werden:
+ * - FAB (Floating Action Button) - Music Player Toggle
+ * - Audio Panel - Glasmorphism Music Player
+ * - RFID Popup - Selection Interface
+ * - Progress Bars, Buttons, Status Indicators
+ *
+ * Framework: Beer CSS + Glasmorphism Extensions
+ * Optimiert für: 1080x1080 Touch Display
+ */
+
+/* ====================================================================
+ * FLOATING ACTION BUTTON (FAB) - MUSIC PLAYER TOGGLE
+ * ====================================================================
+ */
+
+/* FAB verwendet jetzt das universelle Button-System */
+.fab-agroforst {
+  position: absolute !important;
+  bottom: 18% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70px !important;
+  height: 70px !important;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+/* FAB spezifischer hover - MUSS spezifischer sein als .agroforst-btn:hover */
+.fab-agroforst.agroforst-btn:hover,
+.fab-agroforst.agroforst-btn:focus {
+  transform: translateX(-50%) scale(1.08) !important;
+}
+
+/* FAB Auto-Hide when Panel is active */
+.fab-agroforst.hidden {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* ====================================================================
+ * UNIFIED POPUP - MUSIC PLAYER + RFID + INFO PANEL
+ * ====================================================================
+ */
+
+/* Glasmorphism für Popup */
+.unified-popup {
+  position: fixed;
+  top: 50%; /* Exact center */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 88%;
+  max-width: 480px;
+  min-height: 480px;
+
+  /* EXACT FAB Glasmorphism */
+  background: rgba(0, 0, 0, 0.1) !important; /* Nur 10% schwarze Füllung */
+  border: 3px solid white !important; /* Weißer Außenring */
+  color: white !important;
+
+  /* Glaseffekt wie FAB */
+  backdrop-filter: blur(10px);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+  /* Animation */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index: 2500;
+
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.unified-popup.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%);
+
+  /* Verstärkte Glaseffekte bei Active - wie FAB hover */
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(15px);
+
+  box-shadow:
+    0 6px 25px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Popup Header */
+.popup-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.popup-title {
+  font-family: var(--font-primary);
+  font-size: clamp(1.2rem, 3.5vmin, 1.5rem);
+  font-weight: 600;
+  text-align: center;
+  color: white !important;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+/* Tree + Plant Selection Section (Top) */
+.selection-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.selection-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* 🚀 ULTRATHINK: Minimalistic FAB-Style Selection Cards */
+.selection-card {
+  /* EXACT FAB Glasmorphism */
+  background: rgba(0, 0, 0, 0.1) !important;
+  border: 2px solid white !important;
+  color: white !important;
+
+  /* Glaseffekt wie FAB */
+  backdrop-filter: blur(10px);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+  /* Simplified Layout */
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 1rem;
+}
+
+.selection-card:hover {
+  /* FAB Hover Effect */
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+  transform: scale(1.02);
+  backdrop-filter: blur(15px);
+
+  box-shadow:
+    0 6px 25px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.selection-card.selected {
+  /* Selected State: Primary Color */
+  background: rgba(46, 125, 50, 0.2) !important;
+  border-color: var(--primary) !important;
+  transform: scale(1.02);
+
+  box-shadow:
+    0 6px 20px rgba(46, 125, 50, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Card Icon Container */
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.tree-icon,
+.plant-icon {
+  font-size: 32px !important;
+  color: white !important;
+  display: block;
+  text-align: center;
+}
+
+.selection-card.selected .tree-icon,
+.selection-card.selected .plant-icon {
+  color: var(--primary) !important;
+}
+
+.selection-label {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--on-surface);
+  margin: 0;
+}
+
+.plus-symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--on-surface-variant);
+  opacity: 0.6;
+}
+
+/* Music Player Section (Middle) */
+.player-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.song-info {
+  text-align: center;
+}
+
+.song-title {
+  font-family: var(--font-primary);
+  font-size: clamp(1rem, 3vmin, 1.3rem);
+  font-weight: 600;
+  color: var(--on-surface);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.song-subtitle {
+  font-family: var(--font-secondary);
+  font-size: clamp(0.8rem, 2.5vmin, 1rem);
+  color: var(--on-surface-variant);
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* Universal Button System */
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Base Button Style - Einheitliches Glasmorphism Design */
+.agroforst-btn {
+  /* Core Glasmorphism */
+  background: rgba(0, 0, 0, 0.1) !important;
+  border: 2px solid white !important;
+  color: white !important;
+  backdrop-filter: blur(10px) !important;
+
+  /* Shadow & Effects */
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+
+  /* Animation */
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Hover State - Universal */
+.agroforst-btn:hover,
+.agroforst-btn:focus {
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(15px) !important;
+  transform: scale(1.05) !important;
+
+  box-shadow:
+    0 6px 25px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Active State - Universal */
+.agroforst-btn:active {
+  transform: scale(0.95) !important;
+}
+
+/* Size Variants */
+.agroforst-btn.large {
+  min-width: 60px;
+  height: 60px;
+}
+.agroforst-btn.medium {
+  min-width: 50px;
+  height: 50px;
+}
+.agroforst-btn.small {
+  min-width: 40px;
+  height: 40px;
+}
+
+/* Color Variants - Same base, different accents */
+.agroforst-btn.primary {
+  border-color: var(--primary) !important;
+}
+
+.agroforst-btn.primary:hover {
+  background: rgba(46, 125, 50, 0.2) !important;
+  border-color: var(--primary) !important;
+  box-shadow:
+    0 6px 25px rgba(46, 125, 50, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Volume Control - Simplified HTML5 Range Input */
+.volume-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.volume-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.volume-icon {
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  min-width: 24px;
+}
+
+.volume-slider {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.volume-slider::-webkit-slider-track {
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.volume-slider::-moz-range-track {
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+
+/* Info Panel (Hidden by default) */
+.info-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(30px);
+  border-radius: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 10;
+}
+
+.info-panel.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 100%;
+  text-align: center;
+}
+
+.info-text {
+  font-family: var(--font-secondary);
+  font-size: clamp(0.9rem, 2.5vmin, 1.1rem);
+  line-height: 1.6;
+  color: var(--on-surface);
+  margin: 0;
+}
+
+/* Speech Button verwendet das universelle Button-System */
+
+/* ====================================================================
+ * RESPONSIVE DESIGN - UI COMPONENTS
+ * ====================================================================
+ */
+
+/* Mobile Optimizations */
+@media (max-width: 600px) {
+  .fab-agroforst {
+    width: 65px !important;
+    height: 65px !important;
+    bottom: 20% !important;
+  }
+
+  .unified-popup {
+    width: 92%;
+    max-width: 400px;
+    padding: 1.5rem 1.2rem;
+  }
+
+  .control-btn {
+    min-width: 55px !important;
+    height: 55px !important;
+  }
+
+  .selection-card {
+    padding: 1.2rem 0.8rem;
+    border-radius: 14px;
+  }
+}
+
+/* Round Display Specific */
+@media (width: 1080px) and (height: 1080px) {
+  .unified-popup {
+    width: 85vmin;
+    max-width: 500px;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

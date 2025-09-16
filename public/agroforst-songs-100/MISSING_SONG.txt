@@ -1,0 +1,11 @@
+FEHLENDER SONG
+==============
+
+ID 077: Elsbeere & Mais
+
+Diese Kombination fehlt in den SUNO-Songs und muss noch generiert werden.
+
+Datenbank-Info:
+- Score: -3 (negativ)
+- Wissenschaftliche Basis: Elsbeere braucht volle Sonne, Mais ist extrem schattenintolerant
+- Die Kombination ist biologisch schwierig

@@ -1,0 +1,270 @@
+/**
+ * ====================================================================
+ * ROUND FRAME CSS - CIRCLE LAYOUT & RING ANIMATIONS
+ * ====================================================================
+ * 
+ * Spezialisiert auf:
+ * - 1080x1080 Round Display Layout
+ * - Äußere Ring-Animationen
+ * - Circle-Clipping und Overflow-Management
+ * - Hardware-spezifische Optimierungen
+ * 
+ * Hardware: Waveshare 5" Round IPS Display (1080x1080)
+ * Performance: Raspberry Pi optimiert
+ */
+
+/* ====================================================================
+ * AGROFORST THEME VARIABLES (SHARED)
+ * ====================================================================
+ */
+:root {
+  /* Primary Colors - Wald-Grün */
+  --primary: #2e7d32;
+  --on-primary: #ffffff;
+  --primary-container: rgba(46, 125, 50, 0.1);
+  --on-primary-container: #4caf50;
+
+  /* Secondary Colors - Helles Grün */  
+  --secondary: #8bc34a;
+  --on-secondary: #1a1a1a;
+  --secondary-container: rgba(139, 195, 74, 0.15);
+
+  /* Surface Colors - Dunkle Basis */
+  --surface: #0a0a0a;
+  --on-surface: #ffffff;
+  --surface-variant: #1a1a1a;
+  --on-surface-variant: #e0e0e0;
+
+  /* Accent & Special */
+  --tertiary: #4caf50;
+  --error: #f44336;
+  --warning: #ff9800;
+  --success: #4caf50;
+
+  /* Transparencies für Overlays */
+  --surface-overlay: rgba(10, 10, 10, 0.9);
+  --primary-glow: rgba(46, 125, 50, 0.3);
+  
+  /* Typography */
+  --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-secondary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* ====================================================================
+ * ROUND DISPLAY LAYOUT - 1080x1080px CIRCLE
+ * ====================================================================
+ */
+
+/* Root Container - Full Screen Setup */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--surface);
+  font-family: var(--font-secondary);
+  color: var(--on-surface);
+  
+  /* Prevent text selection and scrolling on touch */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  
+  /* Optimized for hardware rendering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Circle Container - Perfect 1:1 Aspect Ratio */
+.round-display {
+  width: 100vmin;
+  height: 100vmin;
+  max-width: 1080px;
+  max-height: 1080px;
+  
+  /* Perfect Circle Clipping */
+  border-radius: 50%;
+  overflow: hidden;
+  
+  /* Dark Background */
+  background: var(--surface);
+  
+  /* Smooth Scaling on Different Screens */
+  position: relative;
+  
+  /* Hardware Acceleration */
+  transform: translateZ(0);
+  will-change: transform;
+  
+  /* Subtle Border for Definition */
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  
+  /* Container for All Inner Content */
+  display: block;
+}
+
+/* ====================================================================
+ * CIRCLE FRAME OPTIMIZATIONS
+ * ====================================================================
+ */
+
+/* Ensure all children respect circle boundaries */
+.round-display > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Canvas Container - 3D Scene Background */
+#canvas-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  
+  /* Ensure canvas respects circle clipping */
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+/* ====================================================================
+ * RING ANIMATIONS & FRAME EFFECTS
+ * ====================================================================
+ */
+
+/* Subtle Ring Pulse Effect (Optional Enhancement) */
+.round-display::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  pointer-events: none;
+  z-index: 1000;
+  
+  /* Subtle glow effect */
+  background: linear-gradient(45deg, 
+    transparent, 
+    rgba(46, 125, 50, 0.3), 
+    transparent, 
+    rgba(139, 195, 74, 0.2),
+    transparent
+  );
+  background-size: 400% 400%;
+  
+  /* Slow rotation for subtle movement */
+  animation: ringRotation 20s linear infinite;
+  opacity: 0.6;
+}
+
+/* Ring Animation Keyframes */
+@keyframes ringRotation {
+  0% {
+    background-position: 0% 50%;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+    transform: rotate(360deg);
+  }
+}
+
+/* Disable ring animation on low-performance devices */
+@media (prefers-reduced-motion: reduce) {
+  .round-display::before {
+    animation: none;
+    opacity: 0.3;
+  }
+}
+
+/* ====================================================================
+ * RESPONSIVE FRAME ADJUSTMENTS
+ * ====================================================================
+ */
+
+/* Very Small Screens - Maintain Circle */
+@media (max-width: 480px) {
+  .round-display {
+    width: 98vmin;
+    height: 98vmin;
+    border-width: 1px;
+  }
+}
+
+/* Large Screens - Maximum Size Constraints */
+@media (min-width: 1400px) {
+  .round-display {
+    max-width: 1200px;
+    max-height: 1200px;
+  }
+}
+
+/* Landscape Orientation - Maintain Circle */
+@media (orientation: landscape) and (max-height: 800px) {
+  .round-display {
+    width: 95vh;
+    height: 95vh;
+  }
+}
+
+/* Portrait Orientation - Use Width */
+@media (orientation: portrait) {
+  .round-display {
+    width: 95vw;
+    height: 95vw;
+  }
+}
+
+/* Round Display Hardware - Perfect Match */
+@media (width: 1080px) and (height: 1080px) {
+  html, body {
+    overflow: hidden;
+    position: fixed;
+  }
+  
+  .round-display {
+    width: 1080px;
+    height: 1080px;
+    border: none;
+  }
+  
+  .round-display::before {
+    display: none; /* No ring effect on actual hardware */
+  }
+}
+
+/* ====================================================================
+ * PERFORMANCE OPTIMIZATIONS
+ * ====================================================================
+ */
+
+/* GPU Acceleration for Smooth Animations */
+.round-display,
+.round-display::before {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Optimize for Touch Devices */
+@media (hover: none) and (pointer: coarse) {
+  .round-display::before {
+    animation-duration: 30s; /* Slower on touch devices */
+  }
+}
+
+/* High DPI Displays - Crisp Borders */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .round-display {
+    border-width: 0.5px;
+  }
+}

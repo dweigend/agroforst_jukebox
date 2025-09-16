@@ -1,0 +1,146 @@
+{
+  "trees": {
+    "pappel": {
+      "ids": ["0009806867", "T001_PAPPEL", "B001"],
+      "name": "Pappel",
+      "type": "tree",
+      "info": "Schnellwachsender Laubbaum mit hohem Agroforst-Potenzial. Bietet schnellen Schatten und Windschutz.",
+      "assetPath": "tree_oak.obj"
+    },
+    "robinie": {
+      "ids": ["0009812134", "T002_ROBINIE", "B002"],
+      "name": "Robinie",
+      "type": "tree",
+      "info": "Selbstloser Nährstoff-Spender mit robustem Charakter. Fixiert Luftstickstoff, macht Boden fruchtbarer.",
+      "assetPath": "tree_default.obj"
+    },
+    "walnuss": {
+      "ids": ["0009809472", "T003_WALNUSS", "B003"],
+      "name": "Walnuss",
+      "type": "tree",
+      "info": "Kultivierter Langzeit-Denker mit hohen Ansprüchen. Liefert wertvollste Früchte und Edelholz.",
+      "assetPath": "tree_tall.obj"
+    },
+    "esskastanie": {
+      "ids": ["0009871245", "T004_ESSKASTANIE", "B004"],
+      "name": "Esskastanie",
+      "type": "tree",
+      "info": "Temperamentvolle Mediterrane mit sonnigem Gemüt. Liebt Wärme, gibt süße Früchte.",
+      "assetPath": "tree_oak.obj"
+    },
+    "obstbäume": {
+      "ids": ["0009790491", "T005_OBSTBÄUME", "B005"],
+      "name": "Obstbäume",
+      "type": "tree",
+      "info": "Vielseitige Schönlinge mit saisonalem Schauspiel. Von Blütenpracht bis Fruchternte - die Stars des Agroforsts.",
+      "assetPath": "tree_default.obj"
+    },
+    "eiche": {
+      "ids": ["0009842592", "T006_EICHE", "B006"],
+      "name": "Eiche",
+      "type": "tree",
+      "info": "Würdevoller Jahrhunderte-Planer mit unerschütterlicher Ruhe. Investition in ferne Zukunft.",
+      "assetPath": "tree_tall.obj"
+    },
+    "roteiche": {
+      "ids": ["0009848178", "T007_ROTEICHE", "B007"],
+      "name": "Roteiche",
+      "type": "tree",
+      "info": "Moderne Einwanderin mit Klimawandel-Resistenz. Schneller als heimische Eiche, aber mit amerikanischem Pragmatismus.",
+      "assetPath": "tree_oak.obj"
+    },
+    "elsbeere": {
+      "ids": ["0009845399", "T008_ELSBEERE", "B008"],
+      "name": "Elsbeere",
+      "type": "tree",
+      "info": "Seltene Diva mit exklusiven Ansprüchen. Liefert wertvollstes Holz Europas.",
+      "assetPath": "tree_default.obj"
+    },
+    "weide": {
+      "ids": ["0009825030", "T009_WEIDE", "B009"],
+      "name": "Weide",
+      "type": "tree",
+      "info": "Anpassungsfähiger Allrounder mit biegsamem Charakter. Wächst überall, bricht nie.",
+      "assetPath": "tree_tall.obj"
+    },
+    "paulownia": {
+      "ids": ["0009860093", "T010_PAULOWNIA", "B010"],
+      "name": "Paulownia",
+      "type": "tree",
+      "info": "Exotischer Speed-Champion mit asiatischer Gelassenheit. Wächst wie verrückt, liefert leichtestes Holz.",
+      "assetPath": "tree_oak.obj"
+    }
+  },
+  "plants": {
+    "weizen": {
+      "ids": ["0009812671", "P001_WEIZEN", "A001"],
+      "name": "Weizen",
+      "type": "plant",
+      "info": "Solider Traditionalist und verlässlicher Ertragsbringer. Der Brotlieferant Deutschlands mit bewährten Eigenschaften.",
+      "assetPath": "crops_cornStageA.obj"
+    },
+    "dinkel": {
+      "ids": ["0009811409", "P002_DINKEL", "A002"],
+      "name": "Dinkel",
+      "type": "plant",
+      "info": "Anspruchsvoller Gourmand mit historischen Wurzeln. Robuster als Weizen, aber mit höheren kulinarischen Ambitionen.",
+      "assetPath": "crops_cornStageB.obj"
+    },
+    "gerste": {
+      "ids": ["0009810077", "P003_GERSTE", "A003"],
+      "name": "Gerste",
+      "type": "plant",
+      "info": "Früher Vogel mit kurzer Vegetationszeit. Räumt das Feld schnell, lässt anderen Platz.",
+      "assetPath": "crops_cornStageC.obj"
+    },
+    "ackerbohne": {
+      "ids": ["0009550205", "P004_ACKERBOHNE", "A004"],
+      "name": "Ackerbohne",
+      "type": "plant",
+      "info": "Selbstlose Stickstoff-Produzentin mit solidem Charakter. Arbeitet Tag und Nacht für die Bodenverbesserung.",
+      "assetPath": "crops_cornStageA.obj"
+    },
+    "lupine": {
+      "ids": ["0009487976", "P005_LUPINE", "A005"],
+      "name": "Lupine",
+      "type": "plant",
+      "info": "Bescheidener Überlebenskünstler mit großen Leistungen. Gedeiht auf ärmsten Böden, macht sie fruchtbar.",
+      "assetPath": "crops_cornStageA.obj"
+    },
+    "kleegras": {
+      "ids": ["0009840392", "P006_KLEEGRAS", "A006"],
+      "name": "Kleegras",
+      "type": "plant",
+      "info": "Harmonische Gemeinschaftsbildnerin mit Vermittlertalent. Verbindet verschiedene Partner zu funktionierenden Teams.",
+      "assetPath": "crops_cornStageA.obj"
+    },
+    "mais": {
+      "ids": ["0009835289", "P007_MAIS", "A007"],
+      "name": "Mais",
+      "type": "plant",
+      "info": "Kraftstrotzender Energie-Produzent mit amerikanischem Optimismus. Will hoch hinaus und viel leisten.",
+      "assetPath": "crops_cornStageA.obj"
+    },
+    "sonnenblume": {
+      "ids": ["0009806120", "P008_SONNENBLUME", "A008"],
+      "name": "Sonnenblume",
+      "type": "plant",
+      "info": "Optimistische Lichtanbeterin mit fröhlichem Wesen. Folgt der Sonne von Ost nach West.",
+      "assetPath": "crops_cornStageA.obj"
+    },
+    "kürbis": {
+      "ids": ["0009859503", "P009_KÜRBIS", "A009"],
+      "name": "Kürbis",
+      "type": "plant",
+      "info": "Gemütlicher Bodendecker mit entspannter Lebenseinstellung. Mag es nicht zu heiß, breitet sich gerne aus.",
+      "assetPath": "crops_cornStageA.obj"
+    },
+    "kartoffel": {
+      "ids": ["0009819443", "P010_KARTOFFEL", "A010"],
+      "name": "Kartoffel",
+      "type": "plant",
+      "info": "Praktische Allrounderin mit undergroundem Lifestyle. Arbeitet unsichtbar im Verborgenen, liefert solide Ergebnisse.",
+      "assetPath": "crops_cornStageA.obj"
+    }
+  }
+}

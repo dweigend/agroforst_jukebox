@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Modulare 3D-Agroforst-Musikvisualisierung</title>
+        <!-- Beer CSS Framework -->
+        <link href="https://cdn.jsdelivr.net/npm/beercss@3.6.13/dist/cdn/beer.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.0/dist/cdn/material-dynamic-colors.min.css" rel="stylesheet">
+        
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- Modern Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="dark no-select">
+        <div class="round-display">
+            <div id="canvas-container"></div>
+            <div id="ui-container">
+                <!-- FAB wird von RoundUIManager erstellt -->
+                <!-- Audio Panel wird von AudioPanelManager erstellt -->
+                <!-- RFID Feedback wird von RFIDManager erstellt -->
+            </div>
+        </div>
+
+        <!-- Round Display Styles - Split CSS System -->
+        <link rel="stylesheet" href="/src/styles/round-frame.css">
+        <link rel="stylesheet" href="/src/styles/inner-ui.css">
+        
+        <!-- Beer CSS JavaScript nicht benötigt für FAB -->
+        
+        <!-- Import Map für Three.js und Add-ons -->
+        <script type="module" src="/src/core/main.ts"></script>
+    </body>
+</html>
