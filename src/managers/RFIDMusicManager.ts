@@ -151,10 +151,10 @@ export class RFIDMusicManager implements IRFIDManager {
       return;
     }
 
-    this.playSong(songInfo, treeKey, plantKey);
+    this.playSong(songInfo);
   }
 
-  private playSong(songInfo: SongInfo, treeKey: string, plantKey: string): void {
+  private playSong(songInfo: SongInfo): void {
     const song: Song = {
       id: songInfo.id,
       title: songInfo.title,
@@ -162,6 +162,7 @@ export class RFIDMusicManager implements IRFIDManager {
       audioUrl: songInfo.audioUrl,
       mood: songInfo.mood,
       info: songInfo.info,
+      infoUrl: songInfo.infoUrl,
     };
 
     rfidLogger.info(`Playing song: ${song.title} (${song.mood})`);

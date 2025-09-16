@@ -216,6 +216,7 @@ export interface Song {
   audioUrl: string;                     // Audio-File URL oder lokaler Pfad
   mood: string;                         // Verknüpfung zu MoodConfig (z.B. "Harmonisch")
   info: string;                         // Educational description
+  infoUrl?: string;                     // Optional info audio URL
 }
 
 /**

@@ -4,10 +4,25 @@ import { IAudioManager, Song, AudioState } from '../types';
 import { gameEventBus } from '../events/GameEvents';
 import { audioLogger } from '../utils/Logger';
 
+export enum AudioChannel {
+  MASTER = 'master',
+  MUSIC = 'music',
+  VOICE = 'voice',
+  SFX = 'sfx'
+}
+
 export class AudioManager implements IAudioManager {
   private currentSong: Howl | null = null;
   private currentInfoAudio: Howl | null = null;
-  private savedMusicVolume: number = 0.7;
+
+  // Channel-based volume system
+  private channels = new Map<string, number>([
+    [AudioChannel.MASTER, 0.7],
+    [AudioChannel.MUSIC, 1.0],
+    [AudioChannel.VOICE, 1.0],
+    [AudioChannel.SFX, 1.0]
+  ]);
+
   private audioState: AudioState = {
     isPlaying: false,
     isLoading: false,
@@ -20,10 +35,69 @@ export class AudioManager implements IAudioManager {
   private progressUpdateInterval: number | null = null;
 
   constructor() {
+    // Set initial master volume from channel system
+    this.audioState.volume = this.channels.get(AudioChannel.MASTER)!;
     Howler.volume(this.audioState.volume);
     this.registerEventListeners();
     this.setupDevelopmentHelpers();
   }
+
+  // ====================================================================
+  // CHANNEL-BASED VOLUME SYSTEM
+  // ====================================================================
+
+  private calculateVolume(channel: string): number {
+    const masterVolume = this.channels.get(AudioChannel.MASTER) || 0.7;
+    const channelVolume = this.channels.get(channel) || 1.0;
+    return masterVolume * channelVolume;
+  }
+
+  setChannelVolume(channel: string, volume: number): void {
+    const clampedVolume = Math.max(0, Math.min(1, volume));
+    this.channels.set(channel, clampedVolume);
+
+    // Update master volume state if master channel changed
+    if (channel === AudioChannel.MASTER) {
+      this.audioState.volume = clampedVolume;
+      this.audioState.isMuted = clampedVolume === 0;
+      Howler.volume(clampedVolume); // Keep Howler master in sync
+      this.emitAudioStateChanged();
+      gameEventBus.emit('audio:volume-changed', {
+        volume: clampedVolume,
+        isMuted: this.audioState.isMuted,
+        channel: channel,
+      });
+    }
+
+    // Update volumes of active audio instances
+    this.updateActiveAudioVolumes();
+  }
+
+  getChannelVolume(channel: string): number {
+    return this.channels.get(channel) || 1.0;
+  }
+
+  private updateActiveAudioVolumes(): void {
+    if (this.currentSong) {
+      this.currentSong.volume(this.calculateVolume(AudioChannel.MUSIC));
+    }
+    if (this.currentInfoAudio) {
+      this.currentInfoAudio.volume(this.calculateVolume(AudioChannel.VOICE));
+    }
+  }
+
+  private createAudio(src: string, channel: string, callbacks: any = {}): Howl {
+    return new Howl({
+      src: [src],
+      html5: true,
+      volume: this.calculateVolume(channel),
+      ...callbacks
+    });
+  }
+
+  // ====================================================================
+  // AUDIO PLAYBACK (UI-Compatible API)
+  // ====================================================================
 
   async play(song: Song): Promise<void> {
     if (!song || !song.audioUrl) {
@@ -40,9 +114,7 @@ export class AudioManager implements IAudioManager {
     };
     this.emitAudioStateChanged();
 
-    this.currentSong = new Howl({
-      src: [song.audioUrl],
-      html5: true,
+    this.currentSong = this.createAudio(song.audioUrl, AudioChannel.MUSIC, {
       onload: () => {
         this.audioState.isLoading = false;
         this.audioState.duration = this.currentSong?.duration() || 0;
@@ -96,18 +168,6 @@ export class AudioManager implements IAudioManager {
     this.currentSong?.stop();
   }
 
-  setVolume(volume: number): void {
-    const clampedVolume = Math.max(0, Math.min(1, volume));
-    this.audioState.volume = clampedVolume;
-    this.audioState.isMuted = clampedVolume === 0;
-    Howler.volume(clampedVolume);
-    this.emitAudioStateChanged();
-    gameEventBus.emit('audio:volume-changed', {
-      volume: clampedVolume,
-      isMuted: this.audioState.isMuted,
-    });
-  }
-
   getCurrentTime(): number {
     return this.currentSong?.seek() || 0;
   }
@@ -132,17 +192,13 @@ export class AudioManager implements IAudioManager {
     // Stop any existing info audio
     this.stopInfoAudio();
 
-    // Duck background music to 10%
+    // Duck background music to 10% using channel system
     if (this.currentSong && this.audioState.isPlaying) {
-      this.savedMusicVolume = this.audioState.volume;
-      this.fadeVolume(this.audioState.volume * 0.1, 500); // Fade to 10% in 500ms
+      this.setChannelVolume(AudioChannel.MUSIC, 0.1);
     }
 
-    // Create and play info audio
-    this.currentInfoAudio = new Howl({
-      src: [infoUrl],
-      html5: true,
-      volume: 1.0, // Info audio always at full volume
+    // Create and play info audio in voice channel
+    this.currentInfoAudio = this.createAudio(infoUrl, AudioChannel.VOICE, {
       onplay: () => {
         gameEventBus.emit('audio:info-started', { infoUrl });
       },
@@ -171,33 +227,14 @@ export class AudioManager implements IAudioManager {
   private onInfoAudioComplete(): void {
     this.currentInfoAudio = null;
 
-    // Restore background music volume
+    // Restore background music volume using channel system
     if (this.currentSong && this.audioState.isPlaying) {
-      this.fadeVolume(this.savedMusicVolume, 500); // Fade back in 500ms
+      this.setChannelVolume(AudioChannel.MUSIC, 1.0);
     }
 
     gameEventBus.emit('audio:info-ended', {});
   }
 
-  private fadeVolume(targetVolume: number, duration: number): void {
-    const startVolume = this.audioState.volume;
-    const startTime = Date.now();
-
-    const fade = () => {
-      const elapsed = Date.now() - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-
-      // Linear fade
-      const currentVolume = startVolume + (targetVolume - startVolume) * progress;
-      this.setVolume(currentVolume);
-
-      if (progress < 1) {
-        requestAnimationFrame(fade);
-      }
-    };
-
-    requestAnimationFrame(fade);
-  }
 
   dispose(): void {
     this.stop();
@@ -242,7 +279,7 @@ export class AudioManager implements IAudioManager {
         gameEventBus.emit('rfid:request-current-song', {});
       }
     });
-    gameEventBus.on('audio:volume-set', e => this.setVolume(e.volume));
+    gameEventBus.on('audio:volume-set', e => this.setChannelVolume(AudioChannel.MASTER, e.volume));
     // Add audio:stop event listener
     gameEventBus.on('audio:stop', () => {
       this.stop();

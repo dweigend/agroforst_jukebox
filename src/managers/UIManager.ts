@@ -244,7 +244,10 @@ export class UIManager implements IManager {
 
     // Info audio button
     const speechBtn = this.popup.querySelector('#speech-btn');
-    speechBtn?.addEventListener('click', () => this.toggleInfoAudio());
+    speechBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      this.toggleInfoAudio();
+    });
   }
 
   // ====================================================================
@@ -376,6 +379,9 @@ export class UIManager implements IManager {
     this.currentMode = 'info';
     this.popup.innerHTML = this.getInfoContent();
     this.setupInfoModeControls();
+
+    // Stop auto-hide timer in info mode
+    this.clearAutoHideTimer();
   }
 
   private switchToMainMode(): void {
@@ -391,6 +397,9 @@ export class UIManager implements IManager {
       gameEventBus.emit('audio:stop-info', {});
       this.isInfoPlaying = false;
     }
+
+    // Restart auto-hide timer in main mode
+    this.startAutoHideTimer();
   }
 
   private restoreMainModeState(): void {
@@ -422,12 +431,12 @@ export class UIManager implements IManager {
 
   private toggleInfoAudio(): void {
     if (this.isInfoPlaying) {
-      // Stop info audio
+      // Stop info audio - AudioManager handles volume restoration
       gameEventBus.emit('audio:stop-info', {});
       this.isInfoPlaying = false;
       this.updateInfoButtonIcon(false);
     } else if (this.currentSong?.infoUrl) {
-      // Play info audio
+      // Play info audio - AudioManager handles background ducking
       gameEventBus.emit('audio:play-info', { infoUrl: this.currentSong.infoUrl });
       this.isInfoPlaying = true;
       this.updateInfoButtonIcon(true);
@@ -440,6 +449,7 @@ export class UIManager implements IManager {
       speechIcon.textContent = isPlaying ? 'stop' : 'volume_up';
     }
   }
+
 
   // ====================================================================
   // VOLUME CONTROL
@@ -542,6 +552,10 @@ export class UIManager implements IManager {
 
   private startAutoHideTimer(): void {
     this.clearAutoHideTimer();
+
+    // Don't start auto-hide timer in info mode
+    if (this.currentMode === 'info') return;
+
     this.autoHideTimeout = window.setTimeout(() => {
       this.hidePopup();
     }, UI_TIMEOUTS.RFID_DISPLAY_DURATION);
