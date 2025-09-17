@@ -3,7 +3,6 @@ import { createNoise3D } from 'simplex-noise';
 import { MoodConfig, ILandscapeManager, VegetationConfig } from '../types';
 import { AssetManager } from './AssetManager';
 import { gameEventBus, GameEventListener } from '../events/GameEvents';
-import { Logger } from '../utils/Logger';
 import { LANDSCAPE_DIMENSIONS } from '../constants/dimensions';
 
 // Noise function for procedural terrain generation.

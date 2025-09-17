@@ -50,7 +50,9 @@ class App {
     this.startAnimationLoop();
   }
 
-  // Initialisiert 3D-Visualisierung
+  /**
+   * Initialize 3D visualization system
+   */
   private initializeCore3DSystem(canvasContainer: HTMLElement): void {
     this.sceneManager = new SceneManager(canvasContainer);
     this.moodManager = new MoodManager(this.sceneManager);
@@ -58,18 +60,24 @@ class App {
     this.moodManager.applyMood('Harmonisch');
   }
 
-  // Initialisiert UI System (SIMPLIFIED)
+  /**
+   * Initialize UI System (SIMPLIFIED)
+   */
   private initializeUISystem(): void {
     this.roundUIManager = new RoundUIManager(); // Outer UI (frame)
     this.uiManager = new UIManager(); // Inner UI (simple popup)
   }
 
-  // Startet Animation Loop nach vollständiger Initialisierung
+  /**
+   * Start animation loop after complete initialization
+   */
   private startAnimationLoop(): void {
     this.sceneManager.animate(this.moodManager, this.uiManager);
   }
 
-  // Initialisiert RFID + Music System (ALL-IN-ONE)
+  /**
+   * Initialize RFID + Music System (ALL-IN-ONE)
+   */
   private initializeRFIDMusicSystem(): void {
     this.audioManager = new AudioManager();
     this.rfidMusicManager = new RFIDMusicManager(); // Replaces 3 classes with 1!
@@ -77,7 +85,9 @@ class App {
     this.rfidMusicManager.startListening();
   }
 
-  // Setup Event-Integration (SIMPLIFIED)
+  /**
+   * Setup Event Integration (SIMPLIFIED)
+   */
   private setupApplicationIntegration(): void {
     // RFID Music → 3D Mood Changes
     gameEventBus.on('mood:change', data => {
@@ -85,16 +95,18 @@ class App {
     });
 
     // Audio Progress Updates → UI (if needed)
-    gameEventBus.on('audio:progress', data => {
+    gameEventBus.on('audio:progress', () => {
       // Optional: Forward to UI if progress display is needed
     });
   }
 
-  // Setup Development-Mode Funktionen (SIMPLIFIED)
+  /**
+   * Setup Development Mode Functions (SIMPLIFIED)
+   */
   private setupDevelopmentMode(): void {
     if (!import.meta.env?.DEV) return;
 
-    // Global App-Instanz für Debugging
+    // Global App instance for debugging
     (globalThis as unknown as { app: App }).app = this;
 
     // RFID Development Commands (SIMPLIFIED)
@@ -103,13 +115,14 @@ class App {
     (globalThis as unknown as { scanPlant: (id?: string) => void }).scanPlant = (
       id = '0009806120'
     ) => this.rfidMusicManager.processRFIDInput(id);
-    (globalThis as unknown as { testUI: () => void }).testUI = () =>
-      this.uiManager.showPopup();
+    (globalThis as unknown as { testUI: () => void }).testUI = () => this.uiManager.showPopup();
 
     console.log('🧪 Dev commands: scanTree(), scanPlant(), testUI()');
   }
 
-  // App-Shutdown cleanup (SIMPLIFIED)
+  /**
+   * App shutdown cleanup (SIMPLIFIED)
+   */
   public dispose(): void {
     this.rfidMusicManager?.dispose?.();
     this.audioManager?.dispose?.();

@@ -1,7 +1,25 @@
 {
   "name": "agroforst-visualizer",
   "version": "1.0.0",
-  "description": "Modulare 3D-Agroforst-Musikvisualisierung",
+  "description": "Interactive 3D Music Visualizer for Agroforestry Systems with RFID Integration",
+  "author": "David Weigend <david@weigend.studio>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dweigend/agroforst_jukebox.git"
+  },
+  "homepage": "https://github.com/dweigend/agroforst_jukebox#readme",
+  "bugs": {
+    "url": "https://github.com/dweigend/agroforst_jukebox/issues"
+  },
+  "keywords": [
+    "agroforestry",
+    "3d-visualization",
+    "threejs",
+    "rfid",
+    "music-visualizer",
+    "interactive-installation"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +29,10 @@
     "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
     "format": "prettier --write src/**/*.{ts,js,json,md}",
     "format:check": "prettier --check src/**/*.{ts,js,json,md}",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "check-all": "npm run type-check && npm run lint && npm run format:check",
+    "clean": "rm -rf dist node_modules",
+    "reinstall": "npm run clean && npm install"
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",

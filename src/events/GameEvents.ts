@@ -1,4 +1,4 @@
-import { RFIDInputEvent, SongSelectionEvent, AudioState, GameState, PlantInfo } from '../types';
+import { SongSelectionEvent, AudioState, GameState, PlantInfo } from '../types';
 
 /**
  * Event System für lose gekoppelte Manager-Kommunikation
@@ -86,7 +86,7 @@ export type GameEventType =
   // System Events
   | 'system:reset' // Komplettes System zurücksetzen
   | 'system:debug' // Debug-Information
-  
+
   // RFID Request Events
   | 'rfid:request-current-song'; // Aktuellen Song von RFID anfordern
 
@@ -115,9 +115,9 @@ export interface GameEventDataMap {
   'audio:toggle-play': { songId?: string };
   'audio:volume-set': { volume: number };
   'audio:play-info': { infoUrl: string };
-  'audio:stop-info': {};
+  'audio:stop-info': Record<string, never>;
   'audio:info-started': { infoUrl: string };
-  'audio:info-ended': {};
+  'audio:info-ended': Record<string, never>;
 
   // Mood Events
   'mood:change': { moodName: string; reason: 'rfid-song' | 'manual' };
@@ -204,7 +204,7 @@ export interface GameEventDataMap {
   // System Events
   'system:reset': { reason: string };
   'system:debug': { component: string; data: unknown };
-  
+
   // RFID Request Events
   'rfid:request-current-song': Record<string, never>;
 }
@@ -224,15 +224,15 @@ class GameEventBus {
   private listeners = new Map<GameEventType, Set<GameEventListener<GameEventType>>>();
   private onceListeners = new Map<GameEventType, Set<GameEventListener<GameEventType>>>();
   private debugEnabled = false;
-  
+
   // High-frequency events die nicht geloggt werden sollen (erweitert)
   private silentEvents: Set<GameEventType> = new Set([
     'audio:progress',
-    'audio:time-update', 
+    'audio:time-update',
     'audio:state-changed',
     'ui:state-changed',
     'system:debug',
-    'audio:volume-changed' // Volume slider drag events
+    'audio:volume-changed', // Volume slider drag events
   ]);
 
   // Event-Listener registrieren

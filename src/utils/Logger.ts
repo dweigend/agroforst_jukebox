@@ -2,9 +2,9 @@
  * ====================================================================
  * CENTRALIZED LOGGING SYSTEM - Production-Ready with Environment Control
  * ====================================================================
- * 
+ *
  * Solves console noise problem with intelligent filtering and levels
- * 
+ *
  * Features:
  * - Environment-aware logging (DEV vs production)
  * - Log levels with automatic filtering
@@ -16,10 +16,10 @@
 
 // Log Levels - ordered by severity
 export enum LogLevel {
-  ERROR = 0,   // Always shown - critical errors only
-  WARN = 1,    // Important warnings - shown in production
-  INFO = 2,    // General information - development only
-  DEBUG = 3    // Detailed debug info - explicit debug mode only
+  ERROR = 0, // Always shown - critical errors only
+  WARN = 1, // Important warnings - shown in production
+  INFO = 2, // General information - development only
+  DEBUG = 3, // Detailed debug info - explicit debug mode only
 }
 
 // Logger Configuration
@@ -40,14 +40,14 @@ interface PerformanceTimer {
 export class Logger {
   private config: LoggerConfig;
   private timers = new Map<string, PerformanceTimer>();
-  
+
   // Silent operations that shouldn't be logged even in debug mode
   private static readonly SILENT_OPERATIONS = new Set([
     'audio:progress',
     'audio:time-update',
     'ui:mouse-move',
     'camera:frame-update',
-    'animation:frame'
+    'animation:frame',
   ]);
 
   constructor(prefix: string = 'App', debugMode: boolean = false) {
@@ -56,7 +56,7 @@ export class Logger {
       prefix,
       isDevelopment: import.meta.env?.DEV ?? false,
       debugMode,
-      enableTiming: import.meta.env?.DEV ?? false
+      enableTiming: import.meta.env?.DEV ?? false,
     };
   }
 
@@ -79,7 +79,7 @@ export class Logger {
   }
 
   /**
-   * Important warnings - logged in production and development  
+   * Important warnings - logged in production and development
    */
   warn(message: string, context?: any): void {
     if (this.shouldLog(LogLevel.WARN)) {
@@ -104,7 +104,7 @@ export class Logger {
     if (operation && Logger.SILENT_OPERATIONS.has(operation)) {
       return;
     }
-    
+
     if (this.shouldLog(LogLevel.DEBUG) && this.config.debugMode) {
       console.log(this.formatMessage('🔍 DEBUG', message), context);
     }
@@ -151,14 +151,14 @@ export class Logger {
     if (this.config.enableTiming) {
       this.timers.set(label, {
         start: performance.now(),
-        label
+        label,
       });
     }
   }
 
   endTimer(label: string): number {
     if (!this.config.enableTiming) return 0;
-    
+
     const timer = this.timers.get(label);
     if (timer) {
       const duration = performance.now() - timer.start;
@@ -216,10 +216,7 @@ export class Logger {
    * Create child logger with specific prefix
    */
   child(childPrefix: string): Logger {
-    const childLogger = new Logger(
-      `${this.config.prefix}:${childPrefix}`, 
-      this.config.debugMode
-    );
+    const childLogger = new Logger(`${this.config.prefix}:${childPrefix}`, this.config.debugMode);
     childLogger.setLogLevel(this.config.level);
     return childLogger;
   }
@@ -233,10 +230,9 @@ export class Logger {
   }
 
   private formatMessage(levelLabel: string, message: string): string {
-    const timestamp = this.config.isDevelopment ? 
-      new Date().toLocaleTimeString() : '';
+    const timestamp = this.config.isDevelopment ? new Date().toLocaleTimeString() : '';
     const prefix = `[${this.config.prefix}]`;
-    
+
     if (this.config.isDevelopment && timestamp) {
       return `${timestamp} ${prefix} ${levelLabel} ${message}`;
     } else {
@@ -250,7 +246,7 @@ export class Logger {
       return LogLevel.INFO;
     } else {
       // Production: Only WARN and ERROR
-      return LogLevel.WARN; 
+      return LogLevel.WARN;
     }
   }
 
@@ -308,19 +304,35 @@ if (import.meta.env?.DEV && typeof window !== 'undefined') {
   // Global logger controls for development
   (window as any).loggers = {
     setGlobalDebug: (enabled: boolean) => {
-      [appLogger, sceneLogger, rfidLogger, audioLogger, moodLogger, 
-       assetLogger, uiLogger, stateLogger].forEach(logger => {
+      [
+        appLogger,
+        sceneLogger,
+        rfidLogger,
+        audioLogger,
+        moodLogger,
+        assetLogger,
+        uiLogger,
+        stateLogger,
+      ].forEach(logger => {
         logger.setDebugMode(enabled);
       });
     },
     setGlobalLevel: (level: LogLevel) => {
-      [appLogger, sceneLogger, rfidLogger, audioLogger, moodLogger, 
-       assetLogger, uiLogger, stateLogger].forEach(logger => {
+      [
+        appLogger,
+        sceneLogger,
+        rfidLogger,
+        audioLogger,
+        moodLogger,
+        assetLogger,
+        uiLogger,
+        stateLogger,
+      ].forEach(logger => {
         logger.setLogLevel(level);
       });
     },
-    LogLevel // Export enum for console use
+    LogLevel, // Export enum for console use
   };
-  
+
   console.log('🔧 Logger controls: window.loggers.setGlobalDebug(true/false)');
 }

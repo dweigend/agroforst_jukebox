@@ -244,7 +244,7 @@ export class UIManager implements IManager {
 
     // Info audio button
     const speechBtn = this.popup.querySelector('#speech-btn');
-    speechBtn?.addEventListener('click', (e) => {
+    speechBtn?.addEventListener('click', e => {
       e.stopPropagation();
       this.toggleInfoAudio();
     });
@@ -449,7 +449,6 @@ export class UIManager implements IManager {
       speechIcon.textContent = isPlaying ? 'stop' : 'volume_up';
     }
   }
-
 
   // ====================================================================
   // VOLUME CONTROL

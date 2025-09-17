@@ -64,5 +64,9 @@ export const ASSET_PARAMETERS = {
   FALLBACK_SIZE_ESTIMATE: 1000,
 } as const;
 
-// PRODUCTION-TODO: Make vegetation counts configurable based on device performance
-// PRODUCTION-TODO: Add support for dynamic LOD based on distance
+/**
+ * Future Performance Optimizations:
+ * - Vegetation counts could be adjusted based on device performance
+ * - Dynamic LOD (Level of Detail) based on camera distance
+ * - These optimizations can be added when performance issues arise
+ */

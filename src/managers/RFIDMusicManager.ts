@@ -268,7 +268,7 @@ export class RFIDMusicManager implements IRFIDManager {
   }
 
   private getLogicalName(plantInfo: PlantInfo): string | null {
-    for (const [id, data] of this.plantLookup.entries()) {
+    for (const [, data] of this.plantLookup.entries()) {
       if (data.info === plantInfo) {
         return data.key;
       }

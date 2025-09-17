@@ -28,8 +28,8 @@ Die Stimmung der 3D-Landschaft wird direkt durch die Song-Kombination bestimmt:
 
 ```bash
 # Repository klonen
-git clone [repository-url]
-cd Visulizer
+git clone https://github.com/dweigend/agroforst_jukebox.git
+cd agroforst_jukebox
 
 # Dependencies installieren
 npm install
@@ -201,6 +201,12 @@ scanPlant();
 3. **RFID-System**: `src/data/plants.json`
 4. **UI-Entwicklung**: `src/styles/round-display.css` + `src/managers/InnerUIManager.ts`
 
+## ⚠️ **Known Issues**
+
+- **Missing Audio File**: Song 077 (Elsbeere_Mais.mp3) ist aktuell nicht im Repository vorhanden
+- Dies betrifft die Kombination Elsbeere + Mais
+- Alle anderen 99 Songs funktionieren einwandfrei
+
 ## 🎨 **UI Design Philosophy**
 
 - **Beer CSS Framework** als Basis + **Agroforst Theme Extensions**
@@ -225,6 +231,16 @@ scanPlant();
 
 ---
 
+## 📄 **License**
+
+MIT License - © 2025 David Weigend
+
+Siehe [LICENSE.md](LICENSE.md) für Details.
+
+---
+
 **🚀 Ready for Production Deployment!**
 
 *Für technische Fragen, siehe `CLAUDE.md` für vollständige LLM-Navigation und Architektur-Details.*
+
+**Entwickelt von**: [David Weigend](https://github.com/dweigend) | [weigend.studio](https://weigend.studio)

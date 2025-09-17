@@ -8,22 +8,22 @@ import { MoodManager } from './MoodManager';
 import { IManager, MoodConfig } from '../types';
 
 /**
- * SceneManager - Der Dirigent der gesamten 3D-Anwendung
+ * SceneManager - The conductor of the entire 3D application
  *
- * Verantwortlichkeiten:
- * - Initialisierung aller Three.js Kernkomponenten (Scene, Camera, Renderer)
- * - Koordination aller spezialisierten Manager
- * - Zentrale Animation Loop mit 60 FPS
- * - Window Resize Handling für Responsive Design
- * - Performance-optimierte Render-Pipeline mit Post-Processing
+ * Responsibilities:
+ * - Initialization of all Three.js core components (Scene, Camera, Renderer)
+ * - Coordination of all specialized managers
+ * - Central animation loop at 60 FPS
+ * - Window resize handling for responsive design
+ * - Performance-optimized render pipeline with post-processing
  *
- * Architektur-Pattern: Facade + Coordinator
- * - Stellt einheitliche API für komplexe 3D-Pipeline bereit
- * - Koordiniert Manager ohne deren interne Details zu kennen
- * - Trennt Three.js Setup von Feature-spezifischer Logik
+ * Architecture Pattern: Facade + Coordinator
+ * - Provides unified API for complex 3D pipeline
+ * - Coordinates managers without knowing their internal details
+ * - Separates Three.js setup from feature-specific logic
  */
 export class SceneManager {
-  // HTML Container für das 3D Canvas
+  // HTML Container for the 3D canvas
   private container: HTMLElement;
 
   // Three.js Core Components
@@ -40,8 +40,8 @@ export class SceneManager {
   public cameraManager!: CameraManager;
 
   /**
-   * Initialisiert den SceneManager mit einem HTML Container
-   * @param container HTML Element das das 3D Canvas aufnehmen soll
+   * Initialize the SceneManager with an HTML container
+   * @param container HTML element that will contain the 3D canvas
    */
   constructor(container: HTMLElement) {
     this.container = container;
@@ -49,13 +49,13 @@ export class SceneManager {
   }
 
   /**
-   * Initialisiert alle Three.js Komponenten und Manager
+   * Initialize all Three.js components and managers
    *
-   * Setup-Reihenfolge ist wichtig:
+   * Setup order is important:
    * 1. Three.js Core (Scene, Clock, Camera, Renderer)
-   * 2. Renderer-Konfiguration (Shadows, ToneMapping, etc.)
-   * 3. Manager-Initialisierung (mit Abhängigkeiten)
-   * 4. Controls & Event Listener
+   * 2. Renderer configuration (Shadows, ToneMapping, etc.)
+   * 3. Manager initialization (with dependencies)
+   * 4. Controls & Event Listeners
    */
   private init(): void {
     // === THREE.JS CORE SETUP ===
@@ -237,7 +237,10 @@ export class SceneManager {
       this.scene.background = new THREE.Color().setHSL(hue, 0.5, 0.1);
     }
 
-    // PRODUCTION-TODO: Add more special mood animations here
-    // PRODUCTION-TODO: Consider extracting to dedicated MoodAnimationManager
+    /**
+     * Future Enhancement:
+     * Additional mood-specific animations can be added here.
+     * If complexity grows, consider extracting to a dedicated MoodAnimationManager.
+     */
   }
 }

@@ -8,7 +8,7 @@ export enum AudioChannel {
   MASTER = 'master',
   MUSIC = 'music',
   VOICE = 'voice',
-  SFX = 'sfx'
+  SFX = 'sfx',
 }
 
 export class AudioManager implements IAudioManager {
@@ -20,7 +20,7 @@ export class AudioManager implements IAudioManager {
     [AudioChannel.MASTER, 0.7],
     [AudioChannel.MUSIC, 1.0],
     [AudioChannel.VOICE, 1.0],
-    [AudioChannel.SFX, 1.0]
+    [AudioChannel.SFX, 1.0],
   ]);
 
   private audioState: AudioState = {
@@ -65,7 +65,6 @@ export class AudioManager implements IAudioManager {
       gameEventBus.emit('audio:volume-changed', {
         volume: clampedVolume,
         isMuted: this.audioState.isMuted,
-        channel: channel,
       });
     }
 
@@ -91,13 +90,21 @@ export class AudioManager implements IAudioManager {
       src: [src],
       html5: true,
       volume: this.calculateVolume(channel),
-      ...callbacks
+      ...callbacks,
     });
   }
 
   // ====================================================================
   // AUDIO PLAYBACK (UI-Compatible API)
   // ====================================================================
+
+  /**
+   * Set the master volume (IAudioManager interface requirement)
+   * @param volume Volume level between 0 and 1
+   */
+  setVolume(volume: number): void {
+    this.setChannelVolume(AudioChannel.MASTER, volume);
+  }
 
   async play(song: Song): Promise<void> {
     if (!song || !song.audioUrl) {
@@ -232,9 +239,8 @@ export class AudioManager implements IAudioManager {
       this.setChannelVolume(AudioChannel.MUSIC, 1.0);
     }
 
-    gameEventBus.emit('audio:info-ended', {});
+    gameEventBus.emit('audio:info-ended', {} as Record<string, never>);
   }
-
 
   dispose(): void {
     this.stop();

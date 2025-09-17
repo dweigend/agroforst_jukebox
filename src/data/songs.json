@@ -1,6 +1,6 @@
 {
   "song_001": {
-    "title": "Pappel und Weizen Harmonie",
+    "title": "Pappel und Weizen",
     "audioUrl": "agroforst-songs-100/001_Pappel_Weizen.mp3",
     "mood": "Harmonisch",
     "tree": "pappel",
@@ -9,7 +9,7 @@
     "infoUrl": "agroforst-info-100/001_Pappel_Weizen_info.mp3"
   },
   "song_002": {
-    "title": "Pappel und Dinkel Symphonie",
+    "title": "Pappel und Dinkel",
     "audioUrl": "agroforst-songs-100/002_Pappel_Dinkel.mp3",
     "mood": "Transzendent",
     "tree": "pappel",
@@ -18,7 +18,7 @@
     "infoUrl": "agroforst-info-100/002_Pappel_Dinkel_info.mp3"
   },
   "song_003": {
-    "title": "Pappel und Gerste Duett",
+    "title": "Pappel und Gerste",
     "audioUrl": "agroforst-songs-100/003_Pappel_Gerste.mp3",
     "mood": "Groove",
     "tree": "pappel",
@@ -27,7 +27,7 @@
     "infoUrl": "agroforst-info-100/003_Pappel_Gerste_info.mp3"
   },
   "song_004": {
-    "title": "Pappel und Ackerbohne Tanz",
+    "title": "Pappel und Ackerbohne",
     "audioUrl": "agroforst-songs-100/004_Pappel_Ackerbohne.mp3",
     "mood": "Groove",
     "tree": "pappel",
@@ -36,7 +36,7 @@
     "infoUrl": "agroforst-info-100/004_Pappel_Ackerbohne_info.mp3"
   },
   "song_005": {
-    "title": "Pappel und Lupine Melodie",
+    "title": "Pappel und Lupine",
     "audioUrl": "agroforst-songs-100/005_Pappel_Lupine.mp3",
     "mood": "Distanziert",
     "tree": "pappel",
@@ -45,7 +45,7 @@
     "infoUrl": "agroforst-info-100/005_Pappel_Lupine_info.mp3"
   },
   "song_006": {
-    "title": "Pappel und Kleegras Serenade",
+    "title": "Pappel und Kleegras",
     "audioUrl": "agroforst-songs-100/006_Pappel_Kleegras.mp3",
     "mood": "Harmonisch",
     "tree": "pappel",
@@ -54,7 +54,7 @@
     "infoUrl": "agroforst-info-100/006_Pappel_Kleegras_info.mp3"
   },
   "song_007": {
-    "title": "Pappel und Mais Konzert",
+    "title": "Pappel und Mais",
     "audioUrl": "agroforst-songs-100/007_Pappel_Mais.mp3",
     "mood": "Harmonisch",
     "tree": "pappel",
@@ -63,7 +63,7 @@
     "infoUrl": "agroforst-info-100/007_Pappel_Mais_info.mp3"
   },
   "song_008": {
-    "title": "Pappel und Sonnenblume Dialog",
+    "title": "Pappel und Sonnenblume",
     "audioUrl": "agroforst-songs-100/008_Pappel_Sonnenblume.mp3",
     "mood": "Konflikt",
     "tree": "pappel",
@@ -72,7 +72,7 @@
     "infoUrl": "agroforst-info-100/008_Pappel_Sonnenblume_info.mp3"
   },
   "song_009": {
-    "title": "Pappel und Kuerbis Romanze",
+    "title": "Pappel und Kürbis",
     "audioUrl": "agroforst-songs-100/009_Pappel_Kuerbis.mp3",
     "mood": "Kooperativ",
     "tree": "pappel",
@@ -81,7 +81,7 @@
     "infoUrl": "agroforst-info-100/009_Pappel_Kuerbis_info.mp3"
   },
   "song_010": {
-    "title": "Pappel und Kartoffel Ballade",
+    "title": "Pappel und Kartoffel",
     "audioUrl": "agroforst-songs-100/010_Pappel_Kartoffel.mp3",
     "mood": "Groove",
     "tree": "pappel",
@@ -90,7 +90,7 @@
     "infoUrl": "agroforst-info-100/010_Pappel_Kartoffel_info.mp3"
   },
   "song_011": {
-    "title": "Robinie und Weizen Waltz",
+    "title": "Robinie und Weizen",
     "audioUrl": "agroforst-songs-100/011_Robinie_Weizen.mp3",
     "mood": "Groove",
     "tree": "robinie",
@@ -99,7 +99,7 @@
     "infoUrl": "agroforst-info-100/011_Robinie_Weizen_info.mp3"
   },
   "song_012": {
-    "title": "Robinie und Dinkel Hymne",
+    "title": "Robinie und Dinkel",
     "audioUrl": "agroforst-songs-100/012_Robinie_Dinkel.mp3",
     "mood": "Kooperativ",
     "tree": "robinie",
@@ -108,7 +108,7 @@
     "infoUrl": "agroforst-info-100/012_Robinie_Dinkel_info.mp3"
   },
   "song_013": {
-    "title": "Robinie und Gerste Fanfare",
+    "title": "Robinie und Gerste",
     "audioUrl": "agroforst-songs-100/013_Robinie_Gerste.mp3",
     "mood": "Harmonisch",
     "tree": "robinie",
@@ -117,7 +117,7 @@
     "infoUrl": "agroforst-info-100/013_Robinie_Gerste_info.mp3"
   },
   "song_014": {
-    "title": "Robinie und Ackerbohne Pakt",
+    "title": "Robinie und Ackerbohne",
     "audioUrl": "agroforst-songs-100/014_Robinie_Ackerbohne.mp3",
     "mood": "Harmonisch",
     "tree": "robinie",
@@ -126,7 +126,7 @@
     "infoUrl": "agroforst-info-100/014_Robinie_Ackerbohne_info.mp3"
   },
   "song_015": {
-    "title": "Robinie und Lupine Verbindung",
+    "title": "Robinie und Lupine",
     "audioUrl": "agroforst-songs-100/015_Robinie_Lupine.mp3",
     "mood": "Harmonisch",
     "tree": "robinie",
@@ -135,7 +135,7 @@
     "infoUrl": "agroforst-info-100/015_Robinie_Lupine_info.mp3"
   },
   "song_016": {
-    "title": "Robinie und Kleegras Ensemble",
+    "title": "Robinie und Kleegras",
     "audioUrl": "agroforst-songs-100/016_Robinie_Kleegras.mp3",
     "mood": "Kooperativ",
     "tree": "robinie",
@@ -144,7 +144,7 @@
     "infoUrl": "agroforst-info-100/016_Robinie_Kleegras_info.mp3"
   },
   "song_017": {
-    "title": "Robinie und Mais Rhythm",
+    "title": "Robinie und Mais",
     "audioUrl": "agroforst-songs-100/017_Robinie_Mais.mp3",
     "mood": "Distanziert",
     "tree": "robinie",
@@ -153,7 +153,7 @@
     "infoUrl": "agroforst-info-100/017_Robinie_Mais_info.mp3"
   },
   "song_018": {
-    "title": "Robinie und Sonnenblume Tango",
+    "title": "Robinie und Sonnenblume",
     "audioUrl": "agroforst-songs-100/018_Robinie_Sonnenblume.mp3",
     "mood": "Konflikt",
     "tree": "robinie",
@@ -162,7 +162,7 @@
     "infoUrl": "agroforst-info-100/018_Robinie_Sonnenblume_info.mp3"
   },
   "song_019": {
-    "title": "Robinie und Kuerbis Lied",
+    "title": "Robinie und Kürbis",
     "audioUrl": "agroforst-songs-100/019_Robinie_Kuerbis.mp3",
     "mood": "Transzendent",
     "tree": "robinie",
@@ -171,7 +171,7 @@
     "infoUrl": "agroforst-info-100/019_Robinie_Kuerbis_info.mp3"
   },
   "song_020": {
-    "title": "Robinie und Kartoffel Marsch",
+    "title": "Robinie und Kartoffel",
     "audioUrl": "agroforst-songs-100/020_Robinie_Kartoffel.mp3",
     "mood": "Kooperativ",
     "tree": "robinie",
@@ -180,7 +180,7 @@
     "infoUrl": "agroforst-info-100/020_Robinie_Kartoffel_info.mp3"
   },
   "song_021": {
-    "title": "Walnuss und Weizen Meditation",
+    "title": "Walnuss und Weizen",
     "audioUrl": "agroforst-songs-100/021_Walnuss_Weizen.mp3",
     "mood": "Distanziert",
     "tree": "walnuss",
@@ -189,7 +189,7 @@
     "infoUrl": "agroforst-info-100/021_Walnuss_Weizen_info.mp3"
   },
   "song_022": {
-    "title": "Walnuss und Dinkel Suite",
+    "title": "Walnuss und Dinkel",
     "audioUrl": "agroforst-songs-100/022_Walnuss_Dinkel.mp3",
     "mood": "Transzendent",
     "tree": "walnuss",
@@ -198,7 +198,7 @@
     "infoUrl": "agroforst-info-100/022_Walnuss_Dinkel_info.mp3"
   },
   "song_023": {
-    "title": "Walnuss und Gerste Nocturne",
+    "title": "Walnuss und Gerste",
     "audioUrl": "agroforst-songs-100/023_Walnuss_Gerste.mp3",
     "mood": "Groove",
     "tree": "walnuss",
@@ -207,7 +207,7 @@
     "infoUrl": "agroforst-info-100/023_Walnuss_Gerste_info.mp3"
   },
   "song_024": {
-    "title": "Walnuss und Ackerbohne Reflektion",
+    "title": "Walnuss und Ackerbohne",
     "audioUrl": "agroforst-songs-100/024_Walnuss_Ackerbohne.mp3",
     "mood": "Distanziert",
     "tree": "walnuss",
@@ -216,7 +216,7 @@
     "infoUrl": "agroforst-info-100/024_Walnuss_Ackerbohne_info.mp3"
   },
   "song_025": {
-    "title": "Walnuss und Lupine Resonanz",
+    "title": "Walnuss und Lupine",
     "audioUrl": "agroforst-songs-100/025_Walnuss_Lupine.mp3",
     "mood": "Distanziert",
     "tree": "walnuss",
@@ -225,7 +225,7 @@
     "infoUrl": "agroforst-info-100/025_Walnuss_Lupine_info.mp3"
   },
   "song_026": {
-    "title": "Walnuss und Kleegras Idylle",
+    "title": "Walnuss und Kleegras",
     "audioUrl": "agroforst-songs-100/026_Walnuss_Kleegras.mp3",
     "mood": "Kooperativ",
     "tree": "walnuss",
@@ -234,7 +234,7 @@
     "infoUrl": "agroforst-info-100/026_Walnuss_Kleegras_info.mp3"
   },
   "song_027": {
-    "title": "Walnuss und Mais Dissonanz",
+    "title": "Walnuss und Mais",
     "audioUrl": "agroforst-songs-100/027_Walnuss_Mais.mp3",
     "mood": "Konflikt",
     "tree": "walnuss",
@@ -243,7 +243,7 @@
     "infoUrl": "agroforst-info-100/027_Walnuss_Mais_info.mp3"
   },
   "song_028": {
-    "title": "Walnuss und Sonnenblume Kampf",
+    "title": "Walnuss und Sonnenblume",
     "audioUrl": "agroforst-songs-100/028_Walnuss_Sonnenblume.mp3",
     "mood": "Krieg",
     "tree": "walnuss",
@@ -252,7 +252,7 @@
     "infoUrl": "agroforst-info-100/028_Walnuss_Sonnenblume_info.mp3"
   },
   "song_029": {
-    "title": "Walnuss und Kuerbis Zuversicht",
+    "title": "Walnuss und Kürbis",
     "audioUrl": "agroforst-songs-100/029_Walnuss_Kuerbis.mp3",
     "mood": "Kooperativ",
     "tree": "walnuss",
@@ -261,7 +261,7 @@
     "infoUrl": "agroforst-info-100/029_Walnuss_Kuerbis_info.mp3"
   },
   "song_030": {
-    "title": "Walnuss und Kartoffel Echo",
+    "title": "Walnuss und Kartoffel",
     "audioUrl": "agroforst-songs-100/030_Walnuss_Kartoffel.mp3",
     "mood": "Konflikt",
     "tree": "walnuss",
@@ -270,7 +270,7 @@
     "infoUrl": "agroforst-info-100/030_Walnuss_Kartoffel_info.mp3"
   },
   "song_031": {
-    "title": "Esskastanie und Weizen Pastorale",
+    "title": "Esskastanie und Weizen",
     "audioUrl": "agroforst-songs-100/031_Esskastanie_Weizen.mp3",
     "mood": "Distanziert",
     "tree": "esskastanie",
@@ -279,7 +279,7 @@
     "infoUrl": "agroforst-info-100/031_Esskastanie_Weizen_info.mp3"
   },
   "song_032": {
-    "title": "Esskastanie und Dinkel Prelude",
+    "title": "Esskastanie und Dinkel",
     "audioUrl": "agroforst-songs-100/032_Esskastanie_Dinkel.mp3",
     "mood": "Harmonisch",
     "tree": "esskastanie",
@@ -288,7 +288,7 @@
     "infoUrl": "agroforst-info-100/032_Esskastanie_Dinkel_info.mp3"
   },
   "song_033": {
-    "title": "Esskastanie und Gerste Intermezzo",
+    "title": "Esskastanie und Gerste",
     "audioUrl": "agroforst-songs-100/033_Esskastanie_Gerste.mp3",
     "mood": "Transzendent",
     "tree": "esskastanie",
@@ -297,7 +297,7 @@
     "infoUrl": "agroforst-info-100/033_Esskastanie_Gerste_info.mp3"
   },
   "song_034": {
-    "title": "Esskastanie und Ackerbohne Capriccio",
+    "title": "Esskastanie und Ackerbohne",
     "audioUrl": "agroforst-songs-100/034_Esskastanie_Ackerbohne.mp3",
     "mood": "Groove",
     "tree": "esskastanie",
@@ -306,7 +306,7 @@
     "infoUrl": "agroforst-info-100/034_Esskastanie_Ackerbohne_info.mp3"
   },
   "song_035": {
-    "title": "Esskastanie und Lupine Etude",
+    "title": "Esskastanie und Lupine",
     "audioUrl": "agroforst-songs-100/035_Esskastanie_Lupine.mp3",
     "mood": "Kooperativ",
     "tree": "esskastanie",
@@ -315,7 +315,7 @@
     "infoUrl": "agroforst-info-100/035_Esskastanie_Lupine_info.mp3"
   },
   "song_036": {
-    "title": "Esskastanie und Kleegras Rondo",
+    "title": "Esskastanie und Kleegras",
     "audioUrl": "agroforst-songs-100/036_Esskastanie_Kleegras.mp3",
     "mood": "Kooperativ",
     "tree": "esskastanie",
@@ -324,7 +324,7 @@
     "infoUrl": "agroforst-info-100/036_Esskastanie_Kleegras_info.mp3"
   },
   "song_037": {
-    "title": "Esskastanie und Mais Fiesta",
+    "title": "Esskastanie und Mais",
     "audioUrl": "agroforst-songs-100/037_Esskastanie_Mais.mp3",
     "mood": "Kooperativ",
     "tree": "esskastanie",
@@ -333,7 +333,7 @@
     "infoUrl": "agroforst-info-100/037_Esskastanie_Mais_info.mp3"
   },
   "song_038": {
-    "title": "Esskastanie und Sonnenblume Samba",
+    "title": "Esskastanie und Sonnenblume",
     "audioUrl": "agroforst-songs-100/038_Esskastanie_Sonnenblume.mp3",
     "mood": "Harmonisch",
     "tree": "esskastanie",
@@ -342,7 +342,7 @@
     "infoUrl": "agroforst-info-100/038_Esskastanie_Sonnenblume_info.mp3"
   },
   "song_039": {
-    "title": "Esskastanie und Kuerbis Serenata",
+    "title": "Esskastanie und Kürbis",
     "audioUrl": "agroforst-songs-100/039_Esskastanie_Kuerbis.mp3",
     "mood": "Harmonisch",
     "tree": "esskastanie",
@@ -351,7 +351,7 @@
     "infoUrl": "agroforst-info-100/039_Esskastanie_Kuerbis_info.mp3"
   },
   "song_040": {
-    "title": "Esskastanie und Kartoffel Barcarole",
+    "title": "Esskastanie und Kartoffel",
     "audioUrl": "agroforst-songs-100/040_Esskastanie_Kartoffel.mp3",
     "mood": "Distanziert",
     "tree": "esskastanie",
@@ -360,7 +360,7 @@
     "infoUrl": "agroforst-info-100/040_Esskastanie_Kartoffel_info.mp3"
   },
   "song_041": {
-    "title": "Obstbaeume und Weizen Pastorale",
+    "title": "Obstbaeume und Weizen",
     "audioUrl": "agroforst-songs-100/041_Obstbaeume_Weizen.mp3",
     "mood": "Distanziert",
     "tree": "obstbäume",
@@ -369,7 +369,7 @@
     "infoUrl": "agroforst-info-100/041_Obstbaeume_Weizen_info.mp3"
   },
   "song_042": {
-    "title": "Obstbaeume und Dinkel Quartett",
+    "title": "Obstbäume und Dinkel",
     "audioUrl": "agroforst-songs-100/042_Obstbaeume_Dinkel.mp3",
     "mood": "Transzendent",
     "tree": "obstbäume",
@@ -378,7 +378,7 @@
     "infoUrl": "agroforst-info-100/042_Obstbaeume_Dinkel_info.mp3"
   },
   "song_043": {
-    "title": "Obstbaeume und Gerste Gavotte",
+    "title": "Obstbaeume und Gerste",
     "audioUrl": "agroforst-songs-100/043_Obstbaeume_Gerste.mp3",
     "mood": "Groove",
     "tree": "obstbäume",
@@ -387,7 +387,7 @@
     "infoUrl": "agroforst-info-100/043_Obstbaeume_Gerste_info.mp3"
   },
   "song_044": {
-    "title": "Obstbaeume und Ackerbohne Ballade",
+    "title": "Obstbaeume und Ackerbohne",
     "audioUrl": "agroforst-songs-100/044_Obstbaeume_Ackerbohne.mp3",
     "mood": "Kooperativ",
     "tree": "obstbäume",
@@ -396,7 +396,7 @@
     "infoUrl": "agroforst-info-100/044_Obstbaeume_Ackerbohne_info.mp3"
   },
   "song_045": {
-    "title": "Obstbaeume und Lupine Konzert",
+    "title": "Obstbaeume und Lupine",
     "audioUrl": "agroforst-songs-100/045_Obstbaeume_Lupine.mp3",
     "mood": "Kooperativ",
     "tree": "obstbäume",
@@ -405,7 +405,7 @@
     "infoUrl": "agroforst-info-100/045_Obstbaeume_Lupine_info.mp3"
   },
   "song_046": {
-    "title": "Obstbaeume und Kleegras Idylle",
+    "title": "Obstbaeume und Kleegras",
     "audioUrl": "agroforst-songs-100/046_Obstbaeume_Kleegras.mp3",
     "mood": "Harmonisch",
     "tree": "obstbäume",
@@ -414,7 +414,7 @@
     "infoUrl": "agroforst-info-100/046_Obstbaeume_Kleegras_info.mp3"
   },
   "song_047": {
-    "title": "Obstbaeume und Mais Contradanza",
+    "title": "Obstbaeume und Mais",
     "audioUrl": "agroforst-songs-100/047_Obstbaeume_Mais.mp3",
     "mood": "Distanziert",
     "tree": "obstbäume",
@@ -423,7 +423,7 @@
     "infoUrl": "agroforst-info-100/047_Obstbaeume_Mais_info.mp3"
   },
   "song_048": {
-    "title": "Obstbaeume und Sonnenblume Polka",
+    "title": "Obstbaeume und Sonnenblume",
     "audioUrl": "agroforst-songs-100/048_Obstbaeume_Sonnenblume.mp3",
     "mood": "Kooperativ",
     "tree": "obstbäume",
@@ -432,7 +432,7 @@
     "infoUrl": "agroforst-info-100/048_Obstbaeume_Sonnenblume_info.mp3"
   },
   "song_049": {
-    "title": "Obstbaeume und Kuerbis Romanze",
+    "title": "Obstbaeume und Kürbis",
     "audioUrl": "agroforst-songs-100/049_Obstbaeume_Kuerbis.mp3",
     "mood": "Kooperativ",
     "tree": "obstbäume",
@@ -441,7 +441,7 @@
     "infoUrl": "agroforst-info-100/049_Obstbaeume_Kuerbis_info.mp3"
   },
   "song_050": {
-    "title": "Obstbaeume und Kartoffel Symphonie",
+    "title": "Obstbaeume und Kartoffel",
     "audioUrl": "agroforst-songs-100/050_Obstbaeume_Kartoffel.mp3",
     "mood": "Harmonisch",
     "tree": "obstbäume",
@@ -450,7 +450,7 @@
     "infoUrl": "agroforst-info-100/050_Obstbaeume_Kartoffel_info.mp3"
   },
   "song_051": {
-    "title": "Eiche und Weizen Meditation",
+    "title": "Eiche und Weizen",
     "audioUrl": "agroforst-songs-100/051_Eiche_Weizen.mp3",
     "mood": "Distanziert",
     "tree": "eiche",
@@ -459,7 +459,7 @@
     "infoUrl": "agroforst-info-100/051_Eiche_Weizen_info.mp3"
   },
   "song_052": {
-    "title": "Eiche und Dinkel Etüde",
+    "title": "Eiche und Dinkel",
     "audioUrl": "agroforst-songs-100/052_Eiche_Dinkel.mp3",
     "mood": "Harmonisch",
     "tree": "eiche",
@@ -468,7 +468,7 @@
     "infoUrl": "agroforst-info-100/052_Eiche_Dinkel_info.mp3"
   },
   "song_053": {
-    "title": "Eiche und Gerste Choral",
+    "title": "Eiche und Gerste",
     "audioUrl": "agroforst-songs-100/053_Eiche_Gerste.mp3",
     "mood": "Transzendent",
     "tree": "eiche",
@@ -477,7 +477,7 @@
     "infoUrl": "agroforst-info-100/053_Eiche_Gerste_info.mp3"
   },
   "song_054": {
-    "title": "Eiche und Ackerbohne Kantate",
+    "title": "Eiche und Ackerbohne",
     "audioUrl": "agroforst-songs-100/054_Eiche_Ackerbohne.mp3",
     "mood": "Groove",
     "tree": "eiche",
@@ -486,7 +486,7 @@
     "infoUrl": "agroforst-info-100/054_Eiche_Ackerbohne_info.mp3"
   },
   "song_055": {
-    "title": "Eiche und Lupine Fuge",
+    "title": "Eiche und Lupine",
     "audioUrl": "agroforst-songs-100/055_Eiche_Lupine.mp3",
     "mood": "Transzendent",
     "tree": "eiche",
@@ -495,7 +495,7 @@
     "infoUrl": "agroforst-info-100/055_Eiche_Lupine_info.mp3"
   },
   "song_056": {
-    "title": "Eiche und Kleegras Suite",
+    "title": "Eiche und Kleegras",
     "audioUrl": "agroforst-songs-100/056_Eiche_Kleegras.mp3",
     "mood": "Kooperativ",
     "tree": "eiche",
@@ -504,7 +504,7 @@
     "infoUrl": "agroforst-info-100/056_Eiche_Kleegras_info.mp3"
   },
   "song_057": {
-    "title": "Eiche und Mais Dissonanz",
+    "title": "Eiche und Mais",
     "audioUrl": "agroforst-songs-100/057_Eiche_Mais.mp3",
     "mood": "Konflikt",
     "tree": "eiche",
@@ -513,7 +513,7 @@
     "infoUrl": "agroforst-info-100/057_Eiche_Mais_info.mp3"
   },
   "song_058": {
-    "title": "Eiche und Sonnenblume Stille",
+    "title": "Eiche und Sonnenblume",
     "audioUrl": "agroforst-songs-100/058_Eiche_Sonnenblume.mp3",
     "mood": "Konflikt",
     "tree": "eiche",
@@ -522,7 +522,7 @@
     "infoUrl": "agroforst-info-100/058_Eiche_Sonnenblume_info.mp3"
   },
   "song_059": {
-    "title": "Eiche und Kuerbis Andante",
+    "title": "Eiche und Kürbis",
     "audioUrl": "agroforst-songs-100/059_Eiche_Kuerbis.mp3",
     "mood": "Kooperativ",
     "tree": "eiche",
@@ -531,7 +531,7 @@
     "infoUrl": "agroforst-info-100/059_Eiche_Kuerbis_info.mp3"
   },
   "song_060": {
-    "title": "Eiche und Kartoffel Largo",
+    "title": "Eiche und Kartoffel",
     "audioUrl": "agroforst-songs-100/060_Eiche_Kartoffel.mp3",
     "mood": "Distanziert",
     "tree": "eiche",
@@ -540,7 +540,7 @@
     "infoUrl": "agroforst-info-100/060_Eiche_Kartoffel_info.mp3"
   },
   "song_061": {
-    "title": "Roteiche und Weizen Präludium",
+    "title": "Roteiche und Weizen",
     "audioUrl": "agroforst-songs-100/061_Roteiche_Weizen.mp3",
     "mood": "Harmonisch",
     "tree": "roteiche",
@@ -549,7 +549,7 @@
     "infoUrl": "agroforst-info-100/061_Roteiche_Weizen_info.mp3"
   },
   "song_062": {
-    "title": "Roteiche und Dinkel Variationen",
+    "title": "Roteiche und Dinkel",
     "audioUrl": "agroforst-songs-100/062_Roteiche_Dinkel.mp3",
     "mood": "Transzendent",
     "tree": "roteiche",
@@ -558,7 +558,7 @@
     "infoUrl": "agroforst-info-100/062_Roteiche_Dinkel_info.mp3"
   },
   "song_063": {
-    "title": "Roteiche und Gerste Polonaise",
+    "title": "Roteiche und Gerste",
     "audioUrl": "agroforst-songs-100/063_Roteiche_Gerste.mp3",
     "mood": "Groove",
     "tree": "roteiche",
@@ -567,7 +567,7 @@
     "infoUrl": "agroforst-info-100/063_Roteiche_Gerste_info.mp3"
   },
   "song_064": {
-    "title": "Roteiche und Ackerbohne Menuett",
+    "title": "Roteiche und Ackerbohne",
     "audioUrl": "agroforst-songs-100/064_Roteiche_Ackerbohne.mp3",
     "mood": "Harmonisch",
     "tree": "roteiche",
@@ -576,7 +576,7 @@
     "infoUrl": "agroforst-info-100/064_Roteiche_Ackerbohne_info.mp3"
   },
   "song_065": {
-    "title": "Roteiche und Lupine Caprice",
+    "title": "Roteiche und Lupine",
     "audioUrl": "agroforst-songs-100/065_Roteiche_Lupine.mp3",
     "mood": "Transzendent",
     "tree": "roteiche",
@@ -585,7 +585,7 @@
     "infoUrl": "agroforst-info-100/065_Roteiche_Lupine_info.mp3"
   },
   "song_066": {
-    "title": "Roteiche und Kleegras Pastorale",
+    "title": "Roteiche und Kleegras",
     "audioUrl": "agroforst-songs-100/066_Roteiche_Kleegras.mp3",
     "mood": "Kooperativ",
     "tree": "roteiche",
@@ -594,7 +594,7 @@
     "infoUrl": "agroforst-info-100/066_Roteiche_Kleegras_info.mp3"
   },
   "song_067": {
-    "title": "Roteiche und Mais Allegro",
+    "title": "Roteiche und Mais",
     "audioUrl": "agroforst-songs-100/067_Roteiche_Mais.mp3",
     "mood": "Kooperativ",
     "tree": "roteiche",
@@ -603,7 +603,7 @@
     "infoUrl": "agroforst-info-100/067_Roteiche_Mais_info.mp3"
   },
   "song_068": {
-    "title": "Roteiche und Sonnenblume Fanfare",
+    "title": "Roteiche und Sonnenblume",
     "audioUrl": "agroforst-songs-100/068_Roteiche_Sonnenblume.mp3",
     "mood": "Kooperativ",
     "tree": "roteiche",
@@ -612,7 +612,7 @@
     "infoUrl": "agroforst-info-100/068_Roteiche_Sonnenblume_info.mp3"
   },
   "song_069": {
-    "title": "Roteiche und Kuerbis Interlude",
+    "title": "Roteiche und Kürbis",
     "audioUrl": "agroforst-songs-100/069_Roteiche_Kuerbis.mp3",
     "mood": "Harmonisch",
     "tree": "roteiche",
@@ -621,7 +621,7 @@
     "infoUrl": "agroforst-info-100/069_Roteiche_Kuerbis_info.mp3"
   },
   "song_070": {
-    "title": "Roteiche und Kartoffel Rhapsodie",
+    "title": "Roteiche und Kartoffel",
     "audioUrl": "agroforst-songs-100/070_Roteiche_Kartoffel.mp3",
     "mood": "Distanziert",
     "tree": "roteiche",
@@ -630,7 +630,7 @@
     "infoUrl": "agroforst-info-100/070_Roteiche_Kartoffel_info.mp3"
   },
   "song_071": {
-    "title": "Elsbeere und Weizen Elegie",
+    "title": "Elsbeere und Weizen",
     "audioUrl": "agroforst-songs-100/071_Elsbeere_Weizen.mp3",
     "mood": "Konflikt",
     "tree": "elsbeere",
@@ -639,7 +639,7 @@
     "infoUrl": "agroforst-info-100/071_Elsbeere_Weizen_info.mp3"
   },
   "song_072": {
-    "title": "Elsbeere und Dinkel Serenata",
+    "title": "Elsbeere und Dinkel",
     "audioUrl": "agroforst-songs-100/072_Elsbeere_Dinkel.mp3",
     "mood": "Transzendent",
     "tree": "elsbeere",
@@ -648,7 +648,7 @@
     "infoUrl": "agroforst-info-100/072_Elsbeere_Dinkel_info.mp3"
   },
   "song_073": {
-    "title": "Elsbeere und Gerste Minuett",
+    "title": "Elsbeere und Gerste",
     "audioUrl": "agroforst-songs-100/073_Elsbeere_Gerste.mp3",
     "mood": "Distanziert",
     "tree": "elsbeere",
@@ -657,7 +657,7 @@
     "infoUrl": "agroforst-info-100/073_Elsbeere_Gerste_info.mp3"
   },
   "song_074": {
-    "title": "Elsbeere und Ackerbohne Aria",
+    "title": "Elsbeere und Ackerbohne",
     "audioUrl": "agroforst-songs-100/074_Elsbeere_Ackerbohne.mp3",
     "mood": "Harmonisch",
     "tree": "elsbeere",
@@ -666,7 +666,7 @@
     "infoUrl": "agroforst-info-100/074_Elsbeere_Ackerbohne_info.mp3"
   },
   "song_075": {
-    "title": "Elsbeere und Lupine Invention",
+    "title": "Elsbeere und Lupine",
     "audioUrl": "agroforst-songs-100/075_Elsbeere_Lupine.mp3",
     "mood": "Kooperativ",
     "tree": "elsbeere",
@@ -675,7 +675,7 @@
     "infoUrl": "agroforst-info-100/075_Elsbeere_Lupine_info.mp3"
   },
   "song_076": {
-    "title": "Elsbeere und Kleegras Pastoral",
+    "title": "Elsbeere und Kleegras",
     "audioUrl": "agroforst-songs-100/076_Elsbeere_Kleegras.mp3",
     "mood": "Harmonisch",
     "tree": "elsbeere",
@@ -684,7 +684,7 @@
     "infoUrl": "agroforst-info-100/076_Elsbeere_Kleegras_info.mp3"
   },
   "song_077": {
-    "title": "Elsbeere und Mais Lamento",
+    "title": "Elsbeere und Mais",
     "audioUrl": "agroforst-songs-100/077_Elsbeere_Mais.mp3",
     "mood": "Konflikt",
     "tree": "elsbeere",
@@ -693,7 +693,7 @@
     "infoUrl": "agroforst-info-100/077_Elsbeere_Mais_info.mp3"
   },
   "song_078": {
-    "title": "Elsbeere und Sonnenblume Threnody",
+    "title": "Elsbeere und Sonnenblume",
     "audioUrl": "agroforst-songs-100/078_Elsbeere_Sonnenblume.mp3",
     "mood": "Distanziert",
     "tree": "elsbeere",
@@ -702,7 +702,7 @@
     "infoUrl": "agroforst-info-100/078_Elsbeere_Sonnenblume_info.mp3"
   },
   "song_079": {
-    "title": "Elsbeere und Kuerbis Scherzo",
+    "title": "Elsbeere und Kürbis",
     "audioUrl": "agroforst-songs-100/079_Elsbeere_Kuerbis.mp3",
     "mood": "Groove",
     "tree": "elsbeere",
@@ -711,7 +711,7 @@
     "infoUrl": "agroforst-info-100/079_Elsbeere_Kuerbis_info.mp3"
   },
   "song_080": {
-    "title": "Elsbeere und Kartoffel Stilleben",
+    "title": "Elsbeere und Kartoffel",
     "audioUrl": "agroforst-songs-100/080_Elsbeere_Kartoffel.mp3",
     "mood": "Distanziert",
     "tree": "elsbeere",
@@ -720,7 +720,7 @@
     "infoUrl": "agroforst-info-100/080_Elsbeere_Kartoffel_info.mp3"
   },
   "song_081": {
-    "title": "Weide und Weizen Brise",
+    "title": "Weide und Weizen",
     "audioUrl": "agroforst-songs-100/081_Weide_Weizen.mp3",
     "mood": "Distanziert",
     "tree": "weide",
@@ -729,7 +729,7 @@
     "infoUrl": "agroforst-info-100/081_Weide_Weizen_info.mp3"
   },
   "song_082": {
-    "title": "Weide und Dinkel Wellenlied",
+    "title": "Weide und Dinkel",
     "audioUrl": "agroforst-songs-100/082_Weide_Dinkel.mp3",
     "mood": "Transzendent",
     "tree": "weide",
@@ -738,7 +738,7 @@
     "infoUrl": "agroforst-info-100/082_Weide_Dinkel_info.mp3"
   },
   "song_083": {
-    "title": "Weide und Gerste Stromschnellen",
+    "title": "Weide und Gerste",
     "audioUrl": "agroforst-songs-100/083_Weide_Gerste.mp3",
     "mood": "Groove",
     "tree": "weide",
@@ -747,7 +747,7 @@
     "infoUrl": "agroforst-info-100/083_Weide_Gerste_info.mp3"
   },
   "song_084": {
-    "title": "Weide und Ackerbohne Bach",
+    "title": "Weide und Ackerbohne",
     "audioUrl": "agroforst-songs-100/084_Weide_Ackerbohne.mp3",
     "mood": "Harmonisch",
     "tree": "weide",
@@ -756,7 +756,7 @@
     "infoUrl": "agroforst-info-100/084_Weide_Ackerbohne_info.mp3"
   },
   "song_085": {
-    "title": "Weide und Lupine Fluss",
+    "title": "Weide und Lupine",
     "audioUrl": "agroforst-songs-100/085_Weide_Lupine.mp3",
     "mood": "Kooperativ",
     "tree": "weide",
@@ -765,7 +765,7 @@
     "infoUrl": "agroforst-info-100/085_Weide_Lupine_info.mp3"
   },
   "song_086": {
-    "title": "Weide und Kleegras Mäander",
+    "title": "Weide und Kleegras",
     "audioUrl": "agroforst-songs-100/086_Weide_Kleegras.mp3",
     "mood": "Harmonisch",
     "tree": "weide",
@@ -774,7 +774,7 @@
     "infoUrl": "agroforst-info-100/086_Weide_Kleegras_info.mp3"
   },
   "song_087": {
-    "title": "Weide und Mais Quelle",
+    "title": "Weide und Mais",
     "audioUrl": "agroforst-songs-100/087_Weide_Mais.mp3",
     "mood": "Distanziert",
     "tree": "weide",
@@ -783,7 +783,7 @@
     "infoUrl": "agroforst-info-100/087_Weide_Mais_info.mp3"
   },
   "song_088": {
-    "title": "Weide und Sonnenblume Delta",
+    "title": "Weide und Sonnenblume",
     "audioUrl": "agroforst-songs-100/088_Weide_Sonnenblume.mp3",
     "mood": "Kooperativ",
     "tree": "weide",
@@ -792,7 +792,7 @@
     "infoUrl": "agroforst-info-100/088_Weide_Sonnenblume_info.mp3"
   },
   "song_089": {
-    "title": "Weide und Kuerbis Teich",
+    "title": "Weide und Kürbis",
     "audioUrl": "agroforst-songs-100/089_Weide_Kuerbis.mp3",
     "mood": "Groove",
     "tree": "weide",
@@ -801,7 +801,7 @@
     "infoUrl": "agroforst-info-100/089_Weide_Kuerbis_info.mp3"
   },
   "song_090": {
-    "title": "Weide und Kartoffel Oase",
+    "title": "Weide und Kartoffel",
     "audioUrl": "agroforst-songs-100/090_Weide_Kartoffel.mp3",
     "mood": "Harmonisch",
     "tree": "weide",
@@ -810,7 +810,7 @@
     "infoUrl": "agroforst-info-100/090_Weide_Kartoffel_info.mp3"
   },
   "song_091": {
-    "title": "Paulownia und Weizen Turbowind",
+    "title": "Paulownia und Weizen",
     "audioUrl": "agroforst-songs-100/091_Paulownia_Weizen.mp3",
     "mood": "Krieg",
     "tree": "paulownia",
@@ -819,7 +819,7 @@
     "infoUrl": "agroforst-info-100/091_Paulownia_Weizen_info.mp3"
   },
   "song_092": {
-    "title": "Paulownia und Dinkel Schatten",
+    "title": "Paulownia und Dinkel",
     "audioUrl": "agroforst-songs-100/092_Paulownia_Dinkel.mp3",
     "mood": "Konflikt",
     "tree": "paulownia",
@@ -828,7 +828,7 @@
     "infoUrl": "agroforst-info-100/092_Paulownia_Dinkel_info.mp3"
   },
   "song_093": {
-    "title": "Paulownia und Gerste Finsternis",
+    "title": "Paulownia und Gerste",
     "audioUrl": "agroforst-songs-100/093_Paulownia_Gerste.mp3",
     "mood": "Konflikt",
     "tree": "paulownia",
@@ -837,7 +837,7 @@
     "infoUrl": "agroforst-info-100/093_Paulownia_Gerste_info.mp3"
   },
   "song_094": {
-    "title": "Paulownia und Ackerbohne Wettstreit",
+    "title": "Paulownia und Ackerbohne",
     "audioUrl": "agroforst-songs-100/094_Paulownia_Ackerbohne.mp3",
     "mood": "Harmonisch",
     "tree": "paulownia",
@@ -846,7 +846,7 @@
     "infoUrl": "agroforst-info-100/094_Paulownia_Ackerbohne_info.mp3"
   },
   "song_095": {
-    "title": "Paulownia und Lupine Speed",
+    "title": "Paulownia und Lupine",
     "audioUrl": "agroforst-songs-100/095_Paulownia_Lupine.mp3",
     "mood": "Kooperativ",
     "tree": "paulownia",
@@ -855,7 +855,7 @@
     "infoUrl": "agroforst-info-100/095_Paulownia_Lupine_info.mp3"
   },
   "song_096": {
-    "title": "Paulownia und Kleegras Dimmer",
+    "title": "Paulownia und Kleegras",
     "audioUrl": "agroforst-songs-100/096_Paulownia_Kleegras.mp3",
     "mood": "Groove",
     "tree": "paulownia",
@@ -864,7 +864,7 @@
     "infoUrl": "agroforst-info-100/096_Paulownia_Kleegras_info.mp3"
   },
   "song_097": {
-    "title": "Paulownia und Mais Giganten",
+    "title": "Paulownia und Mais",
     "audioUrl": "agroforst-songs-100/097_Paulownia_Mais.mp3",
     "mood": "Harmonisch",
     "tree": "paulownia",
@@ -873,7 +873,7 @@
     "infoUrl": "agroforst-info-100/097_Paulownia_Mais_info.mp3"
   },
   "song_098": {
-    "title": "Paulownia und Sonnenblume Solar",
+    "title": "Paulownia und Sonnenblume",
     "audioUrl": "agroforst-songs-100/098_Paulownia_Sonnenblume.mp3",
     "mood": "Transzendent",
     "tree": "paulownia",
@@ -882,7 +882,7 @@
     "infoUrl": "agroforst-info-100/098_Paulownia_Sonnenblume_info.mp3"
   },
   "song_099": {
-    "title": "Paulownia und Kuerbis Dschungel",
+    "title": "Paulownia und Kürbis",
     "audioUrl": "agroforst-songs-100/099_Paulownia_Kuerbis.mp3",
     "mood": "Kooperativ",
     "tree": "paulownia",
@@ -891,7 +891,7 @@
     "infoUrl": "agroforst-info-100/099_Paulownia_Kuerbis_info.mp3"
   },
   "song_100": {
-    "title": "Paulownia und Kartoffel Überschattung",
+    "title": "Paulownia und Kartoffel",
     "audioUrl": "agroforst-songs-100/100_Paulownia_Kartoffel.mp3",
     "mood": "Distanziert",
     "tree": "paulownia",

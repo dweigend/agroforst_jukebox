@@ -1,8 +1,8 @@
 # 3D Asset Mapping für RFID Pop-Up Visualisierung
 
-**Projekt:** Modulare 3D-Agroforst-Musikvisualisierung  
-**Zweck:** Zuordnung der 20 Pflanzen-Charaktere zu verfügbaren 3D-Assets für optimiertes RFID-Scanning  
-**Datum:** 2025-09-05  
+**Projekt:** Modulare 3D-Agroforst-Musikvisualisierung
+**Zweck:** Zuordnung der 20 Pflanzen-Charaktere zu verfügbaren 3D-Assets für optimiertes RFID-Scanning
+**Datum:** 2025-09-05
 
 ## Übersicht
 
@@ -48,7 +48,7 @@ Diese Dokumentation ordnet alle 20 Agroforst-Pflanzencharaktere den verfügbaren
 
 ### Verfügbare Baum-Assets:
 - `tree_blocks.obj` / `tree_blocks_dark.obj` / `tree_blocks_fall.obj`
-- `tree_default.obj` / `tree_default_dark.obj` / `tree_default_fall.obj`  
+- `tree_default.obj` / `tree_default_dark.obj` / `tree_default_fall.obj`
 - `tree_detailed.obj` / `tree_detailed_dark.obj` / `tree_detailed_fall.obj`
 - `tree_oak.obj` / `tree_oak_dark.obj` / `tree_oak_fall.obj`
 - `tree_pine_short.obj` / `tree_pine_short_detailed.obj`
@@ -63,56 +63,12 @@ Diese Dokumentation ordnet alle 20 Agroforst-Pflanzencharaktere den verfügbaren
 
 ### Verfügbare Feldfrucht-Assets:
 - `crops_cornStageA.obj` - Junge Maispflanze
-- `crops_cornStageB.obj` - Mittlere Maispflanze  
+- `crops_cornStageB.obj` - Mittlere Maispflanze
 - `crops_cornStageC.obj` - Große Maispflanze
 - `crops_cornStageD.obj` - Ausgewachsener Mais
 - `wheat.obj` - Weizen-Getreide
 - `flower_beige1.obj`, `flower_beige2.obj`, `flower_beige3.obj`
-- `flower_blue1.obj`, `flower_blue2.obj`, `flower_blue3.obj`  
+- `flower_blue1.obj`, `flower_blue2.obj`, `flower_blue3.obj`
 - `flower_red1.obj`, `flower_red2.obj`, `flower_red3.obj`
 - `grass.obj` - Normales Gras
 - `grass_dense.obj` - Dichtes Gras
-
----
-
-## 🎨 Pop-Up Visualisierung Konzept
-
-### Darstellung
-- **Baum:** Größeres 3D-Modell, links/zentral positioniert
-- **Feldfrucht:** Kleineres 3D-Modell, rechts/unten positioniert  
-- **Animation:** Freie Rotation beider Modelle auf verschiedenen Achsen
-- **Hintergrund:** Ausgeblendete/gedimmte Hauptszene
-- **Effekte:** Sanfte Beleuchtung, Glasmorphism-Panel
-
-### Technische Umsetzung
-- **Manager:** `RFIDPopupManager.ts` (neu zu erstellen)
-- **Loader:** OBJ/MTL-Format über Three.js OBJLoader
-- **Animation:** Kontinuierliche Y-Achsen-Rotation  
-- **Übergang:** Fade-in/out Animationen (0.5s)
-
-### Integration in bestehendes System
-- **Event:** `GameEventBus.emit('popup:show', { treeAsset, plantAsset })`
-- **Trigger:** Nach erfolgreichem RFID-Scan von Baum + Pflanze
-- **UI:** Integration in `RoundUIManager` für Touch-Display
-
----
-
-## 🔄 Verwendung in Code
-
-```typescript
-// Beispiel Asset-Zuordnung abrufen
-const getAssetForCharacter = (characterName: string): string => {
-  const assetMap = {
-    'EICHE': 'tree_oak.obj',
-    'WEIZEN': 'wheat.obj',
-    'MAIS': 'crops_cornStageD.obj',
-    // ... weitere Zuordnungen
-  };
-  return assetMap[characterName] || 'tree_default.obj';
-};
-```
-
----
-
-**Status:** ✅ Vollständige Asset-Zuordnung definiert  
-**Nächster Schritt:** Implementation des `RFIDPopupManager` Systems
