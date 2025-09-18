@@ -92,9 +92,14 @@ export class LightManager implements IManager {
       }
 
       if (lightConfig.type === 'point') {
+        // Handle random intensity
+        const intensity = Array.isArray(lightConfig.intensity)
+          ? lightConfig.intensity[0] + Math.random() * (lightConfig.intensity[1] - lightConfig.intensity[0])
+          : lightConfig.intensity;
+
         const pointLight = new THREE.PointLight(
           lightConfig.color,
-          lightConfig.intensity,
+          intensity,
           lightConfig.distance,
           lightConfig.decay
         );

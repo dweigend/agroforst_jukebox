@@ -124,7 +124,7 @@ Das System folgt dem **ULTRATHINK Prinzip** - maximale Vereinfachung durch direk
 ## 📱 **Hardware Integration**
 
 ### RFID-Setup (Production)
-Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. Hier ist ein Auszug der finalen IDs:
+Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. Hier ist ein Auszug der IDs die im Futurium genutzt werden:
 
 ```json
 // Bäume (Auszug)

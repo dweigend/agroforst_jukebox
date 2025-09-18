@@ -32,6 +32,10 @@ export interface PlantInfo {
   type: 'tree' | 'plant';  // Type classification
   info: string;            // Educational description
   assetPath: string;       // 3D model path
+  scale?: {                // Optional scale configuration for 3D rendering
+    min: number;           // Minimum scale factor
+    max: number;           // Maximum scale factor
+  };
 }
 
 /**
@@ -126,16 +130,16 @@ export interface ParticleConfig {
   name?: string;
   count: number;
   material: {
-    size: number;
+    size: number | [number, number]; // Random support: [min, max]
     textureType: 'sparkle' | 'smoke';
     blending: 'additive' | 'normal';
     depthWrite: boolean;
-    opacity: number;
-    color: string;
+    opacity: number | [number, number]; // Random support: [min, max]
+    color: string | string[]; // Random support: multiple colors
   };
   behavior: {
     spawnArea: number[];
-    velocity: number[];
+    velocity: number[] | [number[], number[]]; // Random support: [min, max] per axis
     direction: 'up' | 'down';
   };
 }
@@ -143,13 +147,13 @@ export interface ParticleConfig {
 export interface DynamicLightConfig {
   name: string;
   type: 'spot' | 'point';
-  color: number;
-  intensity: number;
+  color: number | number[]; // Random support: multiple colors
+  intensity: number | [number, number]; // Random support: [min, max] for pulsing
   angle?: number;
   penumbra?: number;
   decay?: number;
   distance?: number;
-  position: number[];
+  position: number[] | [number[], number[]]; // Random support: [min, max] per axis
 }
 
 export interface UIConfig {

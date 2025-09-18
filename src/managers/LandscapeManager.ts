@@ -43,6 +43,10 @@ export class LandscapeManager implements ILandscapeManager {
   private currentPlantGeometry: THREE.BufferGeometry | null = null;
   private currentPlantMaterial: THREE.Material | null = null;
 
+  // Scale configuration from plants.json
+  private currentTreeScale: { min: number; max: number } = { min: 0.8, max: 1.2 };
+  private currentPlantScale: { min: number; max: number } = { min: 1.5, max: 2.0 };
+
   private currentVegConfig: VegetationConfig | null = null;
   private eventListeners: Array<{ event: string; listener: (...args: any[]) => void }> = [];
 
@@ -139,6 +143,10 @@ export class LandscapeManager implements ILandscapeManager {
       this.currentPlantGeometry = plantGeometry;
       this.currentPlantMaterial = plantMaterial;
 
+      // Store scale information from plant data
+      this.currentTreeScale = data.treeInfo?.scale || { min: 0.8, max: 1.2 };
+      this.currentPlantScale = data.plantInfo?.scale || { min: 1.5, max: 2.0 };
+
       if (this.currentVegConfig) {
         this.applyMoodToAssetMaterials(this.currentVegConfig);
       }
@@ -203,7 +211,7 @@ export class LandscapeManager implements ILandscapeManager {
       const finalZ = z;
 
       const terrainHeight = this.getInterpolatedGroundHeightAt(finalX, finalZ);
-      const scale = 0.8 + Math.random() * 0.4;
+      const scale = this.currentTreeScale.min + Math.random() * (this.currentTreeScale.max - this.currentTreeScale.min);
 
       tree.position.set(finalX, terrainHeight + baseOffset * scale, finalZ);
       tree.rotation.y = Math.random() * Math.PI * 2;
@@ -228,7 +236,7 @@ export class LandscapeManager implements ILandscapeManager {
       const finalZ = (Math.random() - 0.5) * 800;
 
       const terrainHeight = this.getInterpolatedGroundHeightAt(finalX, finalZ);
-      const scale = 8.0 + Math.random() * 4.0; // Crops für bessere Sichtbarkeit
+      const scale = this.currentPlantScale.min + Math.random() * (this.currentPlantScale.max - this.currentPlantScale.min);
 
       crop.position.set(finalX, terrainHeight + baseOffset * scale + 2, finalZ); // +2 für bessere Sichtbarkeit
       crop.rotation.y = Math.random() * Math.PI * 2;
@@ -344,23 +352,36 @@ export class LandscapeManager implements ILandscapeManager {
     const cropMaterial = this.crops.material as THREE.MeshStandardMaterial;
     const groundMaterial = this.ground.material as THREE.MeshStandardMaterial;
 
+    // Update ground color from mood config
+    groundMaterial.color.set(moodConfig.groundColor);
+
     if (vegConfig.pulsingColor) {
-      const hue = (elapsedTime * 0.1) % 1;
-      treeMaterial.color.setHSL(hue, 0.8, 0.5);
-      cropMaterial.color.setHSL(hue + 0.5, 0.8, 0.5);
+      // Slower pulsing: 0.1 -> 0.03 for more meditative pace
+      const hue = (elapsedTime * 0.03) % 1;
+      const saturation = 0.7 + Math.sin(elapsedTime * 0.05) * 0.2; // Soft saturation shift
+      const lightness = 0.5 + Math.sin(elapsedTime * 0.04) * 0.15; // Gentle brightness shift
+
+      treeMaterial.color.setHSL(hue, saturation, lightness);
+      cropMaterial.color.setHSL((hue + 0.3) % 1, saturation * 0.9, lightness + 0.1);
     } else {
       treeMaterial.color.set(vegConfig.treeColor);
       cropMaterial.color.set(vegConfig.cropColor);
     }
 
     if (vegConfig.emissiveGlow && vegConfig.emissiveColor) {
-      const intensity = ((Math.sin(elapsedTime * 2) + 1) / 2) * 0.8 + 0.2;
-      treeMaterial.emissive.set(vegConfig.emissiveColor);
-      treeMaterial.emissiveIntensity = intensity;
-      cropMaterial.emissive.set(vegConfig.emissiveColor);
-      cropMaterial.emissiveIntensity = intensity;
-      groundMaterial.emissive.set(vegConfig.emissiveColor);
-      groundMaterial.emissiveIntensity = intensity * 0.5;
+      // Slower emissive pulsing with reduced intensity
+      const intensity = ((Math.sin(elapsedTime * 0.8) + 1) / 2) * 0.3 + 0.1;
+
+      // Color-shifting emissive glow with reduced saturation
+      const emissiveHue = (elapsedTime * 0.02) % 1;
+      const emissiveColor = new THREE.Color().setHSL(emissiveHue, 0.5, 0.4);
+
+      treeMaterial.emissive.copy(emissiveColor);
+      treeMaterial.emissiveIntensity = intensity * 0.7;
+      cropMaterial.emissive.copy(emissiveColor);
+      cropMaterial.emissiveIntensity = intensity * 0.8;
+      groundMaterial.emissive.copy(emissiveColor);
+      groundMaterial.emissiveIntensity = intensity * 0.2;
     } else {
       treeMaterial.emissiveIntensity = 0;
       cropMaterial.emissiveIntensity = 0;

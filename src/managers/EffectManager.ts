@@ -49,6 +49,18 @@ export class EffectManager implements IManager {
     this.composer.addPass(this.bloomPass);
   }
 
+  private getRandomSize(size: number | [number, number]): number {
+    return Array.isArray(size) ? size[0] + Math.random() * (size[1] - size[0]) : size;
+  }
+
+  private getRandomOpacity(opacity: number | [number, number]): number {
+    return Array.isArray(opacity) ? opacity[0] + Math.random() * (opacity[1] - opacity[0]) : opacity;
+  }
+
+  private getRandomColor(color: string | string[]): string {
+    return Array.isArray(color) ? color[Math.floor(Math.random() * color.length)] : color;
+  }
+
   private createParticleTexture(type: 'sparkle' | 'smoke' = 'sparkle'): THREE.CanvasTexture {
     // HTML5 Canvas für prozedurelle Textur-Generierung
     const canvas = document.createElement('canvas');
@@ -119,13 +131,18 @@ export class EffectManager implements IManager {
             Math.random() * behavior.spawnArea[1],
             (Math.random() - 0.5) * behavior.spawnArea[2]
           );
+          const vel = behavior.velocity as number[];
           velocities.push(
-            (Math.random() - 0.5) * behavior.velocity[0],
-            Math.random() * behavior.velocity[1],
-            (Math.random() - 0.5) * behavior.velocity[2]
+            (Math.random() - 0.5) * vel[0],
+            Math.random() * vel[1],
+            (Math.random() - 0.5) * vel[2]
           );
+
           if (material.color === 'rainbow') {
             const color = new THREE.Color().setHSL(Math.random(), 1.0, 0.7);
+            colors.push(color.r, color.g, color.b);
+          } else if (Array.isArray(material.color)) {
+            const color = new THREE.Color(this.getRandomColor(material.color));
             colors.push(color.r, color.g, color.b);
           }
         }
@@ -138,15 +155,17 @@ export class EffectManager implements IManager {
         }
 
         const pMaterial = new THREE.PointsMaterial({
-          size: material.size,
+          size: this.getRandomSize(material.size),
           map: texture,
           blending:
             material.blending === 'additive' ? THREE.AdditiveBlending : THREE.NormalBlending,
           depthWrite: material.depthWrite,
           transparent: true,
-          opacity: material.opacity,
-          vertexColors: material.color === 'rainbow',
-          color: material.color === 'rainbow' ? 0xffffff : new THREE.Color(material.color),
+          opacity: this.getRandomOpacity(material.opacity),
+          vertexColors: material.color === 'rainbow' || Array.isArray(material.color),
+          color: material.color === 'rainbow' || Array.isArray(material.color)
+            ? 0xffffff
+            : new THREE.Color(material.color as string),
         });
 
         const points = new THREE.Points(geometry, pMaterial);

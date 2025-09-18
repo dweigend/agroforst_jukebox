@@ -152,6 +152,23 @@ export class RFIDMusicManager implements IRFIDManager {
     }
 
     this.playSong(songInfo);
+    this.generateLandscape();
+  }
+
+  private generateLandscape(): void {
+    if (!this.selection.tree || !this.selection.plant) return;
+
+    // Emit landscape generation event with complete plant info including scale
+    gameEventBus.emit('landscape:generate-from-selection', {
+      treeAsset: this.selection.tree.assetPath,
+      plantAsset: this.selection.plant.assetPath,
+      treeName: this.selection.tree.name,
+      plantName: this.selection.plant.name,
+      treeInfo: this.selection.tree,      // Complete PlantInfo for scale data
+      plantInfo: this.selection.plant,    // Complete PlantInfo for scale data
+    });
+
+    rfidLogger.info(`Landscape generation triggered: ${this.selection.tree.assetPath} + ${this.selection.plant.assetPath}`);
   }
 
   private playSong(songInfo: SongInfo): void {

@@ -2,7 +2,6 @@
 
 ## ⚠️ WICHTIG: Diese IDs sind bindend und entsprechen den physischen RFID-Karten!
 
-Datum der Festlegung: 2024
 Status: ✅ FINAL - Diese Zuordnung darf NICHT mehr geändert werden
 
 ---
@@ -58,37 +57,3 @@ B8    Song071 Song072 Song073 Song074 Song075 Song076 Song077 Song078 Song079 So
 B9    Song081 Song082 Song083 Song084 Song085 Song086 Song087 Song088 Song089 Song090
 B10   Song091 Song092 Song093 Song094 Song095 Song096 Song097 Song098 Song099 Song100
 ```
-
----
-
-## 📋 Technische Details
-
-### RFID-Scanner Konfiguration
-- **Modus**: Keyboard-Emulation
-- **Format**: 10-stellige Zahl + ENTER
-- **Beispiel-Scan**: `0009812671\n`
-
-### Datei-Referenzen
-- **Konfiguration**: `src/configs/rfid-mappings.ts`
-- **Song-Datenbank**: `src/configs/songs.ts`
-- **Song-Assets**: `assets/agroforst-songs-100/`
-
-### Validierung
-Alle RFID-IDs wurden validiert:
-- ✅ 10-stelliges Zahlenformat
-- ✅ Eindeutige IDs (keine Duplikate)
-- ✅ Hardware-getestet
-
----
-
-## ⚠️ WICHTIGE HINWEISE
-
-1. **Diese Zuordnung ist FINAL** - Änderungen würden die physischen RFID-Karten ungültig machen
-2. **Backup erstellen** - Diese Datei sollte mehrfach gesichert werden
-3. **Hardware-Bindung** - Die RFID-Karten sind physisch mit diesen IDs beschriftet
-4. **Test-Protokoll** - Jede Karte wurde mit dem Scanner getestet und validiert
-
----
-
-*Letzte Aktualisierung: Dezember 2024*
-*Verantwortlich: Agroforst Game Development Team*

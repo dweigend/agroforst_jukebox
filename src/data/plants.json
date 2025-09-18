@@ -5,70 +5,80 @@
       "name": "Pappel",
       "type": "tree",
       "info": "Schnellwachsender Laubbaum mit hohem Agroforst-Potenzial. Bietet schnellen Schatten und Windschutz.",
-      "assetPath": "tree_oak.obj"
+      "assetPath": "tree_tall.obj",
+      "scale": { "min": 0.8, "max": 1.2 }
     },
     "robinie": {
       "ids": ["0009812134", "T002_ROBINIE", "B002"],
       "name": "Robinie",
       "type": "tree",
       "info": "Selbstloser Nährstoff-Spender mit robustem Charakter. Fixiert Luftstickstoff, macht Boden fruchtbarer.",
-      "assetPath": "tree_default.obj"
+      "assetPath": "tree_default.obj",
+      "scale": { "min": 0.8, "max": 1.2 }
     },
     "walnuss": {
       "ids": ["0009809472", "T003_WALNUSS", "B003"],
       "name": "Walnuss",
       "type": "tree",
       "info": "Kultivierter Langzeit-Denker mit hohen Ansprüchen. Liefert wertvollste Früchte und Edelholz.",
-      "assetPath": "tree_tall.obj"
+      "assetPath": "tree_detailed.obj",
+      "scale": { "min": 0.9, "max": 1.3 }
     },
     "esskastanie": {
       "ids": ["0009871245", "T004_ESSKASTANIE", "B004"],
       "name": "Esskastanie",
       "type": "tree",
       "info": "Temperamentvolle Mediterrane mit sonnigem Gemüt. Liebt Wärme, gibt süße Früchte.",
-      "assetPath": "tree_oak.obj"
+      "assetPath": "tree_plateau.obj",
+      "scale": { "min": 0.8, "max": 1.2 }
     },
     "obstbäume": {
       "ids": ["0009790491", "T005_OBSTBÄUME", "B005"],
       "name": "Obstbäume",
       "type": "tree",
       "info": "Vielseitige Schönlinge mit saisonalem Schauspiel. Von Blütenpracht bis Fruchternte - die Stars des Agroforsts.",
-      "assetPath": "tree_default.obj"
+      "assetPath": "tree_small.obj",
+      "scale": { "min": 0.7, "max": 1.0 }
     },
     "eiche": {
       "ids": ["0009842592", "T006_EICHE", "B006"],
       "name": "Eiche",
       "type": "tree",
       "info": "Würdevoller Jahrhunderte-Planer mit unerschütterlicher Ruhe. Investition in ferne Zukunft.",
-      "assetPath": "tree_tall.obj"
+      "assetPath": "tree_oak.obj",
+      "scale": { "min": 0.9, "max": 1.4 }
     },
     "roteiche": {
       "ids": ["0009848178", "T007_ROTEICHE", "B007"],
       "name": "Roteiche",
       "type": "tree",
       "info": "Moderne Einwanderin mit Klimawandel-Resistenz. Schneller als heimische Eiche, aber mit amerikanischem Pragmatismus.",
-      "assetPath": "tree_oak.obj"
+      "assetPath": "tree_oak_fall.obj",
+      "scale": { "min": 0.8, "max": 1.3 }
     },
     "elsbeere": {
       "ids": ["0009845399", "T008_ELSBEERE", "B008"],
       "name": "Elsbeere",
       "type": "tree",
       "info": "Seltene Diva mit exklusiven Ansprüchen. Liefert wertvollstes Holz Europas.",
-      "assetPath": "tree_default.obj"
+      "assetPath": "tree_short_fall.obj",
+      "scale": { "min": 0.8, "max": 1.2 }
     },
     "weide": {
       "ids": ["0009825030", "T009_WEIDE", "B009"],
       "name": "Weide",
       "type": "tree",
       "info": "Anpassungsfähiger Allrounder mit biegsamem Charakter. Wächst überall, bricht nie.",
-      "assetPath": "tree_tall.obj"
+      "assetPath": "tree_thin.obj",
+      "scale": { "min": 0.8, "max": 1.2 }
     },
     "paulownia": {
       "ids": ["0009860093", "T010_PAULOWNIA", "B010"],
       "name": "Paulownia",
       "type": "tree",
       "info": "Exotischer Speed-Champion mit asiatischer Gelassenheit. Wächst wie verrückt, liefert leichtestes Holz.",
-      "assetPath": "tree_oak.obj"
+      "assetPath": "tree_pine_tall.obj",
+      "scale": { "min": 0.7, "max": 1.1 }
     }
   },
   "plants": {
@@ -77,70 +87,80 @@
       "name": "Weizen",
       "type": "plant",
       "info": "Solider Traditionalist und verlässlicher Ertragsbringer. Der Brotlieferant Deutschlands mit bewährten Eigenschaften.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "wheat.obj",
+      "scale": { "min": 1.5, "max": 2.0 }
     },
     "dinkel": {
       "ids": ["0009811409", "P002_DINKEL", "A002"],
       "name": "Dinkel",
       "type": "plant",
       "info": "Anspruchsvoller Gourmand mit historischen Wurzeln. Robuster als Weizen, aber mit höheren kulinarischen Ambitionen.",
-      "assetPath": "crops_cornStageB.obj"
+      "assetPath": "wheat.obj",
+      "scale": { "min": 1.5, "max": 2.0 }
     },
     "gerste": {
       "ids": ["0009810077", "P003_GERSTE", "A003"],
       "name": "Gerste",
       "type": "plant",
       "info": "Früher Vogel mit kurzer Vegetationszeit. Räumt das Feld schnell, lässt anderen Platz.",
-      "assetPath": "crops_cornStageC.obj"
+      "assetPath": "wheat.obj",
+      "scale": { "min": 1.4, "max": 1.8 }
     },
     "ackerbohne": {
       "ids": ["0009550205", "P004_ACKERBOHNE", "A004"],
       "name": "Ackerbohne",
       "type": "plant",
       "info": "Selbstlose Stickstoff-Produzentin mit solidem Charakter. Arbeitet Tag und Nacht für die Bodenverbesserung.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "crops_cornStageA.obj",
+      "scale": { "min": 1.8, "max": 2.3 }
     },
     "lupine": {
       "ids": ["0009487976", "P005_LUPINE", "A005"],
       "name": "Lupine",
       "type": "plant",
       "info": "Bescheidener Überlebenskünstler mit großen Leistungen. Gedeiht auf ärmsten Böden, macht sie fruchtbar.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "flower_blue2.obj",
+      "scale": { "min": 2.0, "max": 2.8 }
     },
     "kleegras": {
       "ids": ["0009840392", "P006_KLEEGRAS", "A006"],
       "name": "Kleegras",
       "type": "plant",
       "info": "Harmonische Gemeinschaftsbildnerin mit Vermittlertalent. Verbindet verschiedene Partner zu funktionierenden Teams.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "grass_dense.obj",
+      "scale": { "min": 1.2, "max": 1.8 }
     },
     "mais": {
       "ids": ["0009835289", "P007_MAIS", "A007"],
       "name": "Mais",
       "type": "plant",
       "info": "Kraftstrotzender Energie-Produzent mit amerikanischem Optimismus. Will hoch hinaus und viel leisten.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "crops_cornStageD.obj",
+      "scale": { "min": 1.0, "max": 1.4 }
     },
     "sonnenblume": {
       "ids": ["0009806120", "P008_SONNENBLUME", "A008"],
       "name": "Sonnenblume",
       "type": "plant",
       "info": "Optimistische Lichtanbeterin mit fröhlichem Wesen. Folgt der Sonne von Ost nach West.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "flower_beige3.obj",
+      "scale": { "min": 2.2, "max": 3.0 }
     },
     "kürbis": {
       "ids": ["0009859503", "P009_KÜRBIS", "A009"],
       "name": "Kürbis",
       "type": "plant",
       "info": "Gemütlicher Bodendecker mit entspannter Lebenseinstellung. Mag es nicht zu heiß, breitet sich gerne aus.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "grass_dense.obj",
+      "scale": { "min": 0.7, "max": 2.0 }
     },
     "kartoffel": {
       "ids": ["0009819443", "P010_KARTOFFEL", "A010"],
       "name": "Kartoffel",
       "type": "plant",
       "info": "Praktische Allrounderin mit undergroundem Lifestyle. Arbeitet unsichtbar im Verborgenen, liefert solide Ergebnisse.",
-      "assetPath": "crops_cornStageA.obj"
+      "assetPath": "grass.obj",
+      "scale": { "min": 2.5, "max": 3.5 }
     }
   }
 }
