@@ -1,6 +1,8 @@
-# 🌳 Agroforst Game - Interactive 3D Music Visualizer
+# 🌳 Agroforst Jukebox - Interactive 3D Music Visualizer
 
-Eine production-ready 3D-Musikvisualisierung für Agroforstsysteme mit vollständiger **RFID-Hardware-Integration**. Das System kombiniert immersive Landschaftsvisualisierung mit einer innovativen physischen Musiksteuerung durch RFID-Karten.
+Eine 3D-Musikvisualisierung für Agroforstsysteme mit RFID-Hardware-Integration. Das System kombiniert immersive Landschaftsvisualisierung mit einer innovativen physischen Musiksteuerung durch RFID-Karten.
+
+**Entwickelt als Open-Source-Exponat für das [Futurium Lab](https://futurium.de) in Berlin.** Weiterentwicklungen und Adaptionen für andere Installationen sind ausdrücklich erwünscht!
 
 ## 🎯 **Was ist das Agroforst Game?**
 
@@ -67,10 +69,10 @@ window.moodManager.applyMood('Konflikt');
 
 ## 🎮 **Features & Technische Highlights**
 
-### 🎵 **RFID Music System** (Production-Ready)
+### 🎵 **RFID Music System**
 
-- **100 SUNO-generierte Songs** mit realen MP3-Dateien
-- **20 physische RFID-Karten** mit finalen Hardware-IDs (siehe `src/data/plants.json`)
+- **100 Songs** (erstellt mit SUNO und 11Labs) mit realen MP3-Dateien
+- **20 physische RFID-Karten** - Hardware-IDs konfigurierbar in `src/data/plants.json`
 - **Direkte Mood-Zuordnung** in der Song-Datenbank
 - **Keyboard-Fallback** für Entwicklung ohne RFID-Hardware
 - **Automatic Mood Switching** basierend auf Song-Selection
@@ -86,21 +88,18 @@ window.moodManager.applyMood('Konflikt');
 - **Auto-Rotation vs Manual Control** umschaltbar
 - **Formwandler-Effekte** ändern Vegetation zur Laufzeit
 
-### 🎨 **Modern UI System** (ULTRATHINK Simplified ✅)
+### 🎨 **Modern UI System**
 
 - **Glasmorphism Design** mit Beer CSS v3.6.13 Framework
 - **Round Display Optimized** für 1080x1080 Touchscreens
-- **VEREINFACHT**: Ein einziger UIManager für alle UI-Funktionen
 - **2-Mode System**: `main` (RFID + Music Player) + `info` (Text-to-Speech Panel)
-- **FAB Audio Player** mit einfacher Show/Hide Logik
-- **Touch-Optimized Controls** ohne komplexe Timer-Logik
+- **FAB Audio Player** mit Music Controls
+- **Touch-Optimized Controls**
 
 ## 🏗️ **Architektur**
 
-Das System folgt dem **ULTRATHINK Prinzip** - maximale Vereinfachung durch direkte Integration statt abstrakten Service-Layern.
-
 ```
-🎯 Core System (SIMPLIFIED):
+🎯 Core System:
 ├── SceneManager         → Three.js Renderer, Animation Loop
 ├── MoodManager          → 7 Mood Orchestration
 ├── CameraManager        → Auto-Rotation vs Manual Control
@@ -112,17 +111,10 @@ Das System folgt dem **ULTRATHINK Prinzip** - maximale Vereinfachung durch direk
 ├── EffectManager        → Particle Systems + UnrealBloom
 └── AssetManager         → 3D Model Loading & Caching
 
-🎵 Audio & UI (SIMPLIFIED):
+🎵 Audio & UI:
 ├── AudioManager         → Music playback using Howler.js
-└── UIManager            → ✨ UNIFIED: Music Player + Plant Selection UI
+└── UIManager            → Music Player + Plant Selection UI
 ```
-
-**✨ ULTRATHINK Refactoring Complete:**
-
-- **Services-Ordner eliminiert** - Business Logic direkt in Manager integriert
-- **6 Manager → 2 Haupt-Manager** - RFIDMusicManager + UIManager
-- **~1100 Zeilen → ~400 Zeilen** - 65% Code-Reduktion
-- **Keine State-Machine** - Einfache if/else Logik statt komplexer Zustandsautomaten
 
 **Event System**: Entkoppelte Manager-Kommunikation via `GameEventBus`
 
@@ -154,7 +146,7 @@ Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. 
 }
 ```
 
-⚠️ **WICHTIG**: Die Hardware-IDs in `plants.json` sind **bindend** und dürfen nicht geändert werden!
+💡 **Anpassung**: Die Hardware-IDs können in `plants.json` für eigene RFID-Karten angepasst werden. Die gezeigten IDs sind die aktuell im Futurium Lab verwendeten Karten.
 
 ### Scanner-Konfiguration
 
@@ -202,7 +194,7 @@ scanPlant();
 | Datei                       | Zweck                                                       |
 | --------------------------- | ----------------------------------------------------------- |
 | **`README.md`**             | **Hauptdokumentation** - Quick Start, Features, Architektur |
-| **`RFID-CARD-MAPPING.md`**  | **Hardware-Zuordnung** - Finale Karten-IDs (NICHT ÄNDERN)   |
+| **`RFID-CARD-MAPPING.md`**  | **Hardware-Zuordnung** - Vollständige Karten-IDs            |
 | **`src/configs/README.md`** | **Mood System Dokumentation** - Alle Parameter erklärt      |
 
 ### Für neue Entwickler
@@ -221,23 +213,16 @@ scanPlant();
 - **Touch-First Design** für Tablet/Kiosk-Installation
 - **Accessibility** durch ARIA-Labels und semantisches HTML
 
-## 🌟 **Production Status**
+## 🤝 **Weiterentwicklung**
 
-✅ **Vollständig einsatzbereit für Installation/Museum**
+Dieses Projekt ist **Open Source** und wurde als Exponat für das Futurium Lab entwickelt. Contributions sind willkommen:
 
-- 100 Songs mit echter Hardware-Integration
-- Robuste Error-Handling und Fallback-Systeme
-- Performance-optimiert für Dauerbetrieb
-- Comprehensive Testing Tools für Wartung
+- 🐛 Bug Reports und Fixes
+- ✨ Neue Features (z.B. zusätzliche Moods)
+- 🎨 UI/UX Verbesserungen
+- 🌍 Adaptionen für andere Museums-Installationen
 
-**Hardware-Anforderungen:**
-
-- Raspberry Pi 4+ oder Desktop PC (WebGL 2.0)
-- RFID-Scanner (USB, Keyboard-Emulation)
-- 1080x1080 Touchscreen (optional, aber empfohlen)
-- Audio-Ausgabe (Lautsprecher/Kopfhörer)
-
----
+Bei größeren Änderungen bitte vorher ein Issue öffnen.
 
 ## 📄 **License**
 
@@ -246,7 +231,5 @@ MIT License - © 2025 David Weigend
 Siehe [LICENSE.md](LICENSE.md) für Details.
 
 ---
-
-**🚀 Ready for Production Deployment!**
 
 **Entwickelt von**: [David Weigend](https://github.com/dweigend) | [weigend.studio](https://weigend.studio)
