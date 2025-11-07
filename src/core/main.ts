@@ -9,29 +9,28 @@ import '../styles/round-frame.css';
 import '../styles/inner-ui.css';
 
 /**
- * 🎯 SIMPLIFIED APPLICATION ARCHITECTURE
+ * Main Application Entry Point
  *
- * ULTRATHINK REFACTORED:
+ * Architecture:
  * - Core 3D System: SceneManager → MoodManager
- * - Outer UI System: RoundUIManager (round frame only)
- * - Inner UI System: UIManager (simplified popup without auto-hide complexity)
- * - RFID + Music System: RFIDMusicManager (all-in-one: RFID input + plant lookup + song selection)
- * - Audio System: AudioManager (music playback)
+ * - UI System: RoundUIManager (outer frame) + UIManager (inner popups)
+ * - RFID + Music System: RFIDMusicManager (RFID input + plant lookup + song selection)
+ * - Audio System: AudioManager (music playback with Howler.js)
  *
- * MASSIVE SIMPLIFICATION: 6 files → 5 files, complex state machine → simple logic
+ * All managers communicate via GameEventBus for loose coupling.
  */
 
 class App {
-  // Core 3D Visualization System
+  // Core 3D Visualization
   private sceneManager!: SceneManager;
   private moodManager!: MoodManager;
 
-  // UI Management System (SIMPLIFIED)
-  private roundUIManager!: RoundUIManager; // Outer UI (frame)
-  private uiManager!: UIManager; // Inner UI (simplified popup)
+  // UI Management
+  private roundUIManager!: RoundUIManager;
+  private uiManager!: UIManager;
 
-  // RFID + Music System (ALL-IN-ONE)
-  private rfidMusicManager!: RFIDMusicManager; // Replaces RFIDManager + Services + ApplicationStateManager
+  // RFID + Music System
+  private rfidMusicManager!: RFIDMusicManager;
   private audioManager!: AudioManager;
 
   constructor() {
@@ -63,11 +62,11 @@ class App {
   }
 
   /**
-   * Initialize UI System (SIMPLIFIED)
+   * Initialize UI System
    */
   private initializeUISystem(): void {
-    this.roundUIManager = new RoundUIManager(); // Outer UI (frame)
-    this.uiManager = new UIManager(); // Inner UI (simple popup)
+    this.roundUIManager = new RoundUIManager();
+    this.uiManager = new UIManager();
   }
 
   /**
@@ -78,17 +77,19 @@ class App {
   }
 
   /**
-   * Initialize RFID + Music System (ALL-IN-ONE)
+   * Initialize RFID + Music System
    */
   private initializeRFIDMusicSystem(): void {
     this.audioManager = new AudioManager();
-    this.rfidMusicManager = new RFIDMusicManager(); // Replaces 3 classes with 1!
+    this.rfidMusicManager = new RFIDMusicManager();
 
     this.rfidMusicManager.startListening();
   }
 
   /**
-   * Setup Event Integration (SIMPLIFIED)
+   * Setup Event Integration
+   *
+   * Connects manager communication via GameEventBus
    */
   private setupApplicationIntegration(): void {
     // RFID Music → 3D Mood Changes
@@ -96,14 +97,16 @@ class App {
       this.moodManager.applyMood(data.moodName);
     });
 
-    // Audio Progress Updates → UI (if needed)
+    // Audio Progress Updates → UI
     gameEventBus.on('audio:progress', () => {
       // Optional: Forward to UI if progress display is needed
     });
   }
 
   /**
-   * Setup Development Mode Functions (SIMPLIFIED)
+   * Setup Development Mode Functions
+   *
+   * Exposes global functions for testing in browser console (DEV only)
    */
   private async setupDevelopmentMode(): Promise<void> {
     if (!import.meta.env?.DEV) return;
@@ -111,7 +114,7 @@ class App {
     // Global App instance for debugging
     (globalThis as unknown as { app: App }).app = this;
 
-    // RFID Development Commands (SIMPLIFIED)
+    // RFID Development Commands
     (globalThis as unknown as { scanTree: (id?: string) => void }).scanTree = (id = '0009812134') =>
       this.rfidMusicManager.processRFIDInput(id);
     (globalThis as unknown as { scanPlant: (id?: string) => void }).scanPlant = (
@@ -136,7 +139,7 @@ class App {
   }
 
   /**
-   * App shutdown cleanup (SIMPLIFIED)
+   * App shutdown cleanup
    */
   public dispose(): void {
     this.rfidMusicManager?.dispose?.();

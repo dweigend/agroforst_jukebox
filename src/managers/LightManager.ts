@@ -2,14 +2,16 @@ import * as THREE from 'three';
 import { MoodConfig, IManager, LightStorage, DynamicLightConfig } from '../types';
 
 /**
- * LightManager - Complete Lighting System (ULTRATHINK Refactored)
+ * LightManager - Dynamic Lighting System
+ *
+ * Manages all lighting in the 3D scene including ambient light, directional lights,
+ * and animated dynamic lights (spotlights, point lights).
  *
  * Features:
- * - Fully configurable animation parameters (no hardcoded values)
- * - Generic animation system supporting multiple modes
- * - Single source of truth: all parameters from mood-definitions.ts
- * - Extensible animation modes: strobe, disco, explosion, pulse, flash
+ * - Fully configurable animation parameters
+ * - Multiple animation modes: strobe, disco, explosion, pulse, flash
  * - Efficient light management with proper cleanup
+ * - Single source of truth: all parameters from mood-definitions.ts
  */
 export class LightManager implements IManager {
   private scene: THREE.Scene;
