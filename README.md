@@ -2,7 +2,7 @@
 
 Eine 3D-Musikvisualisierung für Agroforstsysteme mit RFID-Hardware-Integration. Das System kombiniert immersive Landschaftsvisualisierung mit einer innovativen physischen Musiksteuerung durch RFID-Karten.
 
-**Entwickelt als Open-Source-Exponat für das [Futurium Lab](https://futurium.de) in Berlin.** Weiterentwicklungen und Adaptionen für andere Installationen sind ausdrücklich erwünscht!
+**Entwickelt als Exponat für das [Futurium Lab](https://futurium.de) in Berlin.**
 
 ## 🎯 **Was ist das Agroforst Game?**
 
@@ -156,18 +156,7 @@ Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. 
 
 ## 🛠️ **Development**
 
-### Code Quality & Testing
 
-```bash
-# Code Quality
-npm run lint          # ESLint checking
-npm run lint:fix      # Auto-fix issues
-npm run format        # Prettier formatting
-npm run type-check    # TypeScript validation
-
-# Testing (configured but no script)
-# vitest is installed - add "test": "vitest" to package.json scripts
-```
 
 ### Debug Controls (Browser Console)
 
@@ -212,17 +201,6 @@ scanPlant();
 - **Material Design 3** Prinzipien für Konsistenz
 - **Touch-First Design** für Tablet/Kiosk-Installation
 - **Accessibility** durch ARIA-Labels und semantisches HTML
-
-## 🤝 **Weiterentwicklung**
-
-Dieses Projekt ist **Open Source** und wurde als Exponat für das Futurium Lab entwickelt. Contributions sind willkommen:
-
-- 🐛 Bug Reports und Fixes
-- ✨ Neue Features (z.B. zusätzliche Moods)
-- 🎨 UI/UX Verbesserungen
-- 🌍 Adaptionen für andere Museums-Installationen
-
-Bei größeren Änderungen bitte vorher ein Issue öffnen.
 
 ## 📄 **License**
 
