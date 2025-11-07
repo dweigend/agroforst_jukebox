@@ -156,7 +156,14 @@ Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. 
 
 ## 🛠️ **Development**
 
+### Code Quality
 
+```bash
+npm run lint          # ESLint checking
+npm run lint:fix      # Auto-fix issues
+npm run format        # Prettier formatting
+npm run type-check    # TypeScript validation
+```
 
 ### Debug Controls (Browser Console)
 
