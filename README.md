@@ -199,24 +199,19 @@ scanPlant();
 
 ## 📖 **Dokumentation**
 
-| Datei                      | Zweck                                                                 |
-| -------------------------- | --------------------------------------------------------------------- |
-| **`CLAUDE.md`**            | **Vollständige LLM-Anleitung** mit File-Index und Architektur-Details |
-| **`RFID-CARD-MAPPING.md`** | **Hardware-Zuordnung** - Finale Karten-IDs (NICHT ÄNDERN)             |
-| **`docs/archive/`**        | **Historische Dokumentation** - Architektur-Evolution, Design-Pläne   |
+| Datei                       | Zweck                                                       |
+| --------------------------- | ----------------------------------------------------------- |
+| **`README.md`**             | **Hauptdokumentation** - Quick Start, Features, Architektur |
+| **`RFID-CARD-MAPPING.md`**  | **Hardware-Zuordnung** - Finale Karten-IDs (NICHT ÄNDERN)   |
+| **`src/configs/README.md`** | **Mood System Dokumentation** - Alle Parameter erklärt      |
 
 ### Für neue Entwickler
 
-1. **Start hier**: `CLAUDE.md`
+1. **Start hier**: `README.md` (diese Datei)
 2. **Architektur**: `src/types.ts` (Interfaces) → `src/core/main.ts` (Initialisierung)
 3. **RFID-System**: `src/data/plants.json`
-4. **UI-Entwicklung**: `src/styles/round-display.css` + `src/managers/InnerUIManager.ts`
-
-## ⚠️ **Known Issues**
-
-- **Missing Audio File**: Song 077 (Elsbeere_Mais.mp3) ist aktuell nicht im Repository vorhanden
-- Dies betrifft die Kombination Elsbeere + Mais
-- Alle anderen 99 Songs funktionieren einwandfrei
+4. **Mood-Konfiguration**: `src/configs/README.md` für detaillierte Parameter
+5. **UI-Entwicklung**: `src/styles/round-frame.css` + `src/managers/UIManager.ts`
 
 ## 🎨 **UI Design Philosophy**
 
@@ -253,7 +248,5 @@ Siehe [LICENSE.md](LICENSE.md) für Details.
 ---
 
 **🚀 Ready for Production Deployment!**
-
-_Für technische Fragen, siehe `CLAUDE.md` für vollständige LLM-Navigation und Architektur-Details._
 
 **Entwickelt von**: [David Weigend](https://github.com/dweigend) | [weigend.studio](https://weigend.studio)
