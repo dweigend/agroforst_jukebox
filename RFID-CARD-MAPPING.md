@@ -8,35 +8,35 @@ Status: ✅ FINAL - Diese Zuordnung darf NICHT mehr geändert werden
 
 ## 🌾 ACKERPFLANZEN (A1-A10)
 
-| Karten-ID | RFID-Nummer   | Pflanzen-Name | Code-ID        | Song-IDs       |
-|-----------|---------------|---------------|----------------|----------------|
-| **A1**    | 0009812671    | Weizen        | P001_WEIZEN    | T001-T010 + P001 |
-| **A2**    | 0009811409    | Mais          | P002_MAIS      | T001-T010 + P002 |
-| **A3**    | 0009810077    | Kartoffel     | P003_KARTOFFEL | T001-T010 + P003 |
-| **A4**    | 0009550205    | Sojabohne     | P004_SOJABOHNE | T001-T010 + P004 |
-| **A5**    | 0009487976    | Hafer         | P005_HAFER     | T001-T010 + P005 |
-| **A6**    | 0009840392    | Roggen        | P006_ROGGEN    | T001-T010 + P006 |
-| **A7**    | 0009835289    | Gerste        | P007_GERSTE    | T001-T010 + P007 |
-| **A8**    | 0009806120    | Raps          | P008_RAPS      | T001-T010 + P008 |
-| **A9**    | 0009859503    | Sonnenblume   | P009_SONNENBLUME | T001-T010 + P009 |
-| **A10**   | 0009819443    | Zuckerrübe    | P010_ZUCKERRUEBE | T001-T010 + P010 |
+| Karten-ID | RFID-Nummer | Pflanzen-Name | Code-ID          | Song-IDs         |
+| --------- | ----------- | ------------- | ---------------- | ---------------- |
+| **A1**    | 0009812671  | Weizen        | P001_WEIZEN      | T001-T010 + P001 |
+| **A2**    | 0009811409  | Mais          | P002_MAIS        | T001-T010 + P002 |
+| **A3**    | 0009810077  | Kartoffel     | P003_KARTOFFEL   | T001-T010 + P003 |
+| **A4**    | 0009550205  | Sojabohne     | P004_SOJABOHNE   | T001-T010 + P004 |
+| **A5**    | 0009487976  | Hafer         | P005_HAFER       | T001-T010 + P005 |
+| **A6**    | 0009840392  | Roggen        | P006_ROGGEN      | T001-T010 + P006 |
+| **A7**    | 0009835289  | Gerste        | P007_GERSTE      | T001-T010 + P007 |
+| **A8**    | 0009806120  | Raps          | P008_RAPS        | T001-T010 + P008 |
+| **A9**    | 0009859503  | Sonnenblume   | P009_SONNENBLUME | T001-T010 + P009 |
+| **A10**   | 0009819443  | Zuckerrübe    | P010_ZUCKERRUEBE | T001-T010 + P010 |
 
 ---
 
 ## 🌳 BÄUME (B1-B10)
 
-| Karten-ID | RFID-Nummer   | Baum-Name     | Code-ID           | Song-IDs       |
-|-----------|---------------|---------------|-------------------|----------------|
-| **B1**    | 0009806867    | Pappel        | T001_PAPPEL       | T001 + P001-P010 |
-| **B2**    | 0009812134    | Eiche         | T002_EICHE        | T002 + P001-P010 |
-| **B3**    | 0009809472    | Buche         | T003_BUCHE        | T003 + P001-P010 |
-| **B4**    | 0009871245    | Kirschbaum    | T004_KIRSCHBAUM   | T004 + P001-P010 |
-| **B5**    | 0009790491    | Apfelbaum     | T005_APFELBAUM    | T005 + P001-P010 |
-| **B6**    | 0009842592    | Walnussbaum   | T006_WALNUSSBAUM  | T006 + P001-P010 |
-| **B7**    | 0009848178    | Birne         | T007_BIRNE        | T007 + P001-P010 |
-| **B8**    | 0009845399    | Haselstrauch  | T008_HASELSTRAUCH | T008 + P001-P010 |
-| **B9**    | 0009825030    | Kastanie      | T009_KASTANIE     | T009 + P001-P010 |
-| **B10**   | 0009860093    | Linde         | T010_LINDE        | T010 + P001-P010 |
+| Karten-ID | RFID-Nummer | Baum-Name    | Code-ID           | Song-IDs         |
+| --------- | ----------- | ------------ | ----------------- | ---------------- |
+| **B1**    | 0009806867  | Pappel       | T001_PAPPEL       | T001 + P001-P010 |
+| **B2**    | 0009812134  | Eiche        | T002_EICHE        | T002 + P001-P010 |
+| **B3**    | 0009809472  | Buche        | T003_BUCHE        | T003 + P001-P010 |
+| **B4**    | 0009871245  | Kirschbaum   | T004_KIRSCHBAUM   | T004 + P001-P010 |
+| **B5**    | 0009790491  | Apfelbaum    | T005_APFELBAUM    | T005 + P001-P010 |
+| **B6**    | 0009842592  | Walnussbaum  | T006_WALNUSSBAUM  | T006 + P001-P010 |
+| **B7**    | 0009848178  | Birne        | T007_BIRNE        | T007 + P001-P010 |
+| **B8**    | 0009845399  | Haselstrauch | T008_HASELSTRAUCH | T008 + P001-P010 |
+| **B9**    | 0009825030  | Kastanie     | T009_KASTANIE     | T009 + P001-P010 |
+| **B10**   | 0009860093  | Linde        | T010_LINDE        | T010 + P001-P010 |
 
 ---
 

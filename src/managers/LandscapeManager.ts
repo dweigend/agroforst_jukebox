@@ -211,7 +211,9 @@ export class LandscapeManager implements ILandscapeManager {
       const finalZ = z;
 
       const terrainHeight = this.getInterpolatedGroundHeightAt(finalX, finalZ);
-      const scale = this.currentTreeScale.min + Math.random() * (this.currentTreeScale.max - this.currentTreeScale.min);
+      const scale =
+        this.currentTreeScale.min +
+        Math.random() * (this.currentTreeScale.max - this.currentTreeScale.min);
 
       tree.position.set(finalX, terrainHeight + baseOffset * scale, finalZ);
       tree.rotation.y = Math.random() * Math.PI * 2;
@@ -236,7 +238,9 @@ export class LandscapeManager implements ILandscapeManager {
       const finalZ = (Math.random() - 0.5) * 800;
 
       const terrainHeight = this.getInterpolatedGroundHeightAt(finalX, finalZ);
-      const scale = this.currentPlantScale.min + Math.random() * (this.currentPlantScale.max - this.currentPlantScale.min);
+      const scale =
+        this.currentPlantScale.min +
+        Math.random() * (this.currentPlantScale.max - this.currentPlantScale.min);
 
       crop.position.set(finalX, terrainHeight + baseOffset * scale + 2, finalZ); // +2 für bessere Sichtbarkeit
       crop.rotation.y = Math.random() * Math.PI * 2;

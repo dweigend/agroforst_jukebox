@@ -54,7 +54,9 @@ export class EffectManager implements IManager {
   }
 
   private getRandomOpacity(opacity: number | [number, number]): number {
-    return Array.isArray(opacity) ? opacity[0] + Math.random() * (opacity[1] - opacity[0]) : opacity;
+    return Array.isArray(opacity)
+      ? opacity[0] + Math.random() * (opacity[1] - opacity[0])
+      : opacity;
   }
 
   private getRandomColor(color: string | string[]): string {
@@ -163,9 +165,10 @@ export class EffectManager implements IManager {
           transparent: true,
           opacity: this.getRandomOpacity(material.opacity),
           vertexColors: material.color === 'rainbow' || Array.isArray(material.color),
-          color: material.color === 'rainbow' || Array.isArray(material.color)
-            ? 0xffffff
-            : new THREE.Color(material.color as string),
+          color:
+            material.color === 'rainbow' || Array.isArray(material.color)
+              ? 0xffffff
+              : new THREE.Color(material.color as string),
         });
 
         const points = new THREE.Points(geometry, pMaterial);

@@ -161,8 +161,8 @@ export interface GameEventDataMap {
     plantAsset: string;
     treeName: string;
     plantName: string;
-    treeInfo: PlantInfo;   // Complete plant info for scale configuration
-    plantInfo: PlantInfo;  // Complete plant info for scale configuration
+    treeInfo: PlantInfo; // Complete plant info for scale configuration
+    plantInfo: PlantInfo; // Complete plant info for scale configuration
   };
   'landscape:generation-started': {
     treeAsset: string;

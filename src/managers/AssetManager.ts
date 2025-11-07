@@ -17,8 +17,8 @@ import { assetLogger } from '../utils/Logger';
 // Asset loading configuration
 const ASSET_BASE_PATH = '/3d_assets/';
 const LOAD_TIMEOUT_MS = 5000;
-const PLACEHOLDER_TREE_COLOR = 0x228B22;
-const PLACEHOLDER_PLANT_COLOR = 0x32CD32;
+const PLACEHOLDER_TREE_COLOR = 0x228b22;
+const PLACEHOLDER_PLANT_COLOR = 0x32cd32;
 
 interface LoadedAsset {
   geometry: THREE.BufferGeometry;
@@ -56,7 +56,7 @@ export class AssetManager {
   private createTreePlaceholder(): LoadedAsset {
     const geometry = new THREE.ConeGeometry(2, 8, 8);
     const material = new THREE.MeshStandardMaterial({
-      color: PLACEHOLDER_TREE_COLOR
+      color: PLACEHOLDER_TREE_COLOR,
     });
     const group = new THREE.Group();
     const mesh = new THREE.Mesh(geometry, material);
@@ -69,7 +69,7 @@ export class AssetManager {
   private createPlantPlaceholder(): LoadedAsset {
     const geometry = new THREE.CylinderGeometry(0.3, 0.3, 2, 6);
     const material = new THREE.MeshStandardMaterial({
-      color: PLACEHOLDER_PLANT_COLOR
+      color: PLACEHOLDER_PLANT_COLOR,
     });
     const group = new THREE.Group();
     const mesh = new THREE.Mesh(geometry, material);
@@ -133,10 +133,10 @@ export class AssetManager {
   private async loadMTL(fileName: string): Promise<any | null> {
     const mtlPath = `${ASSET_BASE_PATH}${fileName.replace('.obj', '.mtl')}`;
 
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       this.mtlLoader.load(
         mtlPath,
-        (materials) => {
+        materials => {
           materials.preload();
           resolve(materials);
         },
@@ -160,12 +160,12 @@ export class AssetManager {
 
       this.objLoader.load(
         objPath,
-        (group) => {
+        group => {
           clearTimeout(timeoutId);
           resolve(group);
         },
         undefined,
-        (error) => {
+        error => {
           clearTimeout(timeoutId);
           reject(error);
         }
@@ -174,7 +174,7 @@ export class AssetManager {
   }
 
   private setupShadows(group: THREE.Group): void {
-    group.traverse((child) => {
+    group.traverse(child => {
       if (child instanceof THREE.Mesh) {
         child.castShadow = true;
         child.receiveShadow = true;
@@ -190,7 +190,7 @@ export class AssetManager {
   private extractGeometry(group: THREE.Group): THREE.BufferGeometry {
     let geometry: THREE.BufferGeometry | null = null;
 
-    group.traverse((child) => {
+    group.traverse(child => {
       if (child instanceof THREE.Mesh && !geometry) {
         geometry = child.geometry.clone();
       }
@@ -202,11 +202,9 @@ export class AssetManager {
   private extractMaterial(group: THREE.Group): THREE.Material {
     let material: THREE.Material | null = null;
 
-    group.traverse((child) => {
+    group.traverse(child => {
       if (child instanceof THREE.Mesh && !material) {
-        material = Array.isArray(child.material)
-          ? child.material[0]
-          : child.material;
+        material = Array.isArray(child.material) ? child.material[0] : child.material;
       }
     });
 

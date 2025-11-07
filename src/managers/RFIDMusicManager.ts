@@ -4,7 +4,7 @@ import { RFID_TIMEOUTS } from '../constants/timeouts';
 import { rfidLogger } from '../utils/Logger';
 
 /**
- * 🎯 SIMPLIFIED RFID + MUSIC MANAGER
+ * 🎯  RFID + MUSIC MANAGER
  *
  * Combines all RFID scanning, plant lookup, song selection, and music logic
  * in ONE simple class. Eliminates service layer complexity.
@@ -164,11 +164,13 @@ export class RFIDMusicManager implements IRFIDManager {
       plantAsset: this.selection.plant.assetPath,
       treeName: this.selection.tree.name,
       plantName: this.selection.plant.name,
-      treeInfo: this.selection.tree,      // Complete PlantInfo for scale data
-      plantInfo: this.selection.plant,    // Complete PlantInfo for scale data
+      treeInfo: this.selection.tree, // Complete PlantInfo for scale data
+      plantInfo: this.selection.plant, // Complete PlantInfo for scale data
     });
 
-    rfidLogger.info(`Landscape generation triggered: ${this.selection.tree.assetPath} + ${this.selection.plant.assetPath}`);
+    rfidLogger.info(
+      `Landscape generation triggered: ${this.selection.tree.assetPath} + ${this.selection.plant.assetPath}`
+    );
   }
 
   private playSong(songInfo: SongInfo): void {

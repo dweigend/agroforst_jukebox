@@ -44,10 +44,12 @@ class App {
     this.initializeUISystem();
     this.initializeRFIDMusicSystem();
     this.setupApplicationIntegration();
-    this.setupDevelopmentMode();
 
-    // Start animation loop after complete initialization
-    this.startAnimationLoop();
+    // Setup development mode (async)
+    this.setupDevelopmentMode().then(() => {
+      // Start animation loop after complete initialization
+      this.startAnimationLoop();
+    });
   }
 
   /**
@@ -103,7 +105,7 @@ class App {
   /**
    * Setup Development Mode Functions (SIMPLIFIED)
    */
-  private setupDevelopmentMode(): void {
+  private async setupDevelopmentMode(): Promise<void> {
     if (!import.meta.env?.DEV) return;
 
     // Global App instance for debugging
@@ -117,7 +119,20 @@ class App {
     ) => this.rfidMusicManager.processRFIDInput(id);
     (globalThis as unknown as { testUI: () => void }).testUI = () => this.uiManager.showPopup();
 
-    console.log('🧪 Dev commands: scanTree(), scanPlant(), testUI()');
+    // Mood Debug Tools (DEV only)
+    try {
+      const { moodDebugSystem } = await import('../debug/MoodDebugTools');
+      moodDebugSystem.initialize(this.moodManager);
+
+      // Attach to global window object
+      (globalThis as any).moodDebug = moodDebugSystem;
+
+      console.log('🎨 Mood Debug Tools loaded! Use window.moodDebug.help() for commands');
+    } catch (error) {
+      console.warn('⚠️ Failed to load mood debug tools:', error);
+    }
+
+    console.log('🧪 Dev commands: scanTree(), scanPlant(), testUI(), window.moodDebug.help()');
   }
 
   /**

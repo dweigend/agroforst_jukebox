@@ -19,6 +19,7 @@ Die Stimmung der 3D-Landschaft wird direkt durch die Song-Kombination bestimmt:
 ## 🚀 **Quick Start**
 
 ### Voraussetzungen
+
 - **Node.js 18+** und npm
 - **RFID-Scanner** im Keyboard-Emulation Modus (optional für Tests)
 - **WebGL 2.0** Browser support
@@ -52,8 +53,8 @@ npm run preview
 // Browser-Konsole öffnen (F12)
 
 // RFID-Simulation:
-scanTree();   // Simuliert Baum-Scan (Pappel)
-scanPlant();  // Simuliert Pflanzen-Scan (Sonnenblume) → Spielt Song + zeigt Mood-Visualisierung
+scanTree(); // Simuliert Baum-Scan (Pappel)
+scanPlant(); // Simuliert Pflanzen-Scan (Sonnenblume) → Spielt Song + zeigt Mood-Visualisierung
 
 // UI-Tests:
 window.innerUIManager.showPopup('main'); // Testet das Haupt-UI-Popup
@@ -67,6 +68,7 @@ window.moodManager.applyMood('Konflikt');
 ## 🎮 **Features & Technische Highlights**
 
 ### 🎵 **RFID Music System** (Production-Ready)
+
 - **100 SUNO-generierte Songs** mit realen MP3-Dateien
 - **20 physische RFID-Karten** mit finalen Hardware-IDs (siehe `src/data/plants.json`)
 - **Direkte Mood-Zuordnung** in der Song-Datenbank
@@ -74,6 +76,7 @@ window.moodManager.applyMood('Konflikt');
 - **Automatic Mood Switching** basierend auf Song-Selection
 
 ### 🌍 **Immersive 3D Visualization**
+
 - **150 Bäume + 10.000 Feldfrüchte** mit optimiertem InstancedMesh-Rendering
 - **7 Mood-Atmosphären** mit einzigartigen visuellen Effekten:
   - Bis zu **5.000 Partikel** für Regen, Schnee, Feuer-Effekte
@@ -84,6 +87,7 @@ window.moodManager.applyMood('Konflikt');
 - **Formwandler-Effekte** ändern Vegetation zur Laufzeit
 
 ### 🎨 **Modern UI System** (ULTRATHINK Simplified ✅)
+
 - **Glasmorphism Design** mit Beer CSS v3.6.13 Framework
 - **Round Display Optimized** für 1080x1080 Touchscreens
 - **VEREINFACHT**: Ein einziger UIManager für alle UI-Funktionen
@@ -114,6 +118,7 @@ Das System folgt dem **ULTRATHINK Prinzip** - maximale Vereinfachung durch direk
 ```
 
 **✨ ULTRATHINK Refactoring Complete:**
+
 - **Services-Ordner eliminiert** - Business Logic direkt in Manager integriert
 - **6 Manager → 2 Haupt-Manager** - RFIDMusicManager + UIManager
 - **~1100 Zeilen → ~400 Zeilen** - 65% Code-Reduktion
@@ -124,6 +129,7 @@ Das System folgt dem **ULTRATHINK Prinzip** - maximale Vereinfachung durch direk
 ## 📱 **Hardware Integration**
 
 ### RFID-Setup (Production)
+
 Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. Hier ist ein Auszug der IDs die im Futurium genutzt werden:
 
 ```json
@@ -151,6 +157,7 @@ Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. 
 ⚠️ **WICHTIG**: Die Hardware-IDs in `plants.json` sind **bindend** und dürfen nicht geändert werden!
 
 ### Scanner-Konfiguration
+
 - **Modus**: Keyboard-Emulation
 - **Format**: 10-stellige Zahl + ENTER
 - **Beispiel**: `0009812671\n`
@@ -158,6 +165,7 @@ Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. 
 ## 🛠️ **Development**
 
 ### Code Quality & Testing
+
 ```bash
 # Code Quality
 npm run lint          # ESLint checking
@@ -170,9 +178,10 @@ npm run type-check    # TypeScript validation
 ```
 
 ### Debug Controls (Browser Console)
+
 ```javascript
 // Event-System Debug
-gameEventBus.setDebugMode(false);  // Deaktiviert verbose logging
+gameEventBus.setDebugMode(false); // Deaktiviert verbose logging
 
 // Manager-spezifische Tests
 window.moodManager.applyMood('Kooperativ');
@@ -183,19 +192,21 @@ scanPlant();
 ```
 
 ### Performance Monitoring
+
 - **WebGL Stats**: `renderer.info.render` (Draw calls, geometries)
 - **Manager Performance**: Asset cache, particle counts, active lights
 - **Bundle Size**: ~646KB (optimized Three.js tree-shaking)
 
 ## 📖 **Dokumentation**
 
-| Datei | Zweck |
-|-------|-------|
-| **`CLAUDE.md`** | **Vollständige LLM-Anleitung** mit File-Index und Architektur-Details |
-| **`RFID-CARD-MAPPING.md`** | **Hardware-Zuordnung** - Finale Karten-IDs (NICHT ÄNDERN) |
-| **`docs/archive/`** | **Historische Dokumentation** - Architektur-Evolution, Design-Pläne |
+| Datei                      | Zweck                                                                 |
+| -------------------------- | --------------------------------------------------------------------- |
+| **`CLAUDE.md`**            | **Vollständige LLM-Anleitung** mit File-Index und Architektur-Details |
+| **`RFID-CARD-MAPPING.md`** | **Hardware-Zuordnung** - Finale Karten-IDs (NICHT ÄNDERN)             |
+| **`docs/archive/`**        | **Historische Dokumentation** - Architektur-Evolution, Design-Pläne   |
 
 ### Für neue Entwickler
+
 1. **Start hier**: `CLAUDE.md`
 2. **Architektur**: `src/types.ts` (Interfaces) → `src/core/main.ts` (Initialisierung)
 3. **RFID-System**: `src/data/plants.json`
@@ -218,12 +229,14 @@ scanPlant();
 ## 🌟 **Production Status**
 
 ✅ **Vollständig einsatzbereit für Installation/Museum**
+
 - 100 Songs mit echter Hardware-Integration
 - Robuste Error-Handling und Fallback-Systeme
 - Performance-optimiert für Dauerbetrieb
 - Comprehensive Testing Tools für Wartung
 
 **Hardware-Anforderungen:**
+
 - Raspberry Pi 4+ oder Desktop PC (WebGL 2.0)
 - RFID-Scanner (USB, Keyboard-Emulation)
 - 1080x1080 Touchscreen (optional, aber empfohlen)
@@ -241,6 +254,6 @@ Siehe [LICENSE.md](LICENSE.md) für Details.
 
 **🚀 Ready for Production Deployment!**
 
-*Für technische Fragen, siehe `CLAUDE.md` für vollständige LLM-Navigation und Architektur-Details.*
+_Für technische Fragen, siehe `CLAUDE.md` für vollständige LLM-Navigation und Architektur-Details._
 
 **Entwickelt von**: [David Weigend](https://github.com/dweigend) | [weigend.studio](https://weigend.studio)

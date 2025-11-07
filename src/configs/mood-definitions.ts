@@ -6,13 +6,13 @@ export const moodStyles: Record<string, MoodConfig> = {
     name: 'Harmonisch',
     skyColor: '#87CEEB',
     fog: { color: '#87CEEB', density: 0.001 },
-    ambient: { color: '#ffffff', intensity: 0.8 },
+    ambient: { color: '#ffffff', intensity: 0.1 },
     keyLight: {
-      color: '#FFDDAA',
+      color: '##FFFF00',
       intensity: 3,
-      position: [100, 150, 50],
+      position: [-100, 150, 50],
     },
-    sun: { visible: true, color: '#FFFFAA' },
+    sun: { visible: true, color: '#FFFF4F' },
     groundColor: '#7CFC00',
     vegetation: {
       treeColor: '#228B22',
@@ -56,7 +56,7 @@ export const moodStyles: Record<string, MoodConfig> = {
       position: [-150, 80, 0],
     },
     sun: { visible: true, color: '#FFD700' },
-    groundColor: '#4B0082',
+    groundColor: '#4F7039',
     vegetation: {
       pulsingColor: true,
       treeColor: '#ff00ff',
@@ -64,8 +64,8 @@ export const moodStyles: Record<string, MoodConfig> = {
     },
     bloom: {
       threshold: 0.1,
-      strength: 2.0,
-      radius: 0.4,
+      strength: 1.0,
+      radius: 0.8,
     },
     particles: {
       count: 5000,
@@ -84,14 +84,26 @@ export const moodStyles: Record<string, MoodConfig> = {
       },
     },
     dynamicLights: Array.from({ length: 8 }, (_, i) => ({
-      name: `dynamic_spot_${i}`,
+      name: `disco_spot_${i}`,
       type: 'spot' as const,
       color: new THREE.Color().setHSL(i / 8, 1, 0.5).getHex(),
-      intensity: 200,
+      intensity: 300,
       angle: Math.PI / 8,
       penumbra: 0.5,
       decay: 2,
       position: [0, 80, 0],
+      animation: {
+        enabled: true,
+        mode: 'disco' as const,
+        params: {
+          disco: {
+            rotationSpeed: [2.0 + i * 0.3, 3.0 + i * 0.2], // Verschiedene Geschwindigkeiten
+            radius: 120 + i * 15, // Verschiedene Radien
+            heightOffset: i * 5, // Verschiedene Höhen
+            targetMovement: true, // Bewegliche Targets
+          },
+        },
+      },
     })),
     ui: {
       borderColor: 'rainbow',
@@ -103,13 +115,13 @@ export const moodStyles: Record<string, MoodConfig> = {
     name: 'Neutral',
     skyColor: '#B0C4DE',
     fog: { color: '#B0C4DE', density: 0.002 },
-    ambient: { color: '#aaaaaa', intensity: 1.0 },
+    ambient: { color: '#aaaaaa', intensity: 0.7 },
     keyLight: {
       color: '#ffffff',
       intensity: 2.5,
       position: [50, 100, 50],
     },
-    sun: { visible: true, color: '#FFFFFF' },
+    sun: { visible: false, color: '#FFFFFF' },
     groundColor: '#8FBC8F',
     vegetation: {
       treeColor: '#556B2F',
@@ -133,11 +145,11 @@ export const moodStyles: Record<string, MoodConfig> = {
     ambient: { color: '#483D8B', intensity: 0.7 },
     keyLight: {
       color: '#ffccaa',
-      intensity: 4,
-      position: [-200, 50, 0],
+      intensity: 2.2,
+      position: [-840, 20, 10],
     },
     sun: { visible: true, color: '#ffccaa' },
-    groundColor: '#4A442D',
+    groundColor: '#0E1C00',
     vegetation: {
       treeColor: '#2F4F4F',
       cropColor: '#556B2F',
@@ -148,9 +160,9 @@ export const moodStyles: Record<string, MoodConfig> = {
       radius: 0.8,
     },
     particles: {
-      count: 3000,
+      count: 4000,
       material: {
-        size: 0.5,
+        size: 0.8,
         textureType: 'sparkle',
         blending: 'normal',
         depthWrite: true,
@@ -172,34 +184,46 @@ export const moodStyles: Record<string, MoodConfig> = {
   Spannung: {
     name: 'Spannung',
     skyColor: '#200000',
-    fog: { color: '#200000', density: 0.009 },
-    ambient: { color: '#400000', intensity: 0.8 },
+    fog: { color: '#570066', density: 0.004 },
+    ambient: { color: '#400000', intensity: 0.005 },
     keyLight: {
-      color: '#ff0000',
-      intensity: 0,
+      color: '#B00000',
+      intensity: 1.5,
       position: [0, 100, 0],
     },
-    sun: { visible: false, color: '#ff0000' },
-    groundColor: '#1a0000',
+    sun: { visible: true, color: '#ff0000' },
+    groundColor: '#008556',
     vegetation: {
       treeColor: '#1a0000',
       cropColor: '#100000',
       emissiveGlow: true,
-      emissiveColor: '#ff4500',
+      emissiveColor: '#FF0000',
     },
     bloom: {
       threshold: 0.1,
       strength: 2.0,
       radius: 1.2,
     },
+    dynamicLights: [
+      {
+        name: 'dynamic_strobe',
+        type: 'point' as const,
+        color: [0xffffff, 0x00ffff00],
+        intensity: [20, 60],
+        angle: Math.PI / 3,
+        penumbra: 0.1,
+        decay: 0.6,
+        position: [10, 80, 0],
+      },
+    ],
     particles: {
-      count: 500,
+      count: 2500,
       material: {
-        size: 1,
+        size: 4,
         textureType: 'sparkle',
         blending: 'additive',
         depthWrite: false,
-        opacity: 0.9,
+        opacity: 0.5,
         color: '#FF4500',
       },
       behavior: {
@@ -208,6 +232,7 @@ export const moodStyles: Record<string, MoodConfig> = {
         direction: 'up',
       },
     },
+
     ui: {
       borderColor: '#FF4500',
       shadowColor: '#FF0000',
@@ -220,29 +245,43 @@ export const moodStyles: Record<string, MoodConfig> = {
     fog: { color: '#110000', density: 0.005 },
     ambient: { color: '#220000', intensity: 1.5 },
     keyLight: {
-      color: '#ffffff',
-      intensity: 0,
-      position: [0, 100, 0],
+      color: '#009900', // Fixed color format
+      intensity: 1,
+      position: [-200, 30, 0],
     },
-    sun: { visible: false, color: '#ffffff' },
+    sun: { visible: true, color: '#ffffff' },
     groundColor: '#333333',
     vegetation: {
       treeColor: '#444444',
       cropColor: '#555555',
     },
     bloom: { threshold: 0, strength: 3.0, radius: 0.8 },
+
     dynamicLights: [
       {
-        name: 'dynamic_strobe',
+        name: 'conflict_strobe',
         type: 'spot' as const,
         color: 0xffffff,
-        intensity: 0,
+        intensity: 100,
         angle: Math.PI / 3,
-        penumbra: 0,
-        decay: 1,
+        penumbra: 0.0,
+        decay: 0.4,
         position: [0, 150, 0],
+        animation: {
+          enabled: true,
+          mode: 'strobe' as const,
+          params: {
+            strobe: {
+              triggerChance: 0.15, // 15% chance = häufige Strobo-Blitze
+              maxIntensity: 3000, // Sehr hell
+              fadeSpeed: 0.4, // Mittleres Ausblenden
+              colors: [0xffffff, 0x440000], // Weiß-Rot Konflikt
+            },
+          },
+        },
       },
     ],
+
     ui: {
       borderColor: '#FFFFFF',
       shadowColor: '#FF0000',
@@ -251,95 +290,151 @@ export const moodStyles: Record<string, MoodConfig> = {
   },
   Krieg: {
     name: 'Krieg',
-    skyColor: '#050000',
-    fog: { color: '#000000', density: 0.01 },
-    ambient: { color: '#110000', intensity: 1.2 },
+    skyColor: '#1A0000',
+    fog: { color: '#FF4500', density: 0.001 },
+    ambient: { color: '#FF0000', intensity: 0.3 },
     keyLight: {
-      color: '#ff0000',
-      intensity: 0,
-      position: [0, 100, 0],
+      color: '#FF6600',
+      intensity: 2.5,
+      position: [200, 50, -100],
     },
     sun: { visible: false, color: '#ff0000' },
-    groundColor: '#080000',
+    groundColor: '#330000',
     vegetation: {
-      treeColor: '#050000',
-      cropColor: '#030000',
+      treeColor: '#4A0000',
+      cropColor: '#661100',
       emissiveGlow: true,
-      emissiveColor: '#ff0000',
+      emissiveColor: '#FF6600',
     },
-    bloom: { threshold: 0, strength: 2.2, radius: 1.5 },
+    bloom: { threshold: 0, strength: 3.5, radius: 1.8 },
+    dynamicLights: [
+      {
+        name: 'lightning_strobe',
+        type: 'spot' as const,
+        color: 0xffffff,
+        intensity: 200,
+        angle: Math.PI / 3,
+        penumbra: 0.1,
+        decay: 0.8,
+        position: [0, 150, 0],
+        animation: {
+          enabled: true,
+          mode: 'strobe' as const,
+          params: {
+            strobe: {
+              triggerChance: 0.05, // 5% chance per frame = seltene Blitze
+              maxIntensity: 4000, // Sehr heller Blitz
+              fadeSpeed: 0.2, // Schnelles Ausblenden
+              colors: [0xffffff, 0x87ceeb, 0xffffff], // Weiß-Blau Variationen
+            },
+          },
+        },
+      },
+      {
+        name: 'fire_explosion',
+        type: 'point' as const,
+        color: 0xff4500,
+        intensity: 150,
+        distance: 400,
+        decay: 1.5,
+        position: [100, 40, -80],
+        animation: {
+          enabled: true,
+          mode: 'explosion' as const,
+          params: {
+            explosion: {
+              triggerChance: 0.08, // 8% chance = häufige Explosionen
+              intensityMultiplier: 3.5,
+              fadeSpeed: 0.15,
+              randomPosition: true,
+              positionRange: [200, 60, 200], // Große Explosionsfläche
+            },
+          },
+        },
+      },
+      {
+        name: 'war_pulse',
+        type: 'point' as const,
+        color: 0xff0000,
+        intensity: 80,
+        distance: 300,
+        decay: 2.0,
+        position: [-120, 60, 100],
+        animation: {
+          enabled: true,
+          mode: 'pulse' as const,
+          params: {
+            pulse: {
+              frequency: 1.2, // Schneller Puls
+              intensityRange: [0.2, 4.0], // Von sehr dunkel zu sehr hell
+              phaseOffset: 0,
+            },
+          },
+        },
+      },
+    ],
+
     particles: [
       {
         name: 'smoke',
-        count: 2000,
+        count: 500,
         material: {
-          size: 30,
+          size: 60,
           textureType: 'smoke' as const,
           blending: 'normal' as const,
           depthWrite: false,
-          opacity: 0.4,
-          color: '#111111',
+          opacity: 0.3,
+          color: '#220000',
         },
         behavior: {
-          spawnArea: [800, 250, 800],
-          velocity: [0.05, 0.1, 0.05],
+          spawnArea: [600, 200, 1000],
+          velocity: [0.1, 0.15, 0.1],
           direction: 'up' as const,
         },
       },
       {
         name: 'fire',
-        count: 1000,
+        count: 1500,
         material: {
           size: 1.5,
           textureType: 'sparkle' as const,
           blending: 'additive' as const,
           depthWrite: false,
-          opacity: 0.9,
+          opacity: 1.0,
+          color: ['#FF0000'],
+        },
+        behavior: {
+          spawnArea: [900, 150, 900],
+          velocity: [0, 0.6, 0],
+          direction: 'up' as const,
+        },
+      },
+      {
+        name: 'embers',
+        count: 500,
+        material: {
+          size: 2.2,
+          textureType: 'sparkle' as const,
+          blending: 'additive' as const,
+          depthWrite: false,
+          opacity: 0.8,
           color: '#FF4500',
         },
         behavior: {
-          spawnArea: [800, 100, 800],
-          velocity: [0, 0.4, 0],
+          spawnArea: [1200, 400, 1200],
+          velocity: [0.2, 0.3, 0.2],
           direction: 'up' as const,
         },
       },
     ],
-    dynamicLights: [
-      {
-        name: 'dynamic_explosion_main',
-        type: 'point' as const,
-        color: 0xff8c00,
-        intensity: 0,
-        distance: 600,
-        decay: 2,
-        position: [0, 50, 0],
-      },
-      {
-        name: 'dynamic_explosion_flash',
-        type: 'point' as const,
-        color: 0xffffff,
-        intensity: 0,
-        distance: 400,
-        decay: 1.5,
-        position: [0, 50, 0],
-      },
-      {
-        name: 'dynamic_strobe',
-        type: 'spot' as const,
-        color: 0xff0000,
-        intensity: 0,
-        angle: Math.PI / 2,
-        penumbra: 0.5,
-        decay: 1,
-        position: [0, 200, 0],
-      },
-    ],
+
     ui: {
-      borderColor: '#8B0000',
-      shadowColor: '#FF0000',
-      shadowBlur: '60',
+      borderColor: '#FF0000',
+      shadowColor: '#FF6600',
+      shadowBlur: '80',
     },
   },
+
   Groove: {
     name: 'Groove',
     skyColor: '#2d1b69',
@@ -471,37 +566,81 @@ export const moodStyles: Record<string, MoodConfig> = {
         name: 'ethereal_point_1',
         type: 'point' as const,
         color: 0xff69b4,
-        intensity: [20, 65],
+        intensity: 42, // Base intensity (middle of [20, 65])
         distance: 480,
         decay: 3.0,
         position: [-80, 60, 40],
+        animation: {
+          enabled: true,
+          mode: 'pulse' as const,
+          params: {
+            pulse: {
+              frequency: 0.8,
+              intensityRange: [0.5, 1.5], // 20-65 range through multiplier
+              phaseOffset: 0,
+            },
+          },
+        },
       },
       {
         name: 'ethereal_point_2',
         type: 'point' as const,
         color: 0x00ffff,
-        intensity: [15, 40],
+        intensity: 27, // Base intensity (middle of [15, 40])
         distance: 260,
         decay: 3.2,
         position: [60, 90, -60],
+        animation: {
+          enabled: true,
+          mode: 'pulse' as const,
+          params: {
+            pulse: {
+              frequency: 1.2,
+              intensityRange: [0.6, 1.4], // 15-40 range through multiplier
+              phaseOffset: Math.PI / 3, // 60° Phasenverschiebung
+            },
+          },
+        },
       },
       {
         name: 'ethereal_point_3',
         type: 'point' as const,
         color: 0xffd700,
-        intensity: [28, 62],
+        intensity: 45, // Base intensity (middle of [28, 62])
         distance: 300,
         decay: 2.8,
         position: [0, 120, 80],
+        animation: {
+          enabled: true,
+          mode: 'pulse' as const,
+          params: {
+            pulse: {
+              frequency: 0.6,
+              intensityRange: [0.6, 1.4], // 28-62 range through multiplier
+              phaseOffset: Math.PI / 2, // 90° Phasenverschiebung
+            },
+          },
+        },
       },
       {
         name: 'ethereal_point_4',
         type: 'point' as const,
         color: 0x8a2be2,
-        intensity: [12, 38],
+        intensity: 25, // Base intensity (middle of [12, 38])
         distance: 240,
         decay: 3.5,
         position: [-60, 80, -40],
+        animation: {
+          enabled: true,
+          mode: 'pulse' as const,
+          params: {
+            pulse: {
+              frequency: 1.5,
+              intensityRange: [0.5, 1.5], // 12-38 range through multiplier
+              phaseOffset: Math.PI, // 180° Phasenverschiebung
+            },
+          },
+        },
       },
     ],
     ui: {
