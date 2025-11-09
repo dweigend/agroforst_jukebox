@@ -2,7 +2,7 @@
 
 Eine 3D-Musikvisualisierung für Agroforstsysteme mit RFID-Hardware-Integration. Das System kombiniert immersive Landschaftsvisualisierung mit einer innovativen physischen Musiksteuerung durch RFID-Karten.
 
-**Entwickelt als Exponat für das [Futurium Lab](https://futurium.de) in Berlin.**
+**Entwickelt als Exponat für das 🚀 [Futurium Lab](https://futurium.de) in Berlin.**
 
 ## 🎯 **Was ist das Agroforst Game?**
 
@@ -48,6 +48,27 @@ npm run preview
 ```
 
 **➡️ Anwendung läuft unter: http://localhost:5173**
+
+### 🍓 **Raspberry Pi Setup (Kiosk-Mode für Ausstellungen)**
+
+Komplette Installation für Raspberry Pi 4 & 5 mit Waveshare 5" Round Display:
+
+```bash
+cd raspberry-pi
+./install.sh  # One-Click Installer
+```
+
+**Features:**
+
+- ✅ Automatische System-Erkennung (Pi 4/5, Display-Server)
+- ✅ Waveshare Round Display Konfiguration
+- ✅ Touch-optimierter Chromium Kiosk-Mode
+- ✅ Hardware Acceleration für WebGL/Three.js
+- ✅ Autostart beim Boot
+
+📖 **[Vollständige Raspberry Pi Anleitung →](raspberry-pi/README.md)**
+
+---
 
 ### 🧪 **Sofortiger Test ohne Hardware**
 
@@ -156,15 +177,6 @@ Die Zuordnung der 20 physischen Karten ist in `src/data/plants.json` definiert. 
 
 ## 🛠️ **Development**
 
-### Code Quality
-
-```bash
-npm run lint          # ESLint checking
-npm run lint:fix      # Auto-fix issues
-npm run format        # Prettier formatting
-npm run type-check    # TypeScript validation
-```
-
 ### Debug Controls (Browser Console)
 
 ```javascript
@@ -205,7 +217,7 @@ scanPlant();
 
 - **Beer CSS Framework** als Basis + **Agroforst Theme Extensions**
 - **Glasmorphism** für moderne, transparente UI-Elemente
-- **Material Design 3** Prinzipien für Konsistenz
+- **Material Design** Prinzipien für Konsistenz
 - **Touch-First Design** für Tablet/Kiosk-Installation
 - **Accessibility** durch ARIA-Labels und semantisches HTML
 
